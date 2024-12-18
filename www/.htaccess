@@ -1,0 +1,26 @@
+# ========== energy-hope.ru
+
+RewriteEngine on
+                                                              
+# RewriteRule (.*) index2.html [L]
+
+#	RewriteCond %{HTTP_HOST} !^www.energy-hope.ru$
+#	RewriteRule ^ https://www.energy-hope.ru%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^.well-known/pki-validation/(.*) .well-known/pki-validation/$1 [L]
+
+	RewriteRule ^(robots.txt) robots.txt [L]
+	RewriteRule ^img/(.*) img/$1 [L]
+	RewriteRule ^css/(.*) css/$1 [L]
+	RewriteRule ^docs/(.*) docs/$1 [L]
+	RewriteRule ^tcpdf/(.*) tcpdf/$1 [L]
+	RewriteRule ^ajax/(.*) ajax/$1 [L]
+	RewriteRule (.*) engine.php?_PAGE=$1&_LANG=EN&%{QUERY_STRING} [L]
+
+php_flag display_errors 1
+
+php_value max_execution_time 500
+
+php_value session.gc_maxlifetime 14400
+
+AddDefaultCharSet windows-1251

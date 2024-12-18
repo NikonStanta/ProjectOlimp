@@ -1,0 +1,7 @@
+15/04/2023 13:00 
+
+Добавлены файлы www/css/suggestions
+Подключен скрипт /css/suggestions/index.js в шаблоне таблицы БД site_templates/cabinet_profile (id: 104)
+Подключен css-файл /css/suggestions/suggestions.css в шаблоне таблицы БД site_templates/main (id: 100)
+Заменил селект с регионами на инпут в форме ввода адреса в шаблоне таблицы БД site_templates/cabinet_profile (id: 104)
+

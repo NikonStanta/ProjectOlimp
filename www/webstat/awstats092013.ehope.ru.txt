@@ -1,0 +1,373 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ehope.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2673                
+POS_VISITOR 9856                
+POS_DAY 10623               
+POS_DOMAIN 3187                
+POS_LOGIN 3419                
+POS_ROBOT 3574                
+POS_WORMS 3902                
+POS_EMAILSENDER 4033                
+POS_EMAILRECEIVER 4176                
+POS_SESSION 10708               
+POS_SIDER 10870               
+POS_FILETYPES 4311                
+POS_DOWNLOADS 4527                
+POS_OS 5507                
+POS_BROWSER 5626                
+POS_SCREENSIZE 5913                
+POS_UNKNOWNREFERER 5987                
+POS_UNKNOWNREFERERBROWSER 6141                
+POS_ORIGIN 6249                
+POS_SEREFERRALS 6387                
+POS_PAGEREFS 6553                
+POS_SEARCHWORDS 8617                
+POS_KEYWORDS 8991                
+POS_MISC 2336                
+POS_ERRORS 9278                
+POS_CLUSTER 3275                
+POS_SIDER_404 9385                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001000003 1410 330753 14843723414336
+FirstTime 20130930220502
+LastTime 20130930235456
+LastUpdate 20131001000102 594 0 593 0 0
+TotalVisits 9                   
+TotalUnique 9                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 85 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 91 710 9080403 13 106 314265
+23 88 477 10510214 25 116 15142819
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 179 1187 19590617
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 32 14954006 20130930235708 1
+yandex 15 299901 20130930235819 1
+msiecrawler 3 128838 20130930223015 0
+no_user_agent 2 43387 20130930232013 0
+bot[\s_+:,\.\;\/\\-] 1 15745 20130930230654 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 114 895220 0 0
+png 63 678447 0 0
+html 169 6283582 0 0
+jpg 46 1252464 0 0
+js 106 5950718 0 0
+pdf 20 2801191 0 0
+gif 659 954212 0 0
+swf 10 774783 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 20
+/documents/zayavlenie.pdf 13 0 85491
+/robots.txt 2 0 130
+/docs/EHOPE_ph_final_XIII.pdf 2 0 4851834
+/docs/EHOPE_inf_final_XIII.pdf 1 0 66720
+/docs/EHOPE_ph_preselection_bug_IV_XIII.pdf 1 0 43378
+/docs/EHOPE_ph_preselection_bug_I_XIII.pdf 1 0 169024
+/docs/ehope_ap_order.pdf 1 0 80401
+/docs/EHOPE_math_preselection_bug_I_XIII.pdf 1 0 45992
+/docs/EHOPE_ph_preselection_bug_III_XIII.pdf 1 0 44611
+/docs/EHOPE_math_preselection_bug_III_XIII.pdf 1 0 43829
+/docs/EHOPE_math_preselection_bug_II_XIII.pdf 1 0 44397
+/docs/EHOPE_inf_preselection_XIII.pdf 1 0 163289
+/docs/EHOPE_ph_preselection_bug_II_XIII.pdf 1 0 42314
+/docs/EHOPE_ph_preselection_XIII.pdf 1 0 6098149
+/docs/EHOPE_ph_preselection_bug_V_XIII.pdf 1 0 44734
+/docs/EHOPE_ph_results_XIII.pdf 1 0 450004
+/docs/EHOPE_ph_11_XIII.pdf 1 0 209382
+/docs/EHOPE_math_final_XIII.pdf 1 0 473068
+/docs/EHOPE_ph_final_XIII_v2.pdf 1 0 2435406
+/docs/EHOPE_math_preselection_XIII.pdf 1 0 2012946
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 107
+linuxandroid 44
+winxp 407
+winlong 234
+Unknown 6
+winvista 37
+win7 352
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 15
+msie8.0 119
+safari7.0 55
+mozilla 1
+chrome29.0.1547.76 669
+msie7.0 4
+chrome18.0.1025.166 44
+msie10.0 36
+firefox23.0 48
+chrome25.0.1364.172 10
+safari6.0 39
+firefox18.0 1
+chrome29.0.1547.66 102
+chrome13.0.782.215 13
+Unknown 5
+opera9.80 41
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+URLGrabber 20130930230818
+Mozilla/4.0_(compatible;) 20130930231522
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+URLGrabber 20130930230818
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 122 128
+From1 4 5
+From2 3 4
+From3 47 986
+From4 3 64
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+yandex 1 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 39
+http://www.energy-hope.ru 9 227
+http://info.olimpiada.ru/news/1790 4 4
+http://www.mpei.ru/LANG/RUS/Entrants/Entrants.asp 3 3
+http://e-hope.ru/cabinet/profile.html 3 25
+http://www.lyceum1502.ru/pages/overtime/olympiads/ 2 2
+http://www.energy-hope.ru/faq03.html 2 2
+http://www.energy-hope.ru 2 226
+http://www.energy-hope.ru/olymp/liter.html 2 2
+http://e-hope.ru 2 69
+http://www.energy-hope.ru/cabinet/results.html 2 2
+http://e-hope.ru/css/jquery-ui-1.8.5.custom.min.js 0 1
+http://www.energy-hope.ru/news00000058.html 1 1
+http://www.e-hope.ru/css/jquery-ui-1.8.5.custom.min.js 0 1
+http://www.energy-hope.ru/yeartwoktwelve/result.html 1 3
+http://www.e-hope.ru/css/jquery-1.4.3.min.js 0 1
+http://e-hope.ru/css/jquery-ui-personalized-1.5.3.packed.js 0 1
+http://www.e-hope.ru/css/jquery-ui-personalized-1.5.3.packed.js 0 1
+http://e-hope.ru 1 1
+http://www.e-hope.ru 1 1
+http://www.energy-hope.ru/contact.html 1 1
+http://www.energy-hope.ru/cabinet/distance.html 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_11_XIII.pdf 0 4
+http://www.energy-hope.ru/cabinet/documents.html 1 1
+http://www.e-hope.ru/css/jquery.ui.datepicker-ru.js 0 1
+http://www.energy-hope.ru/olymp/liter_m.html 0 12
+http://lycg1502.mskobr.ru/obrazovanie/olimpiady-mei/ 1 1
+http://www.energy-hope.ru/cabinet/stages.html 1 1
+http://www.energy-hope.ru/css/blue/jquery-ui-1.8.5.custom.css 0 2
+http://elenasenkova.21202s01.edusite.ru 1 1
+http://www.energy-hope.ru/yeartwoktwelve/tasks.html 0 3
+http://www.energy-hope.ru/css/eh-common-ie.css 0 11
+http://e-hope.ru/css/jquery.ui.datepicker-ru.js 0 1
+http://www.energy-hope.ru/about/statement.html 2 121
+http://www.energy-hope.ru/yeartwokten/taskstwokteneleven_m.html 0 61
+http://www.energy-hope.ru/cabinet/profile.html 2 2
+http://www.energy-hope.ru/actual/grafik.html 2 114
+http://e-hope.ru/cabinet/documents.html 0 11
+http://e-hope.ru/css/jquery-1.4.3.min.js 0 1
+http://www.energy-hope.ru/novice/reg_user.html 0 63
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%be%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2+%d0%bd%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+%d0%be%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0 1
+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8 1
+%d0%bd%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0 1
+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 7 0
+301 26 309
+404 51 14879
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/img/spec.js 50 http://e-hope.ru/cabinet/documents.html
+/docs/obrazec_zajavlenija_na_oplatu_proezda.pdf 1 ehope.ru/docs/obrazec_zajavlenija_na_oplatu_proezda.pdf
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+37.143.12.102 169 189 9084773 20130930235456
+216.38.216.101 2 10 756902 20130930234817
+213.141.156.155 2 98 554651 20130930231243
+128.72.236.187 1 62 586704 20130930221309
+89.208.7.7 1 62 586704 20130930222239
+91.243.224.222 1 62 586704 20130930233219
+31.133.204.230 1 55 554651 20130930221310
+188.123.237.177 1 55 554651 20130930231643
+91.79.211.16 1 93 600577 20130930220611
+91.235.101.94 0 40 562111 
+37.1.46.89 0 61 1064638 
+95.153.165.212 0 1 44338 
+95.221.27.66 0 54 468564 
+95.163.164.180 0 38 444233 
+62.176.25.164 0 98 451444 
+95.81.213.231 0 32 451444 
+77.51.11.41 0 38 444233 
+91.203.67.223 0 33 451484 
+95.64.212.16 0 20 421803 
+91.76.40.56 0 54 468564 
+31.128.133.120 0 32 451444 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20130930 179 1187 19590617 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+1h+ 1
+0s-30s 7
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 125 5344992 1 1
+/img/rushydro.swf 10 774783 8 8
+/actual/grafik.html 9 194339 0 0
+/about/statement.html 6 140352 0 0
+/cabinet/stages.html 4 112337 0 0
+/cabinet/profile.html 4 81759 0 0
+/cabinet/documents.html 3 56349 0 0
+/olymp/liter_m.html 2 38284 0 0
+/olymp/liter.html 2 35216 0 0
+/cabinet/results.html 2 35863 0 0
+/yeartwoktwelve/tasks.html 1 19218 0 0
+/about/organizatori.html 1 18307 0 0
+/olymp/orgadd.html 1 17782 0 0
+/cabinet/distance.html 1 17063 0 0
+/news00000058.html 1 15755 0 0
+/yeartwoktwelve/result.html 1 20090 0 0
+/contact.html 1 15837 0 0
+/yeartwoktwelve/grafik.html 1 27641 0 0
+/yeartwokten/taskstwokteneleven_m.html 1 20726 0 0
+/novice/reg_user.html 2 36868 0 0
+/about/reglament.html 1 34804 0 0
+END_SIDER

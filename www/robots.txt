@@ -1,0 +1,14 @@
+Host: www.energy-hope.ru
+
+User-agent: *
+Disallow: /css
+Disallow: /ajax
+Disallow: /yeartwokten/resultII
+Disallow: /yeartwokeleven/results_XII
+Disallow: /yeartwoktwelve/result
+Disallow: /yeartwokthirteen/result
+Disallow: /yeartwokfourteen/result
+Disallow: /yeartwokfifteen/result
+Disallow: /yeartwoksixteen/result
+Disallow: /yeartwokseventeen/result
+Disallow: /arch_xviii/result

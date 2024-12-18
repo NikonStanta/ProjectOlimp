@@ -1,0 +1,22 @@
+# ========== admin.energy-hope.ru
+
+RewriteEngine on
+                                                              
+# RewriteRule (.*) engine.php
+
+#	Rewrite Cond %{HTTP_HOST} !^admin.ehope.ru$
+#	Rewrite Rule ^ http://admin.ehope.ru%{REQUEST_URI} [R=301,L]
+	RewriteRule (robots.txt) robots.txt [L]
+	RewriteRule aimg/(.*) aimg/$1 [L]
+	RewriteRule img/(.*) img/$1 [L]
+	RewriteRule css/(.*) css/$1 [L]
+	RewriteRule ^(.*\.css) $1 [L]
+	RewriteRule docs/(.*) docs/$1 [L]
+	RewriteRule ajax/(.*) ajax/$1 [L]
+	RewriteRule spaw2/(.*) spaw2/$1 [L]
+	RewriteRule (.*) engine.php?_PAGE=$1&_LANG=EN&%{QUERY_STRING} [L]
+
+php_flag display_errors 1
+
+php_value max_execution_time 300
+php_value session.gc_maxlifetime 14400

@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/ehope.ru/admin/webstat"
+AuthUserFile /var/www/ehope/data/etc/50856031.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

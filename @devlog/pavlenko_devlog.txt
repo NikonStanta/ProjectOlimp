@@ -1,0 +1,12 @@
+01/05/2023 14:30
+
+Изменены файлы root/inc/build_page4001.inc
+Изменение содержания в БД  SELECT * FROM `site_templates` WHERE id = 106
+
+01/05/2023 20:30
+
+Добавлен шаблон ::TEMPLATE::pass_selection::  в БД  SELECT * FROM `site_templates` WHERE id = 106
+
+01/05/2023
+
+Изменена страница регистрации в кабинете участника.

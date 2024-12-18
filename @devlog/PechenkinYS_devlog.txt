@@ -1,0 +1,31 @@
+mail: PechekinYS@mpei.ru
+группа: А-16-20
+
+12/11/2023
+
+inc/ - создал папку Pechenkin_A1620, в неё добавил файл "identif_device_type.inc"
+
+inc/engine.php -> добавил строки №4,5 ("Перехватывают мобильные устройства"):
+
+include_once('../inc/Pechenkin_A1620/identif_device_type.inc');
+if (is_mobile_device($_SERVER['HTTP_USER_AGENT']) && (!isset($_GET['version']) || $_GET['version'] == 'mobile')){ echo 'Устройство является мобильным. '; echo '<a href="https://dev.ehope.ru/?version=desktop">Full Site</a>"'; exit();}
+
+>> В конце возвращаю inc/engine.php к исходному состоянию.
+
+09/03/2024
+inc/Pechenkin_A1620 - Добавил файл "Mobile_Detect.inc"
+
+14/03/2024
+Добавил строку "<script src="/css/Pechenkin_A1620/testJS.js"></script>" в таблицу
+vars_test в строку с именем name: extra_js.
+
+Добавил каталог "Pechenkin_A1620" в директорию "/www/css"
+в каталог "/www/css/Pechenkin_A1620" добавил файл "testJS.js"
+
+27/03/2024
+** www/css/Pechenkin_A1620 **
+	Добавил файлы "css", "js"
+** engine.inc **
+	Добавил строку
+		19 [echo "mobile_page;]
+	

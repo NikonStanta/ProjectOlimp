@@ -1,0 +1,3868 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201808 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ehope.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2677                
+POS_VISITOR 84447               
+POS_DAY 130612              
+POS_DOMAIN 3819                
+POS_LOGIN 4057                
+POS_ROBOT 4240                
+POS_WORMS 5534                
+POS_EMAILSENDER 5665                
+POS_EMAILRECEIVER 5808                
+POS_SESSION 131627              
+POS_SIDER 131803              
+POS_FILETYPES 5943                
+POS_DOWNLOADS 6428                
+POS_OS 30879               
+POS_BROWSER 31128               
+POS_SCREENSIZE 36608               
+POS_UNKNOWNREFERER 36682               
+POS_UNKNOWNREFERERBROWSER 39702               
+POS_ORIGIN 40463               
+POS_SEREFERRALS 40621               
+POS_PAGEREFS 40829               
+POS_SEARCHWORDS 68556               
+POS_KEYWORDS 75624               
+POS_MISC 2337                
+POS_ERRORS 82248               
+POS_CLUSTER 3913                
+POS_SIDER_404 82390               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180901000055 6814 1466614 10696964036200
+FirstTime 20180801000400
+LastTime 20180831235904
+LastUpdate 20180901000101 112 0 111 0 0
+TotalVisits 193                 
+TotalUnique 156                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1716                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 48008 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1795 3085 249088674 2826 6069 461929173
+1 1004 1582 136444484 3017 4947 406756568
+2 702 1230 138251264 1673 3359 258550923
+3 530 902 113294671 1365 2840 412778367
+4 644 1100 103529936 2009 3477 434970305
+5 620 1024 64225726 3103 4626 430752002
+6 830 1547 215021350 2966 4908 262690050
+7 1149 2586 267293409 2046 4418 335009376
+8 1888 4407 229823532 3456 6798 543665711
+9 2278 4655 284359382 3578 7116 460752764
+10 3014 5699 354343428 2690 7278 427828922
+11 3576 7500 429669016 2966 8194 513792971
+12 2870 5898 326604502 2945 7540 404880834
+13 2850 5356 339405106 3052 7923 530719069
+14 2967 6375 375506604 2983 7820 447084218
+15 3355 5882 429842972 3358 8441 884423656
+16 3905 6848 505723226 3160 8757 548962197
+17 3908 6702 499730037 3112 8986 556146461
+18 4284 7762 667292876 3180 8070 519785489
+19 3489 6073 322067892 3159 8126 413740647
+20 3505 5509 387225880 3481 8894 449595593
+21 3236 5815 493758575 3041 8151 442220112
+22 2746 4824 384449134 2770 7101 381617064
+23 2155 3771 304075977 2687 6593 640795392
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 57300 106132 7437252568
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+"" 1 1 97844 20180818064705
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+cfnetwork 25912 2530687712 20180831235912 0
+bot[\s_+:,\.\;\/\\-] 24076 2850069710 20180831235807 4032
+yandex 8222 2519100378 20180831234259 545
+googlebot 7485 1529702586 20180831231400 189
+robot 6838 253717906 20180831235440 112
+crawl 4680 179836734 20180831170835 428
+mj12bot 3256 345133073 20180831055522 223
+no_user_agent 2803 255938214 20180831233659 1
+mail\.ru 2187 245997690 20180831232128 669
+java\/[0-9] 1085 46891084 20180831184035 0
+core 2 314444 20180824001716 0
+ia_archiver 268 10068067 20180831055230 38
+spider 75 6772228 20180831172050 4
+seznambot 64 73250 20180830171532 32
+[\s_+:,\.\;\/\\-]bot 575 25283076 20180829232355 16
+unknown 288 35424 20180831225937 288
+slurp 3 106043 20180829002209 1
+facebook 61 1594191 20180831210632 0
+gigabot 403 13619360 20180831085559 8
+httrack 3 12955341 20180811213330 0
+python 42 3189958 20180831084911 1
+wordpress 53 314624 20180814233545 0
+archive\.org_bot 3 369 20180830164454 3
+favicon 304 28722385 20180831154518 0
+checker 43 1520768 20180829064312 5
+wget 247 11437568 20180831230929 1
+turnitinbot 565 248947938 20180827152949 2
+netcraft 2 195336 20180809204951 0
+baiduspider 78 46661238 20180831212413 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 21
+css 6022 17579617 0 0
+ru 2 80727 0 0
+json 6 586320 0 0
+php 1351 149675680 0 0
+html 55714 4203170002 0 0
+xml 2 195925 0 0
+jpg 3457 126842335 0 0
+xls 27 16360396 0 0
+png 1672 14335134 0 0
+asp 1 36884 0 0
+pdf 2137 2743903249 0 0
+env 2 195025 0 0
+htm 10 440634 0 0
+cgi 10 365282 0 0
+pl 1 36253 0 0
+xlsx 4 42884 0 0
+swf 169 14247126 0 0
+js 4403 100075957 0 0
+action 3 292765 0 0
+Unknown 25 1925397 0 0
+gif 31114 46864976 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 468
+/robots.txt 6261 0 770103
+/documents/zayavlenie.pdf 117 0 84256
+/docs/EHOPE_ph_preselection_tasks_XIV.pdf 106 0 31469280
+/docs/EHOPE_math_final_solutions_XV.pdf 104 48 198620614
+/docs/EHOPE_ph_preselection_XIII.pdf 98 17 627674672
+/docs/EHOPE_math_preselection_XIV.pdf 97 11 728841554
+/docs/EHOPE_XVII_preselection_math_results.pdf 68 0 49967692
+/docs/XVIII/EHOPE_XVIII_preselection_math_solutions.pdf 67 6 15129560
+/docs/EHOPE_ph_preselection_XV.pdf 65 2 62260075
+/docs/EHOPE_ph_preselection_XIV.pdf 59 18 396604469
+/docs/results-MATH_XII.pdf 55 6 28976644
+/docs/EHOPE_math_preselection_XV.pdf 54 0 64861614
+/docs/EHOPE_ph_results_XIII.pdf 54 0 24300216
+/docs/EHOPE_XVII_preselection_ph_results.pdf 53 0 29639190
+/docs/XVIII/EHOPE_XVIII_preselection_math_tasks.pdf 52 11 50335660
+/docs/EHOPE_math_preselection_XIII.pdf 52 0 104673192
+/docs/XVIII/EHOPE_XVIII_final_ph_res.pdf 51 7 7404696
+/docs/winners2011.pdf 49 3 38563884
+/docs/EHOPE_math_preselection_XIV_v2.pdf 49 0 398844859
+/docs/EHOPE_XVIII_preselection_math_results.pdf 48 2 38731993
+/docs/EHOPE_XVII_final_math.pdf 47 0 8997586
+/docs/EHOPE_XVI_math_preselection_tasks.pdf 46 6 13296920
+/docs/EHOPE_complex_tren.pdf 43 0 5576369
+/docs/EHOPE_XVII_final_math_tasks_11.pdf 43 16 4881198
+/docs/EHOPE_XVI_final_math.pdf 43 0 8402544
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_11.pdf 42 4 4363544
+/docs/EHOPE_XVIII_preselection_ph_results.pdf 42 7 26217932
+/docs/EHOPE_XVI_wscan_ph.pdf 42 0 352811340
+/docs/EHOPE_ph_final_XV.pdf 42 0 13655586
+/docs/EHOPE_ph_final_XIII_v2.pdf 42 0 102287052
+/docs/EHOPE_math_final_XIII.pdf 41 0 19395788
+/docs/EHOPE_ph_8_XIII.pdf 41 0 13600725
+/docs/EHOPE_XVII_final_ph_tasks_11.pdf 41 0 8499546
+/docs/EHOPE_XVI_final_inf_tasks_9.pdf 40 0 8420400
+/docs/EHOPE_ph_final_solutions_XIV.pdf 40 0 32978040
+/docs/XVIII/EHOPE_XVIII_final_math_res.pdf 39 2 6816456
+/docs/EHOPE_ph_11_XIII.pdf 39 1 8375280
+/docs/EHOPE_XVII_preselection_math_tasks.pdf 39 2 9208288
+/docs/EHOPE_inf_preselection_XV.pdf 36 2 9622008
+/docs/EHOPE_XVI_preselection_math_results.pdf 36 2 41279409
+/docs/results_PHIS_XII.pdf 35 0 16107420
+/docs/EHOPE_XVII_preselection_inf_results.pdf 35 1 7658611
+/docs/EHOPE_XVII_preselection_ph_criterii_w.pdf 35 0 5081825
+/docs/EHOPE_XVI_final_math_res_w.pdf 34 0 7187464
+/docs/EHOPE_XVII_final_ph_res_w.pdf 34 0 5273876
+/docs/EHOPE_ph_results_XIV.pdf 34 0 12896472
+/docs/EHOPE_XVII_preselection_math_criterii.pdf 33 0 1989801
+/docs/EHOPE_ph_7_XIII.pdf 33 0 11191851
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_11.pdf 33 7 10042642
+/docs/EHOPE_ph_preselection_XIV_v2.pdf 33 0 226116297
+/docs/EHOPE_inf_XIII.pdf 33 0 3236244
+/docs/EHOPE_math_10_11_XIII.pdf 33 2 4036535
+/docs/EHOPE_XVI_final_math_tasks_8.pdf 33 0 3701346
+/docs/EHOPE_ph_final_solutions_XIII.pdf 32 0 11410720
+/docs/EHOPE_math_final_XIV.pdf 32 0 62212768
+/docs/EHOPE_XVII_final_inf_tasks_9.pdf 32 0 6440928
+/docs/EHOPE_XVII_final_ph_tasks_8.pdf 32 1 4439325
+/docs/EHOPE_XVI_ph_preselection_tasks.pdf 32 0 14399360
+/docs/EHOPE_XVII_final_ph.pdf 32 3 4898260
+/docs/EHOPE_XVI_spravka_inf.pdf 32 0 4868768
+/docs/EHOPE_XVI_final_ph_tasks_10.pdf 31 0 5437524
+/docs/EHOPE_XVI_final_math_tasks_9.pdf 31 0 2637573
+/docs/EHOPE_math_7_8_XIII.pdf 31 0 4592371
+/docs/EHOPE_XVII_final_inf.pdf 30 0 2486490
+/docs/EHOPE_XVI_math_final_solutions.pdf 30 7 30964663
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_10_solutions.pdf 30 5 4366660
+/docs/EHOPE_criterii_ph_XV.pdf 30 0 3115530
+/docs/EHOPE_ph_preselection_bug_I_XIII.pdf 29 1 5070720
+/docs/EHOPE_XVII_final_ph_tasks_9.pdf 29 0 5192131
+/docs/EHOPE_complex_preselection_XV.pdf 29 1 3606570
+/docs/EHOPE_statement.pdf 29 0 4187861
+/docs/EHOPE_spravka_math_XV.pdf 28 0 5305300
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_11.pdf 28 4 10341492
+/docs/EHOPE_XVII_final_inf_tasks_9_ans.pdf 28 0 6387276
+/docs/EHOPE_XVII_final_ph_tasks_7.pdf 28 0 3751384
+/docs/EHOPE_complex_preselection_XIV.pdf 28 0 5648944
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_11_solutions.pdf 28 4 3811846
+/docs/EHOPE_XVIII_preselection_inf_results.pdf 28 1 5216696
+/docs/EHOPE_XVII_final_ph_criterii.pdf 28 0 2947700
+/docs/EHOPE_math_final_XV.pdf 27 0 11348856
+/docs/EHOPE_XVII_final_complex.pdf 27 1 1790152
+/docs/EHOPE_XVI_final_ph_tasks_8.pdf 27 0 4169286
+/docs/EHOPE_XVII_final_inf_tasks_11.pdf 27 11 7806119
+/docs/EHOPE_XVI_final_ph_ans_11.pdf 27 0 7922961
+/docs/EHOPE_w_res_ph_XIV.pdf 27 0 53825796
+/docs/EHOPE_XVI_spravka_ph.pdf 27 0 3658554
+/docs/EHOPE_XVI_preselection_ph_results.pdf 26 0 17467528
+/docs/EHOPE_XVIII_ph_energy_edu.pdf 26 0 1804530
+/docs/EHOPE_XVII_final_math_tasks_8.pdf 26 1 2479302
+/docs/XVIII/EHOPE_XVIII_preselection_ph_solutions.pdf 26 3 16370456
+/docs/EHOPE_XVI_final_math_ans_8.pdf 26 0 3737994
+/docs/EHOPE_XVII_final_ph_tasks_7_ans.pdf 26 3 5616918
+/docs/XVIII/EHOPE_XVIII_preselection_ph_tasks.pdf 26 0 10981334
+/docs/tasks_phis_XII.pdf 26 1 113475054
+/docs/EHOPE_XVIII_preselection_complex_results.pdf 26 0 2703844
+/docs/XVIII/EHOPE_XVIII_final_complex_res.pdf 26 2 1835086
+/docs/EHOPE_var_final_ph_10_XV.pdf 26 0 9068332
+/docs/EHOPE_inf_final_solutions_XV.pdf 26 1 19027443
+/docs/EHOPE_XVII_ph_energy_edu.pdf 25 0 1814250
+/docs/EHOPE_XVII_final_inf_tasks_11_ans.pdf 25 0 5810975
+/docs/XVIII/EHOPE_XVIII_final_inf_res.pdf 25 2 1847914
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_10.pdf 25 1 3777592
+/docs/XVIII/EHOPE_XVIII_wscan_math_list.pdf 25 0 1891800
+/docs/EHOPE_XVII_final_math_tasks_10.pdf 25 0 2307700
+/docs/EHOPE_XVII_final_complex_res_w.pdf 25 0 1588150
+/docs/EHOPE_XVI_wscan_inf.pdf 25 0 72746650
+/docs/EHOPE_ph_energy_edu_XIV.pdf 25 0 3427300
+/docs/EHOPE_w_res_math_ap_XV.pdf 25 0 15725425
+/docs/EHOPE_XVI_final_ph_ans_7.pdf 25 0 5833100
+/docs/EHOPE_XVII_final_math_tasks_7_ans.pdf 25 2 1819116
+/docs/EHOPE_XVI_final_ph_tasks_9.pdf 25 0 2797025
+/docs/EHOPE_var_final_ph_9_XV.pdf 25 0 9021800
+/docs/EHOPE_ph_final_XIII.pdf 25 0 60647925
+/docs/EHOPE_complex_final_solutions_XIII.pdf 24 0 10956768
+/docs/EHOPE_XVI_final_math_ans_11.pdf 24 1 4922325
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_7_solutions.pdf 24 2 2470875
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_7.pdf 24 3 2335911
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_9.pdf 24 0 1983720
+/docs/EHOPE_XVII_final_ph_tasks_11_ans.pdf 24 2 7625967
+/docs/XVIII/EHOPE_XVIII_preselection_inf_solutions.pdf 24 0 12040128
+/docs/EHOPE_ph_11_XIV.pdf 24 0 12250368
+/docs/EHOPE_XVII_final_math_tasks_11_ans.pdf 24 5 2133027
+/docs/EHOPE_complex_final_XIV.pdf 24 1 2649976
+/docs/EHOPE_XVII_final_complex_tasks_9_10_11.pdf 23 0 4554736
+/docs/XVIII/EHOPE_XVIII_final_math_res_w.pdf 23 0 4117207
+/docs/EHOPE_XVI_final_ph_tasks_7.pdf 23 0 3565690
+/docs/EHOPE_XVI_inf_preselection_tasks.pdf 23 0 15277681
+/docs/EHOPE_XVII_preselection_inf_criterii_w.pdf 23 0 2625473
+/docs/EHOPE_XVI_ph_final_solutions.pdf 23 0 9493779
+/docs/EHOPE_math_metodic_XVII.pdf 23 9 7114577
+/docs/XVIII/EHOPE_XVIII_final_ph_res_w.pdf 23 0 3310321
+/docs/EHOPE_XVII_final_math_tasks_9_ans.pdf 23 0 2076210
+/docs/EHOPE_math_results_XIV.pdf 23 0 8575412
+/docs/EHOPE_math_final_solutions_XIII.pdf 23 3 6754792
+/docs/EHOPE_XVII_final_ph_tasks_10_ans.pdf 23 0 7071833
+/docs/EHOPE_spravka_ph_XII.pdf 23 0 2595711
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_10.pdf 23 0 1900628
+/docs/EHOPE_XVII_final_math_tasks_8_ans.pdf 23 0 2015996
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_7.pdf 23 0 5117707
+/docs/EHOPE_XVI_ph_energy_edu.pdf 23 0 1800026
+/docs/EHOPE_XVII_spravka_ph.pdf 23 1 3253584
+/docs/EHOPE_talantiuspeh_person.pdf 23 0 6500375
+/docs/XVIII/EHOPE_XVIII_wscan_math.pdf 22 2 493658130
+/docs/EHOPE_XVII_final_math_tasks_7.pdf 22 0 1850926
+/docs/EHOPE_XVI_final_math_tasks_10.pdf 22 0 3341558
+/docs/EHOPE_XVII_preselection_complex_results.pdf 22 0 2412762
+/docs/EHOPE_var_final_inf_11_XV.pdf 22 0 7779750
+/docs/EHOPE_complex_final_solutions_XIV.pdf 22 0 4662746
+/docs/EHOPE_complex_final_XIII.pdf 22 0 1201838
+/docs/EHOPEhostelMPEI.pdf 22 0 2859406
+/docs/EHOPE_ph_final_XIV.pdf 22 4 36447488
+/docs/EHOPE_inf_preselection_tasks_XV.pdf 22 0 9104106
+/docs/EHOPE_XVII_preselection_inf_criterii.pdf 22 0 1294458
+/docs/EHOPE_XVIII_preselection_ph_criterii_w.pdf 22 0 3194246
+/docs/EHOPE_math_final_solutions_XIV.pdf 22 4 21246960
+/docs/EHOPE_ph_7_XIV.pdf 21 0 4236855
+/docs/criteria2011.pdf 21 0 13086885
+/docs/EHOPE_XVI_wscan_math_list.pdf 21 0 1465485
+/docs/EHOPE_ph_9_XIV.pdf 21 0 9665754
+/docs/EHOPE_XVII_final_math_criterii.pdf 21 0 2208633
+/docs/EHOPE_XVIII_preselection_ph_criterii.pdf 21 0 1263381
+/docs/EHOPE_XVI_final_inf_tasks_11.pdf 21 0 4589634
+/docs/XVIII/EHOPE_XVIII_wscan_inf.pdf 21 13 40732000
+/docs/EHOPE_math_preselection_bug_II_XIII.pdf 21 0 932337
+/docs/EHOPE_XVII_preselection_all_results_bug_II.pdf 21 2 1995928
+/docs/EHOPE_ph_energy_edu_XV.pdf 21 0 1578045
+/docs/EHOPE_var_final_ph_7_XV.pdf 21 0 7520520
+/docs/EHOPE_inf_final_XIV.pdf 21 0 2034459
+/docs/EHOPE_w_res_ph_XV.pdf 21 0 7545489
+/docs/EHOPE_inf_preselection_XIV.pdf 21 0 5827395
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_8_solutions.pdf 21 2 2365572
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_8.pdf 21 2 5868990
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_9_solutions.pdf 21 2 2578158
+/docs/spravka_phis_XII.pdf 21 0 3035319
+/docs/EHOPE_ph_ans_XIII.pdf 21 0 4543833
+/docs/EHOPE_XVI_final_ph_ans_8.pdf 21 0 4911564
+/docs/energy_hope_physics_2011-03-05.xls 21 0 12794880
+/docs/EHOPE_math_preselection_tasks_XIV.pdf 21 14 67686806
+/docs/EHOPE_XVII_wscan_ph_list.pdf 21 0 1443708
+/docs/EHOPE_inf_preselection_XIII.pdf 20 0 3265780
+/docs/ehope_phis_res_XII_apl.xls 20 0 11304960
+/docs/EHOPE_var_final_math_9_XV.pdf 20 0 3922400
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_8.pdf 20 0 1808960
+/docs/EHOPE_XVI_math_criterii_w_final.pdf 20 0 3593840
+/docs/EHOPE_XVI_final_ph_ans_10.pdf 20 0 5103240
+/docs/EHOPE_ph_8_XIV.pdf 20 0 4046700
+/docs/EHOPE_XVI_complex_final_solutions_10_11.pdf 20 0 3942500
+/docs/EHOPE_inf_final_XV.pdf 20 0 2282500
+/docs/EHOPE_w_res_math_XV.pdf 20 0 12311260
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_11_solutions.pdf 20 2 11823686
+/docs/EHOPE_XVI_final_ph.pdf 20 1 2694896
+/docs/EHOPE_XVI_final_ph_res_w.pdf 20 1 2899096
+/docs/EHOPE_XVII_preselection_ph_tasks.pdf 20 0 7845260
+/docs/EHOPE_XVII_preselection_inf_tasks.pdf 20 0 7896720
+/docs/EHOPE_XVII_final_inf_tasks_10_ans.pdf 20 0 4244960
+/docs/EHOPE_math_preselection_tasks_XV.pdf 20 5 2708533
+/docs/EHOPE_math_11_XIV.pdf 20 1 9243507
+/docs/EHOPE_XVI_inf_final_solutions.pdf 20 0 16707220
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_9.pdf 20 2 3437789
+/docs/EHOPE_XVII_preselection_ph_criterii.pdf 20 0 1202620
+/docs/EHOPE_math_10_XIV.pdf 20 0 8674200
+/docs/EHOPE_XVIII_preselection_complex_tasks_10_11_1.pdf 20 0 3734160
+/docs/EHOPE_var_final_math_11_XV.pdf 20 3 4140340
+/docs/XVIII/EHOPE_XVIII_wscan_ph.pdf 19 4 372952988
+/docs/EHOPE_XVI_ph_criterii_preselection.pdf 19 0 2749528
+/docs/EHOPE_XVI_complex_final_solutions_9.pdf 19 0 3454466
+/docs/EHOPE_math_9_XIV.pdf 19 0 8432960
+/docs/EHOPE_XVI_final_ph_ans_9.pdf 19 0 3817575
+/docs/EHOPE_XVIII_preselection_math_criterii.pdf 19 0 1147315
+/docs/EHOPE_XVII_final_ph_solutions.pdf 19 0 10983235
+/docs/XVIII/EHOPE_XVIII_preselection_inf_tasks.pdf 19 0 6141066
+/docs/EHOPE_XVII_final_complex_tasks_9_10_11_ans.pdf 19 0 3626169
+/docs/XVIII/EHOPE_XVIII_final_complex_tasks_11.pdf 19 3 3879160
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_7_solutions.pdf 19 0 8459332
+/docs/XVIII/EHOPE_XVIII_wscan_ph_list.pdf 19 0 1380730
+/docs/EHOPE_XVIII_preselection_math_criterii_w.pdf 19 0 3981678
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_9_ans.pdf 19 0 4190127
+/docs/EHOPE_XVI_final_ph_tasks_11.pdf 18 0 3373092
+/docs/EHOPE_ph_9_XIII.pdf 18 0 2168262
+/docs/EHOPE_XVII_final_math_res_w.pdf 18 1 3735880
+/docs/EHOPE_XVI_final_math_tasks_11.pdf 18 4 3328586
+/docs/EHOPE_XVI_preselection_inf_results.pdf 18 0 3843630
+/docs/spravka_math_XII.pdf 18 0 2782404
+/docs/EHOPE_inf_preselection_bug_2_XV.pdf 18 0 1037250
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_11_solutions.pdf 18 2 6463742
+/docs/EHOPE_inf_final_solutions_XIII.pdf 18 0 9144396
+/docs/EHOPE_complex_final_XV.pdf 18 0 1157256
+/docs/EHOPE_XVII_spravka_math.pdf 18 0 2824290
+/docs/tasks_math_XII.pdf 18 2 73071677
+/docs/zadaniya2011.pdf 18 4 93429125
+/docs/EHOPE_XVIII_preselection_complex_criterii_w_fixed.pdf 18 0 2387430
+/docs/EHOPE_ph_final_solutions_XV.pdf 18 0 13021344
+/docs/EHOPE_criterii_w_ph_XIV.pdf 18 0 2277648
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_7_ans.pdf 18 0 2922948
+/docs/EHOPE_var_final_inf_10_XV.pdf 18 0 6378480
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_9_ans.pdf 18 0 4225320
+/docs/XVIII/EHOPE_XVIII_final_inf_res_w.pdf 18 0 1285686
+/docs/EHOPE_w_res_math_bug_I_XV.pdf 18 0 2403954
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_8_ans.pdf 18 0 3844332
+/docs/EHOPE_inf_final_XIII.pdf 18 0 1200960
+/docs/EHOPE_XVII_final_ph_tasks_10.pdf 18 0 3319344
+/docs/XVIII/EHOPE_XVIII_wscan_complex_list.pdf 18 0 1107612
+/docs/EHOPE_math_preselection_bug_1_XV.pdf 18 0 1059660
+/docs/EHOPE_var_final_math_8_XV.pdf 18 0 3349026
+/docs/EHOPE_spravka_ph_XV.pdf 18 0 3035520
+/docs/kriterii_math_XII.pdf 18 0 3324877
+/docs/XVIII/EHOPE_XVIII_final_complex_res_w.pdf 18 0 1188378
+/docs/EHOPE_XVII_final_ph_tasks_8_ans.pdf 17 0 3799823
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_8_solutions.pdf 17 0 9179847
+/docs/EHOPE_XVIII_ph_idea_result.pdf 17 0 1166081
+/docs/EHOPE_criterii_w_math_XIV_.pdf 17 0 38652305
+/docs/EHOPE_w_res_inf_bug_I_XV.pdf 17 0 1470296
+/docs/EHOPE_XVIII_preselection_ph_idea_criterii_w.pdf 17 0 2243320
+/docs/EHOPE_XVIII_preselection_complex_solutions_10_11_1.pdf 17 0 2074374
+/docs/Obrazec_zajavlenija_na_oplatu_proezda.pdf 17 0 1391314
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_10_ans.pdf 17 0 4152199
+/docs/EHOPE_math_8_XIV.pdf 17 0 3740476
+/docs/EHOPE_ph_10_XIII.pdf 17 0 3765177
+/docs/EHOPE_XVII_final_inf_res_w.pdf 17 0 1471146
+/docs/EHOPE_prlist_M_ph_XV.pdf 17 0 1632391
+/docs/EHOPE_var_complex_XIV.pdf 17 0 3209073
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_11_ans.pdf 17 2 5391510
+/docs/energy_hope_mathematics_2011-03-06.xls 17 0 1366528
+/docs/EHOPE_ph_10_XIV.pdf 17 0 8285936
+/docs/XVIII/EHOPE_XVIII_final_inf_criterii.pdf 17 0 1786717
+/docs/EHOPE_talantiuspeh_parents.pdf 17 0 4652866
+/docs/EHOPE_XVIII_preselection_complex_solutions_10_2.pdf 17 0 2411076
+/docs/EHOPE_spravka_ph_XIV.pdf 17 0 2246788
+/docs/EHOPE_var_final_math_7_XV.pdf 17 0 3216893
+/docs/EHOPE_XVI_final_math_ans_10.pdf 17 0 3268896
+/docs/XVIII/EHOPE_XVIII_final_complex_tasks_10.pdf 17 0 3294260
+/docs/EHOPE_XVII_final_inf_tasks_10.pdf 17 0 3525817
+/docs/XVIII/EHOPE_XVIII_wscan_inf_list.pdf 17 0 1059865
+/docs/EHOPE_math_9_XIII.pdf 17 0 2581297
+/docs/EHOPE_w_res_inf_ap_XV.pdf 16 0 2356816
+/docs/EHOPE_XVIII_preselection_complex_tasks_11_2.pdf 16 0 3372048
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_9.pdf 16 0 5442032
+/docs/Obrazec_zajavlenija_na_prozhivanie_bez_soprovozhdajushhego.pdf 16 0 1306336
+/docs/XVIII/EHOPE_XVIII_spravka_inf.pdf 16 0 2467152
+/docs/EHOPE_var_complex_XV.pdf 16 0 2388672
+/docs/EHOPE_XVII_complex_final_solutions_9_10_11.pdf 16 0 3636496
+/docs/EHOPE_var_final_math_10_XV.pdf 16 0 3020688
+/docs/XVIII/EHOPE_XVIII_final_complex_tasks_9.pdf 16 0 3097072
+/docs/EHOPE_final_SFU_grafik_XV.pdf 16 0 2333360
+/docs/EHOPE_XVII_final_math_solutions.pdf 16 2 5608585
+/docs/EHOPE_XVIII_preselection_complex_solutions_9_2.pdf 16 0 2267216
+/docs/XVIII/EHOPE_XVIII_final_complex_tasks_9_10_11_solutions_fixed.pdf 16 2 2223769
+/docs/EHOPE_ph_preselection_tasks_XV.pdf 16 0 4967632
+/docs/spravka2011.pdf 16 0 9097616
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_10_solutions.pdf 16 0 5364832
+/docs/EHOPE_w_res_inf_XV.pdf 15 0 2191065
+/docs/EHOPE_w_res_ph_bug_I_XIV.pdf 15 0 1669515
+/docs/EHOPE_XVII_wscan_inf_list.pdf 15 0 933405
+/docs/XVIII/EHOPE_XVIII_final_complex_tasks_9_10_11_ans.pdf 15 0 1528755
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_11_ans.pdf 15 1 1485424
+/docs/EHOPE_complex_final_solutions_XV.pdf 15 0 1740285
+/docs/EHOPE_invitation_complex_XII.pdf 15 0 453480
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_9_solutions.pdf 15 0 4345350
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_10.pdf 15 0 3298800
+/docs/EHOPE_XVI_wscan_complex.pdf 15 0 42611805
+/docs/EHOPE_XVI_final_math_ans_9.pdf 15 0 2368635
+/docs/XVIII/EHOPE_XVIII_final_math_criterii.pdf 15 0 1588950
+/docs/XVIII/EHOPE_XVIII_spravka_ph.pdf 15 0 2375610
+/docs/EHOPE_inf_final_solutions_XIV.pdf 15 0 5609010
+/docs/EHOPE_spravka_math_XIV.pdf 15 0 2313180
+/docs/Obrazec_zajavlenija_na_prozhivanie_s_soprovozhdajushhim.pdf 15 0 1235820
+/docs/EHOPE_XVI_final_math_ans_7.pdf 15 0 2121570
+/docs/EHOPE_XVII_final_ph_tasks_9_ans.pdf 15 0 4031400
+/docs/EHOPE_XVII_spravka_inf.pdf 15 0 2272770
+/docs/EHOPE_criterii_complex_XV.pdf 14 0 1548274
+/docs/EHOPE_w_res_inf_XIV.pdf 14 0 1492274
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_10_solutions.pdf 14 0 8489362
+/docs/XVIII/EHOPE_XVIII_final_math_criterii_w.pdf 14 0 2516626
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_10_ans.pdf 14 0 1272460
+/docs/EHOPE_spravka_inf_XV.pdf 14 0 2595824
+/docs/EHOPE_wscan_M_ph_XV.pdf 14 0 430331986
+/docs/EHOPE_math_preselection_bug_III_XIII.pdf 14 0 613606
+/docs/EHOPE_math_7_XIV.pdf 14 0 3055430
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_10_ans.pdf 14 0 2513014
+/docs/EHOPE_XVIII_preselection_complex_tasks_9_1.pdf 14 0 2508800
+/docs/EHOPE_w_res_ph_bug_II_XIV.pdf 14 0 1437464
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_7_ans.pdf 14 0 1149778
+/docs/XVIII/EHOPE_XVIII_final_inf_tasks_11_ans.pdf 14 1 3625064
+/docs/EHOPE_reglament.pdf 14 0 2545522
+/docs/Obrazec_prizer_proshlogo_goda.pdf 14 0 345114
+/docs/EHOPE_XVII_final_ph_criterii_w.pdf 14 0 2146466
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_8_ans.pdf 14 0 1148434
+/docs/EHOPE_inf_res_XII.pdf 13 0 1381718
+/docs/EHOPE_XVI_final_inf.pdf 13 0 985790
+/docs/EHOPE_XVII_final_inf_solutions.pdf 13 0 6354998
+/docs/EHOPE_var_final_ph_11_XV.pdf 13 0 5275907
+/docs/EHOPE_tasks_inf_XII.pdf 13 0 12031994
+/docs/XVIII/EHOPE_XVIII_final_ph_criterii_w.pdf 13 0 1995604
+/docs/EHOPE_XVII_wscan_complex.pdf 13 0 14676831
+/docs/EHOPE_XVII_wscan_math_part1.pdf 13 0 270772437
+/docs/EHOPE_XVI_wscan_complex_list.pdf 13 0 692510
+/docs/EHOPE_XVII_wscan_inf.pdf 13 0 81351842
+/docs/EHOPE_XVII_wscan_math_list_part1.pdf 13 0 852930
+/docs/EHOPE_inf_preselection_tasks_XIV.pdf 13 0 2058875
+/docs/EHOPE_XVII_final_math_tasks_10_ans.pdf 13 0 1126073
+/docs/EHOPE_XVIII_preselection_complex_tasks_10_2.pdf 13 0 2732743
+/docs/EHOPE_XVIII_preselection_complex_solutions_9_1.pdf 13 2 1515346
+/docs/EHOPE_XVI_final_inf_res_w.pdf 13 0 1068522
+/docs/EHOPE_ph_final_bug_I_XV.pdf 13 0 1057108
+/docs/EHOPE_criterii_w_math_XV.pdf 13 0 1621997
+/docs/EHOPE_w_res_ph_ap_XV.pdf 13 0 6575322
+/docs/EHOPE_var_final_ph_8_XV.pdf 12 0 3959508
+/docs/EHOPE_XVIII_preselection_complex_tasks_9_2.pdf 12 0 2521056
+/docs/EHOPE_XVII_preselection_math_criterii_w.pdf 12 0 2508312
+/docs/EHOPE_inf_11_XIV.pdf 12 0 2368644
+/docs/EHOPE_XVII_preselection_complex_criterii.pdf 12 0 1160712
+/docs/EHOPE_XVI_wscan_ph_list.pdf 12 0 753072
+/docs/EHOPE_XVI_wscan_inf_list.pdf 12 0 703704
+/docs/EHOPE_prlist_S_math_XV.pdf 12 0 944292
+/docs/XVIII/EHOPE_XVIII_final_complex_criterii.pdf 12 0 1603044
+/docs/ehope_math_res_XII.xls 12 0 8417280
+/docs/EHOPE_var_final_inf_9_XV.pdf 11 0 3722345
+/docs/EHOPE_w_res_math_XIV.pdf 11 0 24041325
+/docs/EHOPE_XVI_wscan_math.pdf 11 0 272452455
+/docs/EHOPE_prlist_M_math_XV.pdf 11 0 1067539
+/docs/EHOPE_XVII_final_complex_criterii.pdf 11 0 1466069
+/docs/EHOPE_XVI_preselection_complex_results_.pdf 11 1 1202375
+/docs/EHOPE_XVII_wscan_math_list_part3.pdf 11 0 724031
+/docs/EHOPE_XVI_inf_criterii_w_final.pdf 11 0 1626493
+/docs/EHOPE_XVI_complex_criterii_w_final.pdf 11 0 1765049
+/docs/XVIII/EHOPE_XVIII_final_math_tasks_9_ans.pdf 11 0 965954
+/docs/ehope_math_res_XII_apl.xls 11 2 8422348
+/docs/EHOPE_XVI_final_complex_tasks_10_11.pdf 11 0 1985181
+/docs/EHOPE_XVII_final_math_tasks_9.pdf 11 0 1109977
+/docs/XVIII/EHOPE_XVIII_wscan_complex.pdf 11 0 16464767
+/docs/EHOPE_XVIII_preselection_complex_solutions_11_2.pdf 11 0 1503898
+/docs/XVIII/EHOPE_XVIII_final_ph_criterii.pdf 11 0 1167364
+/docs/EHOPE_inf_9_XIV.pdf 10 0 1866300
+/docs/EHOPE_criterii_w_ph_XIII.pdf 10 0 949180
+/docs/XVIII/EHOPE_XVIII_final_ph_tasks_9_solutions.pdf 10 0 6201050
+/docs/XVIII/EHOPE_XVIII_spravka_math.pdf 10 0 1591310
+/docs/EHOPE_w_res_ph_ap_bug_I_XV.pdf 10 0 842320
+/docs/EHOPE_XVII_wscan_complex_list.pdf 10 0 580560
+/docs/ehope_ap_order.pdf 10 0 804010
+/docs/EHOPE_w_res_ph_bug_III__XV.pdf 10 0 866480
+/docs/EHOPE_criterii_ph_XIV.pdf 10 0 1043320
+/docs/EHOPE_w_res_ph_bug_I_XV.pdf 10 0 884500
+/docs/EHOPE_XVI_spravka_math.pdf 10 0 1559240
+/docs/EHOPE_w_res_complex_XIV.pdf 10 0 1065570
+/docs/EHOPE_XVI_math_criterii_preselection.pdf 10 0 1848380
+/docs/ehope_ap_apl.pdf 10 0 468800
+/docs/EHOPE_wscan_M_math_XV.pdf 10 0 409881490
+/docs/EHOPE_XVI_complex_criterii_final.pdf 10 0 1311450
+/docs/EHOPE_criterii_inf_XIII.pdf 10 0 1534220
+/docs/EHOPE_criterii_inf_XIV.pdf 9 0 929052
+/docs/EHOPE_XVI_final_inf_tasks_10.pdf 9 0 2081403
+/docs/EHOPE_XVII_wscan_math_list_part2.pdf 9 0 596916
+/docs/EHOPE_wscan_S_math_XV.pdf 9 0 247462389
+/docs/EHOPE_w_res_inf_bug_II_XV.pdf 9 0 772434
+/docs/EHOPE_criterii_math_XIII.pdf.pdf 9 0 737289
+/docs/EHOPE_criterii_math_XIV.pdf 9 0 937152
+/docs/EHOPE_prlist_S_inf_XV.pdf 9 0 547263
+/docs/EHOPE_XVI_inf_criterii_preselection.pdf 9 0 1027404
+/docs/EHOPE_XVI_final_complex.pdf 9 1 666646
+/docs/EHOPE_XVI_final_math_tasks_7.pdf 9 0 981297
+/docs/EHOPE_XVI_preselection_complex_criterii.pdf 9 0 536067
+/docs/EHOPE_w_res_inf_bug_III_XV.pdf 9 0 805365
+/docs/EHOPE_prlist_S_ph_XV.pdf 9 0 634698
+/docs/EHOPE_wscan_S_inf_XV.pdf 9 0 29282805
+/docs/EHOPE_XVI_math_criterii_final.pdf 9 0 933777
+/docs/EHOPE_XVII_preselection_grafik_SFU.pdf 9 0 906714
+/docs/EHOPE_w_res_inf_bug_IV_XV.pdf 8 0 666872
+/docs/EHOPE_criterii_ph_XIII.pdf.pdf 8 0 655832
+/docs/EHOPE_criterii_w_inf_XIV.pdf 8 0 1195488
+/docs/statistika2011.pdf 8 0 5462824
+/docs/EHOPE_inf_preselection_bug_1_XV.pdf 8 0 464768
+/docs/EHOPE_w_res_math_bug_I_XIV.pdf 8 0 710808
+/docs/EHOPE_XVIII_preselection_inf_criterii.pdf 8 0 470560
+/docs/EHOPE_XVI_OLIST.pdf 8 0 22109360
+/docs/EHOPE_XVI_final_complex_tasks_9.pdf 8 0 1601344
+/docs/EHOPE_wscan_M_inf_XV.pdf 8 0 55409720
+/docs/EHOPE_XVIII_preselection_inf_criterii_w.pdf 8 0 913144
+/docs/EHOPE_ph_preselection_bug_III_XIII.pdf 8 0 356888
+/docs/EHOPE_ph_preselection_bug_IV_XIII.pdf 7 0 303646
+/docs/XVIII/EHOPE_XVIII_final_inf_criterii_w.pdf 7 0 1035307
+/docs/EHOPE_XVI_final_complex_res_w.pdf 7 0 439404
+/docs/EHOPE_XVI_inf_criterii_final.pdf 7 0 868266
+/docs/satat_ex2011.pdf 7 0 10784718
+/docs/EHOPE_criterii_inf_XV.pdf 7 0 720433
+/docs/EHOPE_ph_preselection_bug_V_XIII.pdf 7 0 313138
+/docs/ehope_math_solution_XXI.pdf 7 0 9064923
+/docs/EHOPE_XVI_ph_criterii_final.pdf 7 0 870898
+/docs/EHOPE_math_preselection_bug_I_XIII.pdf 7 0 321944
+/docs/XVIII/EHOPE_XVIII_final_complex_criterii_w.pdf 7 0 930188
+/docs/EHOPE_ph_preselection_bug_II_XIII.pdf 7 0 296198
+/docs/EHOPE_w_res_complex_XV.pdf 7 0 446418
+/docs/EHOPE_SFU_final_places_XV.pdf 7 0 1028251
+/docs/EHOPE_criterii_w_inf_XIII.pdf 7 0 863751
+/docs/EHOPE_criterii_w_math_XIII.pdf 7 0 843647
+/docs/EHOPE_wscan_S_ph_XV.pdf 7 0 100810808
+/docs/EHOPE_criterii_w_copmlex_XIV.pdf 6 0 801516
+/docs/EHOPE_w_res_ph_bug_II_XV.pdf 6 0 534234
+/docs/EHOPE_XVIII_preselection_ph_idea_criterii.pdf 6 0 585708
+/docs/EHOPE_criterii_complex_XIV.pdf 6 0 859638
+/docs/EHOPE_XVI_preselection_ph_criterii.pdf 6 0 368418
+/docs/kriterii_phis_XII.pdf 6 0 1151772
+/docs/EHOPE_XVIII_preselection_copmlex_criterii.pdf 6 0 816930
+/docs/EHOPE_XVI_preselection_inf_criterii.pdf 6 0 357648
+/docs/kriterii_inf_XII.pdf 6 0 1320696
+/docs/provedenie-dok.pdf 6 0 3287706
+/docs/EHOPE_criterii_w_inf_XV.pdf 5 0 748565
+/docs/EHOPE_XVII_final_complex_criterii_w.pdf 5 0 665655
+/docs/EHOPE_criterii_preselection_XV.pdf 5 0 478190
+/docs/EHOPE_XVII_wscan_ph.pdf 5 1 99849283
+/docs/EHOPE_criterii_math_XV.pdf 5 0 518210
+/docs/EHOPE_XVI_preselection_grafik_SFU.pdf 5 0 595520
+/docs/EHOPE_XVII_final_inf_criterii.pdf 5 0 525870
+/docs/EHOPE_criterii_w_ph_XV.pdf 4 0 509728
+/docs/EHOPE_XVI_ph_criterii_w_final.pdf 4 0 612980
+/docs/EHOPE_prlist_M_inf_XV.pdf 4 0 260984
+/docs/ehope_math_res_XII_v2.xls 4 0 2805760
+/docs/EHOPE_criterii_complex_preselection_XV.pdf 4 0 410672
+/docs/EHOPE_XVII_wscan_math_part2.pdf 3 0 70540803
+/docs/EHOPE_XVI_preselection_math_criterii.pdf 3 0 185022
+/docs/EHOPE_XVII_final_math_criterii_w.pdf 3 0 539166
+/docs/ehope_phis_res_XII.xls 2 0 1128448
+/docs/EHOPE_XVII_wscan_math_part3.pdf 2 0 39144682
+/docs/EHOPE_XVII_final_inf_criterii_w.pdf 1 0 147911
+/2018.zip 1 0 97441
+/documents/ehope_work_p.pdf 1 0 22
+/2018.tar 1 0 97979
+/2018.tgz 1 0 97616
+/2018.tar.gz 1 0 97960
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 18
+linuxsuse 1
+linuxandroid 8727
+winxp 3255
+winlong 164
+win2000 90
+winvista 10113
+winunknown 6
+j2me 142
+win2003 23
+winnt 20102
+linuxubuntu 93
+win98 1
+linux 1907
+ios 2
+win7 53523
+win16 57
+macosx 7242
+Unknown 1044
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 289
+chrome52.0.2743.116 339
+firefox33.1 54
+firefox3.6 2
+chrome41.0.2272.96 35
+chrome56.0.2924.92 72
+chrome47.5.2526.173 66
+msie11 2
+msie8.0 345
+chrome53.0.2785.124 56
+chrome27.0.1453.93 8
+chrome97726 1
+chrome42.0.2311.152 4
+chrome67.0.3396.81 142
+msie5.01 5
+firefox40.0 163
+chrome58.0.1840.09 2
+firefox38.0 92
+chrome62.0.3202.94 196
+chrome46.0.2490.71 4
+chrome32.0.1700.107 1008
+chrome51.0.2704.103 31
+chrome14252 1
+chrome36.0.1985.143 39
+safari11.0.3 2
+firefox25.0 487
+firefox14.0.1 68
+chrome37.0.0.0 2
+chrome44.0.2403.89 1
+firefox43.1 14
+chrome46.0.2490.86 123
+chrome60.0.3112.90 77
+chrome272.0.2840.59 1
+safari7.0 833
+safari10.1 2
+chrome48.0.2564.116 14
+chrome22.0.1229.79 1
+chrome57.0.2987.98 5
+iphone 152
+chrome33.0.0.0 50
+chrome46.0.2490.76 133
+chrome39.0.0.0 2
+chrome61.0.3163.100 241
+chrome57.4.9143.4870 1
+chrome62.0.3202.62 32
+chrome53.0.2785.116 4
+msie5.0 30
+msie9.0 102
+firefox3.6.10 1
+firefox52.9 1
+chrome67.0.3396.18 1
+chrome59.0.3071.115 58
+chrome56.3.9331.4603 1
+chrome18.0.1025.166 167
+chrome53.0.2785.143 21
+firefox3.6.2 1
+chrome28.0.1500.71 26
+firefox30.0 53
+firefox56.0 444
+chrome23484 1
+firefox61.0 3991
+chrome45.0.2454.94 2
+chrome68.0.3440.91 1951
+firefox51.0 25
+safari6.0.2 1
+chrome61.0.3163.125 21
+firefox3.6.12 1
+chrome66.0.3359.170 113
+chrome23.0.1271.97 12
+chrome64.0.3282.140 1295
+firefox57.0 219
+msie6.0 101
+chrome64.0.3282.189 1
+chrome49.0.2623.110 2
+firefox26.0 7
+firefox34.0 83
+curl 5
+chrome58.0.3029.110 435
+chrome51.0.2704.81 6
+chrome50.0.2661.94 67
+chrome64.0.3282.167 1
+chrome53.0.2785.146 36
+firefox43.0 141
+firefox40.1 8447
+firefox41.0 23
+chrome66.0.3359.181 24168
+firefox37.1 36
+firefox53.0 57
+chrome56.0.1750.154 5
+chrome55.0.2883.87 139
+chrome74319 1
+firefox42.0 22
+chrome34.0.1847.131 1
+chrome66.0.3359.117 1
+chrome68.0.3440.106 11031
+chrome40.0.2214.109 1
+chrome64.0.3282.119 53
+firefox44.1 5
+chrome49.0.2623.75 3
+chrome60.0.3112.113 10
+firefox45.0 19
+firefox47.0 1
+chrome42.0.2311.135 9
+chrome57.0.2987.133 29
+chrome68.0.3440.84 1569
+chrome40.0.2214.89 1
+firefox60.0 248
+netscape6.1 1
+chrome44.0.2403.133 2
+chrome61.0.3163.98 106
+chrome79892 1
+firefox15.0 1
+chrome66.0.3359.139 2
+chrome59.0.3071.86 1
+chrome55.0.2883.91 36
+chrome36.0.1985.131 83
+firefox31.0 26
+chrome57.0.2987.108 81
+chrome15.0.874.121 1
+chrome63.0.3205.0 10
+chrome47.0.2526.111 37
+chrome45.0.2454.93 148
+abrowse 52
+firefox16.0 2
+chrome43.0.2357.93 2
+chrome33.0.1750.154 2
+chrome66.0.3359.158 7
+Unknown 548
+chrome30.0.0.0 54
+chrome53.6.1156.6428 1
+chrome47.5.2526.115 66
+firefox17.0 27
+chrome34.0.1847.114 2
+chrome41654 1
+chrome41.0.2272.118 84
+chrome17.0.1000.0 1
+firefox58.0 4
+safari10.1.1 1
+chrome24390 1
+safari5.1.7 1
+msie11.0 37
+chrome67.0.3396.99 5775
+chrome18.0.1025.133 83
+safari9.0 424
+chrome45.0.2454.101 5
+chrome68.0.3440.70 76
+chrome37.0.2062.117 68
+chrome50.0.2661.89 37
+chrome68.0.3440.85 178
+firefox44.0 65
+chrome34.0.1847.137 12
+chrome30.0.1599.92 42
+firefox3.0.1 104
+chrome60.0.3112.50 22
+chrome69.0.3494.0 53
+chrome63.0.3223.8 14
+firefox54.0 4
+chrome31.0.1650.57 40
+firefox49.0 65
+firefox2.0.0.13 9
+safari5.0.2 1
+chrome57.4.9032.4304 1
+chrome34.0.1847.132 49
+msie7.0 344
+chrome62.0.3250.0 5
+chrome50.0.2661.75 9
+chrome68.0.3440.7 1
+chrome64.0.3282.137 208
+firefox50.0 63
+chrome55.1.6202.1930 1
+chrome56.0.2924.90 1
+chrome54.0.2840.71 1
+firefox33.0 20
+chrome57.5.0663.4391 1
+netscape5.0 208
+chrome64.0.3282.186 138
+chrome41.0.2228.0 63
+chrome20392 1
+firefox36.0 16
+safari11.1.2 248
+safari 519
+firefox3.0.15 36
+chrome67.0.3396.87 6505
+chrome34.0.1847.76 1
+safari11.0 2910
+chrome65.0.3325.183 59
+android 315
+chrome68.0.3440.75 142
+firefox52.0 951
+chrome44391 1
+chrome67.0.3396.79 38
+chrome47.0.3109.143 1
+minefield 1
+chrome61.0.3163.128 242
+opera9.80 242
+chrome411.0.2840.59 1
+chrome26.0.1410.65 15
+chrome38.0.2125.122 1
+chrome51.0.2704.84 1
+chrome34.0.1847.116 15
+opera7.23 1
+chrome58.0.3029.96 1
+chrome61.0.3163.91 2
+chrome54.0.2840.98 1
+chrome66.0.3359.126 41
+firefox32.0 2
+safari9.0.3 5
+samsung 194
+chrome38.0.2125.102 1
+chrome62.0.3202.84 56
+safari4.0 1
+chrome51.0.2704.106 7
+chrome35.0.1916.153 15
+firefox3.6.28 1
+safari4.0.4 1
+safari11.0.1 2
+chrome67.0.3396.62 67
+firefox34.1 11
+chrome27.0.1453.94 1
+chrome40.0.2214.91 70
+chrome13999 1
+chrome28.0.1500.94 48
+safari11.1.1 115
+firefox4.0 2
+opera9.02 1
+chrome5.0.307.7 1
+chrome63.0.3239.84 247
+chrome42.0.2311.90 4
+firefox59.0 11
+chrome37.0.2062.120 7
+chrome60.0.3112.101 125
+chrome50.0.2661.102 32
+chrome62.0.3202.89 131
+chrome67.0.3396.103 9354
+firefox2.0.0.2 4
+chrome49.0.2623.112 628
+chrome24982 1
+chrome65.0.3325.181 4515
+netscape 50
+chrome58.0.3029.83 4
+firefox55.0 89
+firefox3.0 9
+chrome36969 1
+chrome63.0.3239.132 64
+firefox21.0 2
+lg\- 36
+safari6.0 1
+firefox2.0.0.6 2
+firefox12.0 40
+mozilla 3864
+chrome47.0.2526.106 3
+firefox39.1 11
+chrome40.0.2214.93 1
+firefox35.0 36
+chrome62.0.3202.75 12
+firefox30.1 31
+chrome61.0.3163.71 3
+chrome58.0.3029.81 4
+firefox3.5.4 1
+safari12.0 248
+chrome19.0.1061.1 1
+chrome56.0.2924.87 190
+chrome55.0.2883.75 1
+chrome55.0.2883.95 1
+chrome8.0.552.237 2
+safari8.0 5
+chrome47.0.2526.83 4
+chrome57.0.2987.137 499
+firefox32.1 81
+chrome63.0.3239.111 316
+safari10.0 928
+chrome29.0.1547.59 2
+safari10.0.3 53
+chrome54.0.2840.99 2
+safari11.0.2 1
+chrome59.0.3071.125 911
+firefox2.0.0 1
+chrome41.0.2227.1 2
+chrome51.0.2704.105 6
+firefox1.0 1
+firefox37.0 31
+chrome48.0.2564.109 35
+chrome30.0.1599.103 1
+msie10.0 733
+safari5.1 41
+safari6.0.3 1
+chrome54.0.2840.85 103
+chrome65.0.3325.109 224
+chrome62.0.3202.9 1
+firefox3.6.13 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 48
+Mozilla/5.0_(compatible;_DotBot/1.1;_http://www.opensiteexplorer.org/dotbot,_help@moz.com) 20180809223509
+curl/7.58.0 20180803201512
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20180822162844
+WhatsApp/2.18.81_i 20180813232530
+Re-re_Studio_(_http://re-re.ru/) 20180828121713
+Mozilla/5.0_()_AppleWebKit/533.09.52_(KHTML,_like_Gecko)_Chrome/53.6.1156.6428_Safari/530.70_Edge/34.76073 20180811111248
+Xenu_Link_Sleuth/1.3.8 20180816103845
+com.google.GoogleMobile/52.2.0_iPhone/10.3.3_hw/iPhone5_2 20180824202421
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online)_AppleWebKit/534.34 20180802022755
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20180815214217
+Mozilla/5.0_(compatible;_tracemyfile/1.0) 20180830234915
+ltx71_-_(http://ltx71.com/) 20180831052737
+2ip.ru_CMS_Detector_(https://2ip.ru/cms/) 20180821111835
+Mozilla 20180814210000
+Opera/9.80_(Android;_Opera_Mini/32.0.2254/108.110;_U;_uk)_Presto/2.12.423_Version/12.16 20180812164524
+Less.Browser 20180811145132
+tigerbot 20180816074133
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180817052946
+Mozilla/5.0_Firefox 20180826173413
+Mozilla/5.0_(compatible) 20180818205725
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20180830222702
+Embarcadero_URI_Client/1.0 20180814121958
+MobileSafari/604.1_CFNetwork/902.2_Darwin/17.7.0 20180827160824
+Mozilla/5.0_(compatible;_Yeti/1.1;__http://naver.me/spd) 20180828082359
+com.google.GoogleMobile/56.0.0_iPhone/11.4.1_hw/iPhone10_3 20180822074408
+Go-http-client/1.1 20180813222224
+Mozilla/5.0_(Android_4.4.4;_Mobile;_rv:57.0)_Gecko/57.0_Firefox/57.0 20180823185644
+\ 20180831235904
+IDG/RU_(http://spaziodati.eu/) 20180826063006
+}__test|O:21:\ 20180816111159
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20180827081608
+Opera/9.80_(Series_60;_Opera_Mini/6.1.26266/26.1424;_U;_ru)_Presto/2.8.119_Version/10.54 20180804103856
+com.google.GoogleMobile/56.0.0_iPhone/11.4.1_hw/iPhone10_6 20180820125656
+curl/7.55.1 20180806224858
+Mozilla/5.0_(compatible;_link_tracker/0.3;) 20180817031835
+Mozilla/5.0_(compatible;_AhrefsBot/5.2;__http://ahrefs.com/robot/) 20180829161120
+Opera/9.80_(Android;_Opera_Mini/13.0.2036/108.107;_U;_ru)_Presto/2.12.423_Version/12.16 20180807210450
+com.google.GoogleMobile/55.0.0_iPhone/11.4.1_hw/iPhone8_4 20180809210041
+WhatWeb/0.4.9 20180812012206
+curl/7.47.0 20180807001021
+Mozilla/5.0_(compatible;_statdom.ru/Bot;__http://statdom.ru/bot.html) 20180803165109
+Mozilla/5.0_(compatible;_ips-agent) 20180823055327
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20180830164647
+sqlmap/1.2.7#stable_(http://sqlmap.org) 20180821112500
+AdvIntConn 20180811124811
+Mozilla/4.0_(compatible;) 20180831081627
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20180825153912
+curl/7.60.0 20180817161958
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 18
+IDG/RU_(http://spaziodati.eu/) 20180826063006
+\ 20180831235904
+WhatsApp/2.18.81_i 20180813232530
+Re-re_Studio_(_http://re-re.ru/) 20180828121713
+}__test|O:21:\ 20180816111159
+Xenu_Link_Sleuth/1.3.8 20180816103845
+ltx71_-_(http://ltx71.com/) 20180831052737
+Microsoft_Office_Word_2013 20180828115854
+Microsoft_Office_Word_2014 20180828005155
+2ip.ru_CMS_Detector_(https://2ip.ru/cms/) 20180821111835
+tigerbot 20180816074133
+Less.Browser 20180811145132
+WhatWeb/0.4.9 20180812012206
+sqlmap/1.2.7#stable_(http://sqlmap.org) 20180821112500
+Embarcadero_URI_Client/1.0 20180814121958
+AdvIntConn 20180811124811
+Go-http-client/1.1 20180813222224
+Microsoft_Office_Excel_2013 20180829175815
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 47631 51126
+From1 27 37
+From2 525 1169
+From3 6957 51409
+From4 2160 2751
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 212 512
+mysearch 0 1
+bing 2 8
+rambler 4 4
+yandex 307 644
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 476
+http://www.energy-hope.ru 1432 23742
+http://www.energy-hope.ru/actual/grafik.html 617 3027
+http://www.energy-hope.ru/olymp/liter.html 388 796
+http://energy-hope.ru/novice/reg_user.html 289 289
+http://www.energy-hope.ru/about/statement.html 240 881
+http://www.energy-hope.ru/novice/kak_prinyat_uchastie.html 218 460
+http://energy-hope.ru 174 2173
+http://www.energy-hope.ru/actual/tasks.html 174 890
+http://www.energy-hope.ru/novice/reg_user.html 169 243
+http://energy-hope.ru/contact.html 166 169
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_inf.pdf 2 2
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_8.pdf 2 2
+http://www.energy-hope.ru/yeartwokfifteen/report.html 0 33
+http://www.energy-hope.ru/yeartwokten/otchet.html 0 33
+http://www.energy-hope.ru/docs/EHOPE_math_final_XIV.pdf 4 4
+http://hot.collections.sexblog.pw 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVI_math_preselection_tasks.pdf 12 15
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_complex_res.pdf 1 1
+http://bbw.adultnet.in 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVI_final_inf_tasks_11.pdf 1 1
+http://molochnicainfo.liffa.ru 2 2
+http://www.energy-hope.ru/news00000229.html 2 7
+http://www.energy-hope.ru/docs/EHOPE_XVII_spravka_ph.pdf 0 1
+http://www.onko-24.com 17 17
+http://www.energy-hope.ru/news00000275.html 35 96
+http://colorpremium.fo.ru/wiki 0 2
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_math_tasks_10_ans.pdf 4 4
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_wscan_math.pdf 3 5
+http://www.energy-hope.ru/docs/results_PHIS_XII.pdf 4 4
+http://www.energy-hope.ru/temp_/page.html 3 3
+http://www.energy-hope.ru/yeartwoknine/statmb.html 12 43
+http://tutorcenter.ru/%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B-%D0%B8-%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%BF%D0%BE-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5/ 1 1
+http://www.energy-hope.ru/news2011y.html 0 32
+http://energy-hope.ru/yeartwokten/resultii.html 5 5
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_math_tasks_11_ans.pdf 2 3
+http://energy-hope.ru/novice/kak_prinyat_uchastie.html 1 7
+http://www.energy-hope.ru/components/com_sexycontactform/fileupload/index.php 1 1
+http://www.energy-hope.ru/actual/criterii.html 22 33
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_preselection_math_solutions.pdf 39 40
+http://candidos.liffa.ru 2 2
+http://www.energy-hope.ru/docs/EHOPE_XVI_final_math.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_final_XIII.pdf 1 2
+https://www.kakablog.net/5-real-ways-to-make-money-online-from-home/48965070/ 1 1
+http://www.energy-hope.ru/how-can-we-trust-your-site-when-you-are-helping-google-to-spy-on-us-using-ua-118262928-2-or-did-you-think-our-privacy-had-no-value472.rpt 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_11.pdf 4 5
+http://sexshop.adultnet.in 1 1
+http://infinisale.fo.ru 0 4
+http://kalju.ownip.net/olimpiada-mendeleev-2017-matematika-5-klass-otvety.html 0 1
+http://amateur-blogporn.blogporn.in 1 1
+http://www.energy-hope.ru/news00000267.html 28 264
+https://cryptopharmacy.org/oblachniy-mining/v-sfere-oblachnogo-mayninga-ne-hvataet-vyichislitelnyih-moshhnostey/ 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_8_ans.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVI_final_math_ans_11.pdf 0 1
+http://auxioma.eu 1 1
+http://www.energy-hope.ru/yeartwokten/matematika.html 2 85
+http://freda.forum.telrock.net 1 1
+http://deirdre.web1.telrock.net 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_8_solutions.pdf 3 3
+https://yandex.ua 1 1
+http://www.energy-hope.ru/docs/EHOPE_complex_preselection_XIV.pdf 0 11
+http://www.energy-hope.ru/docs/EHOPE_statement.pdf 4 4
+http://suzukikirov10.lifescientist.net/8/uroki-po-matematike-2-klass-po-fgos.php 0 1
+http://postypashki.ru/%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B/%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B8/ 0 6
+http://www.energy-hope.ru/docs/EHOPE_spravka_ph_XIV.pdf 1 1
+http://tits.porndairy.in 1 1
+http://www.energy-hope.ru/news00000230.html 3 25
+http://www.energy-hope.ru/news00000271.html 2 2
+http://1502.mskobr.ru/olimpiady 11 11
+http://www.energy-hope.ru/faq03.html 8 36
+http://ebony.porndairy.in 1 1
+http://stocking.fetish.bdsmsex.top 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVI_final_math_tasks_11.pdf 1 5
+http://www.energy-hope.ru/docs/tasks_math_XII.pdf 4 6
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_math_tasks_10.pdf 4 4
+http://away.vk.com 1 1
+http://www.energy-hope.ru/news00000248.html 0 1
+http://www.energy-hope.ru/olymp/talantiuspeh.html 20 145
+http://www.energy-hope.ru/index.html 5 220
+http://hundejo.com 1 1
+http://www.energy-hope.ru/yeartwokseventeen/wscan.html 1 1
+http://www.detstomatologia.ru 2 2
+http://hot-latin-girls.telrock.net 1 1
+http://www.energy-hope.ru/docs/EHOPE_var_final_math_7_XV.pdf 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_inf_res_w.pdf 1 1
+http://www.energy-hope.ru/contact.html 162 208
+http://energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_res.pdf 1 1
+http://hotbrazil.lastnews.in 1 1
+http://www.abiturient.ispu.ru/202-rezultat-energy-2017-2018 7 7
+http://www.energy-hope.ru/docs/EHOPE_XVII_preselection_math_tasks.pdf 9 9
+http://kasko-broker.ru/1/973-zadachi-po.php 0 1
+http://postypashki.ru 0 1
+http://energy-hope.ru/css/eh-common-ie.css 0 194
+http://party.hardcore.sexgalleries.top 1 1
+http://www.energy-hope.ru/news00000207.html 2 2
+http://www.energy-hope.ru/docs/EHOPE_XVIII_ph_energy_edu.pdf 1 1
+http://big.galleries.overflowstack.top 1 1
+http://www.energy-hope.ru/yeartwoksixteen/index.html 1 33
+http://www.energy-hope.ru/docs/EHOPE_XVI_math_final_solutions.pdf 0 2
+http://energy-hope.ru/olymp/metodic.html 1 2
+http://dovuz.sfu-kras.ru/rezultaty/ 3 3
+http://www.energy-hope.ru:80/novice/kak_prinyat_uchastie.html 2 2
+http://xaijo.com 1 1
+http://energy-hope.ru/olymp/tasks.html 1 1
+http://www.energy-hope.ru/css/blue/jquery-ui-1.8.5.custom.css 0 108
+http://www.energy-hope.ru/yeartwokten/taskstwokteneleven_m.html 2 86
+http://www.energy-hope.ru/docs/EHOPE_ph_8_XIV.pdf 1 1
+http://tutorcenter.ru/%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B-%D0%B8-%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%BF%D0%BE-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5/ 1 1
+http://www.energy-hope.ru/faq02.html 3 4
+http://www.energy-hope.ru/docs/EHOPE_XVII_preselection_math_results.pdf 7 7
+http://school42-ufa.ucoz.ru 0 7
+http://emmy.sexy.pics.twiclub.in 1 1
+http://pornstars.galleries.storetop.top 1 1
+https://cryptopharmacy.org/bitcoin/bitkoinu-predrekayut-krah-v-sluchae-ekonomicheskogo-krizisa/ 1 1
+http://www.energy-hope.ru/actual/statmath.html 6 12
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_7_solutions.pdf 2 2
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_11_ans.pdf 1 2
+http://janine.projects.telrock.org 1 1
+http://chrystal.blogs.telrock.org 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_final_XIII_v2.pdf 2 2
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_preselection_inf_tasks.pdf 6 6
+http://www.energy-hope.ru/yeartwoksixteen/wscan.html 9 13
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_math_tasks_8.pdf 1 2
+http://abiturient.ispu.ru/202-rezultat-energy-2017-2018 15 15
+http://rivera.femdom.twiclub.in 1 1
+http://www.energy-hope.ru/advice00000001.html 7 12
+http://www.energy-hope.ru/help/reg_user.html 19 75
+https://go.mail.ru 0 8
+http://www.energy-hope.ru/olymp/energy-school.html 81 593
+http://domain.com 0 2
+http://www.energy-hope.ru/docs/EHOPE_math_9_XIV.pdf 1 1
+http://www.energy-hope.ru/yeartwokthirteen/report.html 2 26
+http://1502.moscow/olimp/ 2 2
+http://www.energy-hope.ru/docs/EHOPE_math_final_solutions_XIV.pdf 2 3
+http://www.abiturient.ispu.ru 4 8
+http://twerking.porndairy.in 1 1
+http://seoprofisional.ru 1 1
+http://www.energy-hope.ru/docs/EHOPE_inf_final_solutions_XIII.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_preselection_XV.pdf 3 3
+http://www.energy-hope.ru/docs/EHOPE_ph_7_XIII.pdf 0 1
+http://energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_res.pdf 0 1
+https://mityr-trans.com/stati/perevozka-selsko\x85orozhnoj-texniki.html 1 1
+http://energy-hope.ru/yeartwokeleven/results_xii.html 5 5
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_inf_tasks_10.pdf 1 2
+http://xn--80aswg.xn--b1aghhhndp.xn--p1ai/index.php 0 3
+http://www.energy-hope.ru/docs/EHOPE_complex_preselection_XV.pdf 0 1
+http://www.energy-hope.ru/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 1
+http://www.energy-hope.ru/actual/gallery.html 66 1037
+http://energy-hope.ru/kak_prinyat_uchastie.html 3 3
+http://www.energy-hope.ru/faq01.html 22 176
+http://amateur.girls.pornpost.in 1 1
+https://www.independent.co.uk/news/uk/crime/grooming-gangs-uk-britain-newcastle-serious-case-review-operation-sanctuary-shelter-muslim-asian-a8225106.html 1 1
+http://www.energy-hope.ru/news00000272.html 22 35
+http://www.energy-hope.ru/novice/otveti_na_voprosi.html 37 39
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_inf_tasks_11.pdf 4 15
+http://www.energy-hope.ru/docs/EHOPE_XVII_preselection_inf_results.pdf 0 1
+http://energy-hope.ru/advice00000003.html 6 6
+http://www.energy-hope.ru/docs/EHOPE_math_metodic_XVII.pdf 4 9
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_inf_tasks_10_ans.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_math_tasks_11.pdf 5 18
+http://www.energy-hope.ru/actual/index.html 11 15
+http://www.energy-hope.ru/news00000274.html 29 39
+http://energy-hope.ru/news00000275.html 1 6
+http://www.agentlotto1.com 1 1
+http://www.energy-hope.ru/olymp/idea.html 32 100
+http://energy-hope.ru/ads.txt 2 2
+http://www.energy-hope.ru/docs/EHOPE_ph_results_XIV.pdf 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_preselection_ph_solutions.pdf 5 5
+http://www.energy-hope.ru/olymp/metodic.html 19 26
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_inf_tasks_11.pdf 11 11
+http://www.energy-hope.ru/yeartwokfifteen/result.html 29 44
+http://www.energy-hope.ru/yeartwokeleven/statinf.html 3 3
+http://energy-hope.ru/actual/wscan.html 1 2
+https://rapiddoors.ru 1 1
+http://ocume.uraja.trade/olimpiadnye-eksperimentalnye-zadachi-po-fizike-837.php 0 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph_tasks_10.pdf 1 1
+http://energy-hope.ru/yeartwoksixteen/wscan.html 0 1
+http://www.energy-hope.ru/docs/EHOPE_ph_preselection_XIV.pdf 4 5
+http://www.energy-hope.ru/yeartwoknine/taskstwoknineten_m.html 0 30
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_7_solutions.pdf 3 3
+http://www.energy-hope.ru/cabinet/results.html 33 177
+http://www.energy-hope.ru/img/examples/t_m_MMX_MMXI_VII_VII.png 0 1
+http://www.energy-hope.ru/yeartwokfourteen/tasks.html 8 67
+http://energy-hope.ru/yeartwoksixteen/tasks.html 0 32
+http://www.energy-hope.ru/docs/EHOPE_XVI_spravka_ph.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_complex_tasks_9_2.pdf 1 1
+http://www.energy-hope.ru/actual/result.htm 1 180
+http://www.energy-hope.ru/img/examples/t_m_MMX_MMXI_VII_V.png 0 1
+https://energy-hope.ru 51 69
+http://www.energy-hope.ru/docs/EHOPE_XVIII_ph_idea_result.pdf 3 3
+http://mathus.ru/olymp/hopen.php 9 13
+http://www.energy-hope.ru/docs/EHOPE_math_preselection_XIV_v2.pdf 3 3
+http://www.energy-hope.ru/docs/EHOPE_XVI_preselection_math_results.pdf 2 3
+http://energy-hope.ru/css/eh-rotator1.css 0 20
+http://www.energy-hope.ru/liter.html 5 5
+http://www.energy-hope.ru/news00000200.html 3 25
+http://www.energy-hope.ru/docs/EHOPE_inf_final_solutions_XV.pdf 1 2
+http://www.energy-hope.ru/docs/EHOPE_math_10_XIV.pdf 1 1
+http://www.energy-hope.ru/yeartwokseventeen/grafik.html 5 5
+http://gng.h1n.ru/works/works.php 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_7.pdf 3 3
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_10_solutions.pdf 8 8
+http://www.energy-hope.ru/docs/EHOPE_ph_11_XIII.pdf 4 6
+http://www.energy-hope.ru/docs/EHOPE_ph_10_XIII.pdf 0 1
+http://www.energy-hope.ru/yeartwokfourteen/statmath.html 2 6
+http://faye.forum.telrock.net 1 1
+http://www.energy-hope.ru/about/partner.html 80 158
+http://www.energy-hope.ru/advice2t.html 4 21
+http://www.energy-hope.ru/yeartwoksixteen/statmath.html 8 26
+http://divine-femdom.femdomgalleries.top 1 1
+http://elite-latinas.pornpost.in 1 1
+http://www.energy-hope.ru/docs/EHOPE_math_final_solutions_XV.pdf 18 25
+http://www.energy-hope.ru/docs/results-MATH_XII.pdf 10 10
+http://pizza-imperia.com 2 2
+http://asian.porndairy.in 1 1
+http://www.energy-hope.ru/news00000257.html 6 6
+http://www.energy-hope.ru/news000257.html 0 1
+http://www.energy-hope.ru//install.php 4 4
+http://www.energy-hope.ru/docs/EHOPE_ph_final_solutions_XIV.pdf 1 1
+http://forum.ssve.ru/go 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_8_ans.pdf 2 2
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph_tasks_10_ans.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph_tasks_7.pdf 1 1
+http://cellpremium.fo.ru/wiki/353584_%D0%9E%D0%B1%D1%89%D0%B8%D0%B5/1270582_%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA+%D0%9F%D0%BE+%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8+10+%D0%9A%D0%BB%D0%B0%D1%81%D1%81+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C+%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD+%D0%9B%D0%B8%D1%81%D0%BE%D0%B2 0 3
+http://www.energy-hope.ru/css/eh-common-ie.css 0 6652
+http://www.energy-hope.ru/docs/EHOPE_math_final_solutions_XIII.pdf 2 3
+http://abisgroup.ru/articles/vybiraem-furnituru-dlja-okon.htm 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_criterii.pdf 1 1
+http://sarah.blogs.telrock.org 1 1
+http://www.energy-hope.ru/news000263.html 0 2
+http://webcam.adultnet.in 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_preselection_bug_I_XIII.pdf 3 3
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_res_w.pdf 3 3
+http://toys.erolove.in 1 1
+http://www.energy-hope.ru/news00000199.html 3 3
+http://www.energy-hope.ru/olymp/tasks.html 57 58
+http://www.energy-hope.ru/yeartwokten/resultII.html 21 28
+http://www.energy-hope.ru/olymp/orgadd.html 8 8
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_7.pdf 4 4
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_9_solutions.pdf 6 6
+http://www.energy-hope.ru/docs/EHOPE_var_final_math_11_XV.pdf 1 4
+http://www.energy-hope.ru/yeartwokeleven/statpd.html 3 11
+http://www.energy-hope.ru/news00000266.html 6 59
+http://www.energy-hope.ru/docs/EHOPE_w_res_math_ap_XV.pdf 2 2
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_11.pdf 14 15
+http://www.energy-hope.ru/EF2E2FCB-C8DD-4835-84E1-4B75F0DAF7DD/FinalDownload/DownloadId-F95C2732E2C47B77AEEBCA6D9E990500/EF2E2FCB-C8DD-4835-84E1-4B75F0DAF7DD/docs/XVIII/EHOPE_XVIII_wscan_ph_list.pdf 1 1
+http://www.energy-hope.ru/lastyear/fisgia.html 86 182
+http://mathus.ru/olymp/ 3 3
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_11_ans.pdf 1 1
+http://www.energy-hope.ru/news000091.html 0 32
+http://www.energy-hope.ru/yeartwokthirteen/tasks.html 3 23
+http://www.energy-hope.ru/novice/recover_password.html 20 82
+http://www.energy-hope.ru/docs/EHOPE_XVII_preselection_ph_results.pdf 2 2
+http://www.energy-hope.ru/docs/EHOPE_ph_preselection_XIII.pdf 13 13
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_res_w.pdf 1 1
+http://www.energy-hope.ru/advice00000003.html 37 37
+http://postypashki.ru/%d0%be%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d1%8b/%d0%bd%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0-%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/ 3 48
+http://www.energy-hope.ru/news000142.html 0 1
+http://energy-hope.ru/about/statement.html 1 8
+http://abiturient.ispu.ru 6 6
+http://energy-hope.ru/olymp/liter.html 8 31
+http://www.energy-hope.ru/docs/EHOPE_XVI_preselection_ph_results.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_inf_final_solutions_XIV.pdf 1 1
+https://prostitutkipitera.pw 31 31
+http://ryan.projects.telrock.org 1 1
+http://100bucks.ru/#ehope.ru 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_inf_tasks_9_ans.pdf 1 1
+http://www.energy-hope.ru/news00000238.html 22 286
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_preselection_inf_solutions.pdf 12 12
+http://spanking.xblog.in 1 1
+http://www.energy-hope.ru/yeartwoktwelve/tasks.html 38 496
+http://www.energy-hope.ru/docs/EHOPE_complex_final_solutions_XIII.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_math_preselection_XIII.pdf 3 3
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_8_solutions.pdf 6 6
+http://www.energy-hope.ru/docs/EHOPE_XVI_ph_preselection_tasks.pdf 2 2
+http://sex.blog.pornstars.sexblog.pw 1 1
+http://www.energy-hope.ru/olymp/health.html 3 3
+http://comics.darks.purplesphere.in 1 1
+http://away.vk.com/away.php 15 16
+https://yandex.by 1 1
+http://8pw.ru/www.energy-hope.ru 1 1
+http://www.energy-hope.ru/news00000264.html 6 11
+http://www.energy-hope.ru/docs/EHOPE_XVI_preselection_inf_results.pdf 1 1
+http://girl-on-girl-pics.purplesphere.in 1 1
+http://www.energy-hope.ru/news00000215.html 0 9
+http://energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_res_w.pdf 0 1
+http://www.energy-hope.ru/news00000263.html 3 9
+http://www.energy-hope.ru/docs/EHOPE_w_res_math_XIV.pdf 1 1
+http://www.energy-hope.ru/yeartwokseventeen/result.html 9 9
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_7_ans.pdf 2 2
+http://www.energy-hope.ru/docs/EHOPE_ph_results_XIII.pdf 3 3
+http://www.energy-hope.ru/yeartwokfifteen/gallery.html 0 9
+http://bessie.projects.telrock.org 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_preselection_XIV_v2.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_math_10_11_XIII.pdf 7 10
+http://racoonda.ru 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_11_solutions.pdf 4 4
+http://www.energy-hope.ru/yeartwoktwelve/statph.html 0 9
+http://www.energy-hope.ru:80/olymp/liter.html 1 1
+http://www.energy-hope.ru/docs/EHOPE_math_final_XIII.pdf 6 6
+http://www.energy-hope.ru/docs/EHOPE_XVII_spravka_math.pdf 1 1
+http://mathus.ru/olymp/index.php 2 2
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_9.pdf 5 5
+http://dovuz.sfu-kras.ru/olimpiada-nadezhda-jenergetiki/ 10 10
+http://4ege.ru/materials_podgotovka/53664-olimpiada-shkolnikov-nadezhda-energetiki.html 7 7
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph.pdf 4 4
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_criterii.pdf 3 3
+http://energy-hope.ru/news00000175.html 0 32
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_complex_tasks_11.pdf 2 2
+http://angelita.blogs.telrock.org 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_complex.pdf 0 2
+http://www.abiturient.ispu.ru/200-itogi-otborochnogo-etapa-olimpiady-nadezhda-energetiki 2 3
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_complex_tasks_11_2.pdf 1 1
+http://top-asses.purplesphere.in 1 1
+http://energy-hope.ru/olymp/liter_i.html 1 1
+http://stuffgate.com/energy-hope.ru 1 1
+http://www.energy-hope.ru/about/statement.htm 3 9
+http://ssve.ru/link/ehope.ru 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_10.pdf 0 1
+http://%20www.energy-hope.ru 6 6
+http://www.energy-hope.ru/actual/report.html 15 103
+http://lesbian-pictures.xblog.in 1 1
+http://www.energy-hope.ru/cabinet/stages.html 24 119
+http://www.energy-hope.ru/actual/result.html 161 1353
+https://www.hotelhot.ru 1 1
+http://www.energy-hope.ru/grafik.html 4 4
+http://betty.w.telrock.org 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_wscan_ph_list.pdf 4 4
+http://www.mega-lottery.ru/zakon-jackpot.html 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_preselection_inf_tasks.pdf 2 2
+http://www.energy-hope.ru/actual/statinf.html 10 46
+http://energy-hope.ru/news00000274.html 2 7
+http://www.energy-hope.ru/css/eh-rotator1.css 0 641
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_math_results.pdf 8 8
+http://www.energy-hope.ru/docs/EHOPE_var_final_ph_7_XV.pdf 1 1
+http://www.energy-hope.ru/news2015y.html 0 3
+http://www.energy-hope.ru/docs/EHOPE_XVI_wscan_inf_list.pdf 1 1
+http://energy-hope.ru/advice1.html 0 5
+http://hot-big-tits.tobuy.in 1 1
+http://lesbian.porn.pics.sexgalleries.top 1 1
+https://wlmedia.ru 2 2
+http://sex.positions.blog.sexblog.pw 1 1
+http://lesbian-girls.lastnews.in 1 1
+http://www.energy-hope.ru/about/vidayushiesyz_chleni_orgkomiteta.html 4 8
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_preselection_math_tasks.pdf 29 30
+http://resell-seo-services.com/try.php 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_wscan_math_list.pdf 2 2
+http://www.energy-hope.ru/docs/EHOPE_math_preselection_tasks_XV.pdf 2 5
+https://mpei.ru 2 2
+http://molochnica-stop.liffa.ru 2 2
+http://energy-hope.ru/actual/tasks.html 1 1
+http://www.energy-hope.ru/8882B0 2 7
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_inf_solutions.pdf 1 1
+http://rsr-olymp.ru/archive 1 1
+http://bondage.xblog.in 1 1
+http://www.energy-hope.ru/olymp/liter_i.html 26 46
+http://www.energy-hope.ru/docs/EHOPE_math_11_XIV.pdf 0 1
+https://goo.gl/maps/v9Bi3hSoCwQ2 1 1
+http://www.energy-hope.ru/docs/EHOPE_math_results_XIV.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_energy_edu_XV.pdf 1 1
+http://abiturient.tsu.ru/olymp/olimp-list/ 2 2
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph_res_w.pdf 1 1
+http://susie.web1.telrock.net 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_complex_tasks_10.pdf 1 1
+https://mityr-trans.com/avtopark/10-tonnik-s-20-futovym-kontejnerom.html 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_res.pdf 13 13
+http://hot.babes18.gotorrents.top 1 1
+http://www.energy-hope.ru/docs/EHOPE_inf_preselection_XV.pdf 2 2
+http://www.energy-hope.ru/yeartwokten/taskstwokteneleven.html 5 185
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph_solutions.pdf 14 14
+http://www.energy-hope.ru/news00000273.html 14 28
+https://auxioma.fr 1 1
+http://www.energy-hope.ru/docs/energy_hope_physics_2011-03-05.xls 0 2
+http://www.edu.ru/abitur/act.67/index.php 1 1
+http://burger-imperia.com 1 1
+http://www.energy-hope.ru/actual/wscan.html 32 63
+http://energy-hope.ru/actual/gallery.html 1 105
+http://www.energy-hope.ru/docs/winners2011.pdf 6 6
+http://www.energy-hope.ru/yeartwokten/statmc.html 3 12
+http://www.energy-hope.ru/news000258.html 0 6
+http://www.energy-hope.ru/news00000258.html 3 8
+http://bertie.post1.telrock.org 1 1
+http://www.energy-hope.ru/news.html 0 9
+http://www.energy-hope.ru/yeartwoktwelve/statmath.html 2 33
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_ph_tasks_8.pdf 0 1
+http://www.energy-hope.ru/docs/EHOPE_w_res_ph_ap_XV.pdf 2 2
+http://siovegoconsack.fo.ru 0 2
+http://www.energy-hope.ru/about/reglament.html 64 183
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_res.pdf 10 10
+http://7ooo.ru/forum/ 1 1
+http://www.energy-hope.ru/docs/EHOPE_ph_final_solutions_XV.pdf 0 1
+http://energy-hope.ru/faq03.html 0 7
+http://gabriela.w.telrock.org 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_inf_tasks_9_ans.pdf 1 1
+http://www.energy-hope.ru/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 1
+http://rsr-olymp.ru 46 46
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_inf_res.pdf 6 6
+http://www.energy-hope.ru/docs/EHOPE_math_preselection_XV.pdf 4 4
+http://star-celebrity-porn.erolove.top 1 1
+http://bbwdating.erolove.in 1 1
+http://www.energy-hope.ru/yeartwoksixteen/report.html 0 4
+http://www.energy-hope.ru/img/gallery/2015_g3_006.jpg 1 1
+http://bisexual.community.twiclub.in 1 1
+http://www.energy-hope.ru/docs/tasks_phis_XII.pdf 1 2
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_wscan_ph.pdf 3 7
+http://selfshots.erolove.in 1 1
+http://energy-hope.ru/blog/ 1 1
+http://www.energy-hope.ru/yeartwokeleven/tasks_XII.html 12 17
+http://www.energy-hope.ru/img/rushydro.swf 12 12
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_spravka_ph.pdf 1 1
+http://www.energy-hope.ru/yeartwokthirteen/result.html 14 52
+http://www.energy-hope.ru/docs/EHOPE_math_preselection_XIV.pdf 3 3
+http://www.energy-hope.ru/docs/EHOPE_inf_XIII.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_complex_solutions_11_2.pdf 1 1
+http://www.energy-hope.ru/actual/statph.html 5 17
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_ph_idea_criterii_w.pdf 1 2
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_complex_tasks_10_11_1.pdf 3 3
+http://bisexual-italy.pornpost.in 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_inf_tasks_9.pdf 3 3
+http://energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_complex_res_w.pdf 0 1
+http://mona.post1.telrock.org 1 1
+http://www.energy-hope.ru/docs/EHOPE_complex_tren.pdf 1 1
+http://pizza-tycoon.com 3 3
+http://kronosit.ltd.za.net/4/diagnosticheskaya-rabota-po-matematike-5.php 0 1
+http://www.energy-hope.ru/yeartwoktwelve/result.html 8 8
+http://pornstartits.xblog.in 1 1
+http://hydroschool.ru/school/ 2 2
+http://www.energy-hope.ru/news00000268.html 3 3
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_11_solutions.pdf 8 9
+http://www.energy-hope.ru/yeartwoksixteen/result.html 83 160
+http://bisexual.galleries.xblog.in 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_complex_solutions_10_11_1.pdf 2 2
+https://vk.com/indiamagik 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_complex_res_w.pdf 1 1
+http://www.energy-hope.ru/advice00000004.html 9 41
+http://downloadfreesi.bitballoon.com/olimpiadnie-zadaniya-po-matematike-78-klassi-s-resheniyami.html 0 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_ph_tasks_9_solutions.pdf 1 1
+http://www.energy-hope.ru/theme/assets/global/plugins/jquery-file-upload/server/php/ 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_8.pdf 2 2
+http://www.energy-hope.ru/about/organizatori.html 2 2
+http://www.energy-hope.ru/docs/EHOPE_math_final_XV.pdf 1 1
+http://www.energy-hope.ru/cabinet/distance.html 11 14
+http://www.energy-hope.ru/olymp/liter_p.html 59 152
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_complex_tasks_9.pdf 1 1
+http://www.energy-hope.ru/news00000256.html 3 3
+http://webcamsex.net.erolove.in 1 1
+http://www.energy-hope.ru/yeartwokfifteen/tasks.html 22 197
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_preselection_ph_tasks.pdf 7 7
+http://www.energy-hope.ru/yeartwokeleven/results_XII.html 17 20
+http://www.energy-hope.ru/docs/EHOPE_XVI_final_math_tasks_10.pdf 1 1
+http://www.energy-hope.ru/yeartwokfourteen/result.html 15 145
+http://www.energy-hope.ru/docs/EHOPE_ph_final_solutions_XIII.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_math_7_8_XIII.pdf 1 1
+http://www.energy-hope.ru/cabinet/documents.html 20 79
+http://energy-hope.ru/actual/result.html 4 30
+http://www.energy-hope.ru/olymp/liter_m.html 55 57
+http://www.energy-hope.ru/yeartwokeight/ststma.html 16 48
+http://www.energy-hope.ru/docs/EHOPE_XVII_final_math.pdf 3 3
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_complex_tasks_9_1.pdf 1 1
+http://www.energy-hope.ru/yeartwoksixteen/tasks.html 48 247
+http://energy-hope.ru/news00000249.html 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVII_wscan_math_part1.pdf 1 1
+http://go.mail.ru/search_images 0 40
+http://www.energy-hope.ru/cabinet/profile.html 147 372
+http://energy-hope.ru/faq01.html 0 23
+http://www.energy-hope.ru/docs/EHOPE_XVIII_preselection_ph_results.pdf 7 7
+http://www.energy-hope.ru/docs/EHOPE_math_preselection_tasks_XIV.pdf 3 6
+http://go.mail.ru 1 7
+https://duckduckgo.com 2 3
+http://www.energy-hope.ru/docs/ 3 3
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_math_tasks_10.pdf 2 2
+http://abiturient.ispu.ru/200-itogi-otborochnogo-etapa-olimpiady-nadezhda-energetiki 2 8
+http://energy-hope.ru/actual/grafik.html 4 10
+http://www.energy-hope.ru/news00000043.html 1 1
+http://laurie.go.telrock.net 1 1
+http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_inf_tasks_11_solutions.pdf 1 1
+http://www.energy-hope.ru/docs/EHOPE_XVI_final_ph_ans_7.pdf 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+string 3
+%d0%be%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2+%d0%bd%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8+%d0%be%d1%84%d0%b8%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9+%d1%81%d0%b0%d0%b9%d1%82 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1884.idpoxiyz3ihgpyetky0yif4i8pdnkiacxx2qr5ouocg8wyzhltd1gtbhmgps3yom.4698199ddaa72100aa02893fcfcf6e31d7764f65%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ymkospatjluqgxh-xwlwn-g%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrtejlzej1mnlnaegwcmi3nlfvtxjomtbyztb2y1dzzerkdfbwv3nivgf1velcnkvhujlxelfmzvnjcxjwb3reajv0akg2q2jfslfuv05vymgtwhk5v0hwwfbsujbsre45qq%26b64e%3d2%26sign%3d5ecfc2548f4bae767e80e6053ef43829%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqypgpuyh7uqlropvrclzq81o4bvrnxkmq326feivzk3wubwqhzpeykqquh_e62kw5uk8axbd3jrfyagrmpltsfdqvdm-9kxvsptht6gdv_c50ckzengq1mxjatr9xcqwgudqc9w0_mk4%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvz9tj3mp6dky83zi25-gvjqumnrx41bfmquzeosxjf_pwvdbvmdt04v-lqfpzrdeq9-vwcyrvpxrxpsnrenu-b%26l10n%3dru%26cts%3d1534649331734%26mc%3d6.66081217098 1
+%d0%9e%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2+%c2%ab%d0%9d%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8%c2%bb+%d0%bf%d0%be+%d0%ba%d0%be%d0%bc%d0%bf%d0%bb%d0%b5%d0%ba%d1%81%d1%83+%d0%bf%d1%80%d0%b5%d0%b4%d0%bc%d0%b5%d1%82%d0%be%d0%b2+%d1%84%d0%b8%d0%b7%d0%b8%d0%ba%d0%b0+%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0+%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1883.yt0f3linxbmlrvfwtremy1ivd7f-ivchozu1yvmazwwgddylt24kj-d3rl2eml1y.2a498a2ec37d6d05fe9cb2e6501240b5dc9c96a8%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ykcjkrjchpdsttwxtkjwgra%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrtejlzej1mnlnaeh6venteg0xyu8wdxfmatnjekpzyjgzae1eyzhra1hpltu5cld4vm4tc1z6nepwveotvhewvkjpmnfarnpjtkredg84mfbubvlwzxdavtlsn1hnr0nxvknuduktaehfrfdr%26b64e%3d2%26sign%3df3d6508bfcd4e9b9cf5d2fe5adcb6f93%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqulnovafacufke0xb7ton8rwelppp-dvkpanypkzqo3h2uuve237sjc8v7yph8dg546yv36jk2mmre7_0vy5cucvjwqjjl4wbir_6gnue5jpxqqp-onfn9fg4xuopmr5si6bgn6v2dma%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvueczlfhdrb6sjwcz30gzbq-dhstvqpexk7qhkvu8m1f9okeapvgkm1qgymtdkvsu4xik2q7n4eq%26l10n%3dru%26cts%3d1534553832545%26mc%3d1.54674460079 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1873.2qfl5kckyjc4qrkogp-rvlklj-iz0tzahwmqgth6zxekvz0he5hel5ml3fyi2sqx.dce54bc6819476e370bd77c74cba22dfcb83e601%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ygftrg9cp1erjbfvtucxdxk%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrtdizcznqq214au0yz2d6emlkwkd5dnnuuzdin3biztfjnulknvfmx3c1r2dulujenzl6nfhybvvhqjf6cw1wte1qwi1et0lzvwjhc1pqbs1mblborgfryxbsznrebvrluq%26b64e%3d2%26sign%3dc4ab9658ff9c2ee26a9036caa24792f6%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqsaytyyri96f3taeii7tjrwee2bwhj2scu0ag1xxqltggdiqlrulwrj9z8eplwuq1h2k74gngsqsoljlibp43mgar8nsinftnyzhkqicuhshpvw3vh2cvvw1p-imayizketrhl9cpjen%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcwuauzt58tqaqi1l1gb9d7zhi63rsbqkmi8acifesn3ws1708jjkx32uzt7pwkxwofacf7snh0fkcjirhrwzvj7%26l10n%3dru%26cts%3d1533691040234%26mc%3d5.28965220693 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1888.vepdnpplzybgodowgiqm8zi-itnu1kj-3o0wzxzokpljznjhd755_hfyr6livif6.1a8e52774de624dcb963777728e4615667dd8ddb%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yhrngn3ksbhjbmukku86_my%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrsjg2rvh6q3owd1n1zuvjturtwezfvxrwbu1vquhdzflsem5xtty1ukpjmwq4y0norm9itk9zznn1tg1pq1r3d0pkukt6t3zwsjjsb3jktk56rgltvna%26b64e%3d2%26sign%3d03c08786c206f29db64ea95b3c0fb3c3%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqa9gkhe_3kbictrkenve3_xneprrtopuy5llzndgv1fcohjmoz3jvkigtyg-ajjxgw7eogyexiyb_kbfegl_zwcjzy_shq--2d0ed9hfzciakdw_avhurk1xiixkimtgsbkmoy-wytrz%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcxma_rtih0ntf86eohmtmlvxxyu96geky_dq-vgghlpdx_ntillhdfafnqhzovgjpie7k6rkot_nqkasxcnxhnf%26l10n%3dru%26cts%3d1534959765538%26mc%3d2.80375251695 1
+%d0%9e%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2+%c2%ab%d0%9d%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5-%d1%82%d0%b8%d0%ba%d0%b8%c2%bb+%d0%bf%d0%be+%d0%ba%d0%be%d0%bc%d0%bf%d0%bb%d0%b5%d0%ba-%d1%81%d1%83+%d0%bf%d1%80%d0%b5%d0%b4%d0%bc%d0%b5%d1%82%d0%be%d0%b2+%d1%84%d0%b8-%d0%b7%d0%b8%d0%ba%d0%b0+%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%82%d0%b8-%d0%ba%d0%b0+%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1886.8r5ly-egqaztxijj9clanj5t3dcsgtymxqwzbcvw24nnhsvcfear2g-3nsb4zklo.3b11cd63da12f6464badc6cca074e647e85be1e8%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yleqvnu7tcjfwhspmnrg36y%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrsnjrrgw2t3y0sdztbef2mwrebjdvqtjsnml2wxp0wdvod0xad0llze1jymtvtdnytw9ys2nkcjd5twdluk1xwxm3rmhxmnbhumjszg1jrfh1dwv6znjdvndqcjl0v2jguq%26b64e%3d2%26sign%3da705310b5d611952e4b541936d7ee0d8%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqypgpuyh7uqllemtms1i6f35rloajaz7rdalljerg1igpddzj_vare6i208nwts-jmrkeyxukxxegvihomfag7odbsqyqnr49cagzjumv8yogxpofkxes4k1qt5weazkfq%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcwab4nbwhozjlgxhp1orzsmjvcrk4bc3ufrpycbrfd21np-iakszhbfaashnqtmxxqycwb-hmnnb67ep25_c94j%26l10n%3dru%26cts%3d1534786772452%26mc%3d2.19909084959 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1873.wsl2_v1_dzqfkdflihstpvjqu5nmxs7pjysncd34gxhxba-ppi1aiachvmqe8bdj.115e24154996d916dc42533b115416c9b56a0095%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ycybcirwnuha-mulbia3ohy%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrsjg2rvh6q3owd1n2m0jimfjosdjdnmjgchjncf9ozkfzvdhgtvu5clplzlfrnno4uvfevldpv244umnou0xovfdyx3o1bmrvmtnmy2rkqndgzvzhuxo%26b64e%3d2%26sign%3dd63ebf83f36116b34f5f01e350b6ae9f%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqaygayq7jarruyrixtzwksywt7vu5wnbisrjlkkpjfjtj43v9o4ahcbr-inweh4e_8ysc3sz-1llvbv1xfxupc2fdiujhfnjxcl-azebbvt_iojr0m9gk4rl6xyojrxz8uyvjhddtge4%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcwqwxj6qvocp8qr0bp92iqr48uvmtlvtkskuj6b3ls2j_8ts13hnlfo-xcqtcl7wuinv113rte9an9n9mle_9qj%26l10n%3dru%26cts%3d1533691040234%26mc%3d6.76474905439 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 27
+https 6
+string 3
+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2 3
+%c2%ab%d0%9d%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0 2
+%d0%bf%d1%80%d0%b5%d0%b4%d0%bc%d0%b5%d1%82%d0%be%d0%b2 2
+%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0 2
+%d0%bf%d0%be 2
+%d0%9e%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0 2
+%d0%ba%d0%be%d0%bc%d0%bf%d0%bb%d0%b5%d0%ba-%d1%81%d1%83 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1884.idpoxiyz3ihgpyetky0yif4i8pdnkiacxx2qr5ouocg8wyzhltd1gtbhmgps3yom.4698199ddaa72100aa02893fcfcf6e31d7764f65%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ymkospatjluqgxh-xwlwn-g%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrtejlzej1mnlnaegwcmi3nlfvtxjomtbyztb2y1dzzerkdfbwv3nivgf1velcnkvhujlxelfmzvnjcxjwb3reajv0akg2q2jfslfuv05vymgtwhk5v0hwwfbsujbsre45qq%26b64e%3d2%26sign%3d5ecfc2548f4bae767e80e6053ef43829%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqypgpuyh7uqlropvrclzq81o4bvrnxkmq326feivzk3wubwqhzpeykqquh_e62kw5uk8axbd3jrfyagrmpltsfdqvdm-9kxvsptht6gdv_c50ckzengq1mxjatr9xcqwgudqc9w0_mk4%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvz9tj3mp6dky83zi25-gvjqumnrx41bfmquzeosxjf_pwvdbvmdt04v-lqfpzrdeq9-vwcyrvpxrxpsnrenu-b%26l10n%3dru%26cts%3d1534649331734%26mc%3d6.66081217098 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1873.2qfl5kckyjc4qrkogp-rvlklj-iz0tzahwmqgth6zxekvz0he5hel5ml3fyi2sqx.dce54bc6819476e370bd77c74cba22dfcb83e601%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ygftrg9cp1erjbfvtucxdxk%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrtdizcznqq214au0yz2d6emlkwkd5dnnuuzdin3biztfjnulknvfmx3c1r2dulujenzl6nfhybvvhqjf6cw1wte1qwi1et0lzvwjhc1pqbs1mblborgfryxbsznrebvrluq%26b64e%3d2%26sign%3dc4ab9658ff9c2ee26a9036caa24792f6%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqsaytyyri96f3taeii7tjrwee2bwhj2scu0ag1xxqltggdiqlrulwrj9z8eplwuq1h2k74gngsqsoljlibp43mgar8nsinftnyzhkqicuhshpvw3vh2cvvw1p-imayizketrhl9cpjen%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcwuauzt58tqaqi1l1gb9d7zhi63rsbqkmi8acifesn3ws1708jjkx32uzt7pwkxwofacf7snh0fkcjirhrwzvj7%26l10n%3dru%26cts%3d1533691040234%26mc%3d5.28965220693 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1883.yt0f3linxbmlrvfwtremy1ivd7f-ivchozu1yvmazwwgddylt24kj-d3rl2eml1y.2a498a2ec37d6d05fe9cb2e6501240b5dc9c96a8%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ykcjkrjchpdsttwxtkjwgra%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrtejlzej1mnlnaeh6venteg0xyu8wdxfmatnjekpzyjgzae1eyzhra1hpltu5cld4vm4tc1z6nepwveotvhewvkjpmnfarnpjtkredg84mfbubvlwzxdavtlsn1hnr0nxvknuduktaehfrfdr%26b64e%3d2%26sign%3df3d6508bfcd4e9b9cf5d2fe5adcb6f93%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqulnovafacufke0xb7ton8rwelppp-dvkpanypkzqo3h2uuve237sjc8v7yph8dg546yv36jk2mmre7_0vy5cucvjwqjjl4wbir_6gnue5jpxqqp-onfn9fg4xuopmr5si6bgn6v2dma%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvueczlfhdrb6sjwcz30gzbq-dhstvqpexk7qhkvu8m1f9okeapvgkm1qgymtdkvsu4xik2q7n4eq%26l10n%3dru%26cts%3d1534553832545%26mc%3d1.54674460079 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1888.vepdnpplzybgodowgiqm8zi-itnu1kj-3o0wzxzokpljznjhd755_hfyr6livif6.1a8e52774de624dcb963777728e4615667dd8ddb%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yhrngn3ksbhjbmukku86_my%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrsjg2rvh6q3owd1n1zuvjturtwezfvxrwbu1vquhdzflsem5xtty1ukpjmwq4y0norm9itk9zznn1tg1pq1r3d0pkukt6t3zwsjjsb3jktk56rgltvna%26b64e%3d2%26sign%3d03c08786c206f29db64ea95b3c0fb3c3%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqa9gkhe_3kbictrkenve3_xneprrtopuy5llzndgv1fcohjmoz3jvkigtyg-ajjxgw7eogyexiyb_kbfegl_zwcjzy_shq--2d0ed9hfzciakdw_avhurk1xiixkimtgsbkmoy-wytrz%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcxma_rtih0ntf86eohmtmlvxxyu96geky_dq-vgghlpdx_ntillhdfafnqhzovgjpie7k6rkot_nqkasxcnxhnf%26l10n%3dru%26cts%3d1534959765538%26mc%3d2.80375251695 1
+%d0%bd%d0%b0%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1873.wsl2_v1_dzqfkdflihstpvjqu5nmxs7pjysncd34gxhxba-ppi1aiachvmqe8bdj.115e24154996d916dc42533b115416c9b56a0095%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ycybcirwnuha-mulbia3ohy%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrsjg2rvh6q3owd1n2m0jimfjosdjdnmjgchjncf9ozkfzvdhgtvu5clplzlfrnno4uvfevldpv244umnou0xovfdyx3o1bmrvmtnmy2rkqndgzvzhuxo%26b64e%3d2%26sign%3dd63ebf83f36116b34f5f01e350b6ae9f%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqaygayq7jarruyrixtzwksywt7vu5wnbisrjlkkpjfjtj43v9o4ahcbr-inweh4e_8ysc3sz-1llvbv1xfxupc2fdiujhfnjxcl-azebbvt_iojr0m9gk4rl6xyojrxz8uyvjhddtge4%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcwqwxj6qvocp8qr0bp92iqr48uvmtlvtkskuj6b3ls2j_8ts13hnlfo-xcqtcl7wuinv113rte9an9n9mle_9qj%26l10n%3dru%26cts%3d1533691040234%26mc%3d6.76474905439 1
+%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%82%d0%b8-%d0%ba%d0%b0 1
+%d1%84%d0%b8%d0%b7%d0%b8%d0%ba%d0%b0 1
+%d0%ba%d0%be%d0%bc%d0%bf%d0%bb%d0%b5%d0%ba%d1%81%d1%83 1
+%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0 1
+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5-%d1%82%d0%b8%d0%ba%d0%b8%c2%bb 1
+%d0%be%d0%bb%d0%b8%d0%bc%d0%bf%d0%b8%d0%b0%d0%b4%d0%b0 1
+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1886.8r5ly-egqaztxijj9clanj5t3dcsgtymxqwzbcvw24nnhsvcfear2g-3nsb4zklo.3b11cd63da12f6464badc6cca074e647e85be1e8%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yleqvnu7tcjfwhspmnrg36y%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxavp0ewxcuujzadv1y09eodnwoxlrsnjrrgw2t3y0sdztbef2mwrebjdvqtjsnml2wxp0wdvod0xad0llze1jymtvtdnytw9ys2nkcjd5twdluk1xwxm3rmhxmnbhumjszg1jrfh1dwv6znjdvndqcjl0v2jguq%26b64e%3d2%26sign%3da705310b5d611952e4b541936d7ee0d8%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqypgpuyh7uqllemtms1i6f35rloajaz7rdalljerg1igpddzj_vare6i208nwts-jmrkeyxukxxegvihomfag7odbsqyqnr49cagzjumv8yogxpofkxes4k1qt5weazkfq%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcwab4nbwhozjlgxhp1orzsmjvcrk4bc3ufrpycbrfd21np-iakszhbfaashnqtmxxqycwb-hmnnb67ep25_c94j%26l10n%3dru%26cts%3d1534786772452%26mc%3d2.19909084959 1
+%d0%be%d1%84%d0%b8%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9 1
+%d1%81%d0%b0%d0%b9%d1%82 1
+%d1%84%d0%b8-%d0%b7%d0%b8%d0%ba%d0%b0 1
+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b5%d1%82%d0%b8%d0%ba%d0%b8%c2%bb 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 4 1163
+302 31 13118
+206 13 248919
+404 494 144248
+301 20861 651
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 38
+/docs/ehope_xvi_final_math_res_w.pdf 14 -
+/docs/ehope_inf_final_solutions_xv.pdf 9 -
+/docs/ehope_criterii_ph_xv.pdf 9 -
+/manager/index.php 1 http://www.energy-hope.ru/manager/index.php
+/docs/ehope_ph_preselection_xiii.pdf 9 -
+/img/spec.js 203 http://www.energy-hope.ru/news00000264.html
+/phpmyadmin/scripts/setup.php 2 -
+/docs/ehope_xvii_final_math_res_w.pdf 9 -
+/manager/fckedit/editor/fckeditor.original.html 1 -
+/cgi-bin/mt/mt-check.cgi 1 -
+/manager/edit/editor/fckeditor.original.html 1 -
+/docs/ehope_xvi_final_ph.pdf 12 -
+/docs/ehope_xvi_wscan_ph_list.pdf 9 -
+/docs/ehope_xvii_final_ph_tasks_10_ans.pdf 2 -
+/docs/EHOPE_math_final_costofcial.com_XIII.pdf 1 http://www.energy-hope.ru/
+/docs/ehope_xvi_final_ph_res_w.pdf 11 -
+/docs/ehope_xvii_preselection_ph_results.pdf 11 -
+/docs/XVIII/punycode.min.js 5 http://www.energy-hope.ru/docs/XVIII/EHOPE_XVIII_final_complex_tasks_11.pdf
+/docs/ehope_ph_9_xiii.pdf 14 -
+/docs/tasks_phis_xii.pdf 10 -
+/docs/ehope_complex_final_xiii.pdf 13 -
+/docs/ehope_math_preselection_xiii.pdf 11 -
+/docs/ehope_math_10_xiv.pdf 11 -
+/docs/EHOPE_w_res_ph_bug_III_XV.pdf 1 -
+/docs/ehope_math_final_solutions_xv.pdf 14 -
+/docs/XVIII/EHOPE_XVIII_final_complex_tasks_9_10_11_solutions.pdf 4 -
+/documents/ehope_variant_m.rar 15 -
+/manager/editor/editor/fckeditor.original.html 1 -
+/docs/ehope_math_metodic_xvii.pdf 13 -
+/img/idea.png 21 http://www.energy-hope.ru/olymp/idea.html
+/docs/ehope_inf_preselection_xiii.pdf 14 -
+/docs/ehope_math_final_xiii.pdf 13 -
+/img/t_MMX_MMXI_VII_I.png 5 -
+/docs/ehope_ph_results_xiii.pdf 13 -
+/docs/ehope_math_preselection_xiv.pdf 8 -
+/manager/fck/editor/fckeditor.original.html 1 -
+/docs/winners2011.pdf%4080 1 http://seoprofisional.ru
+/manager/fckeditor/editor/fckeditor.original.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1716
+37.143.12.102 57131 59695 7117397133 20180831235904
+46.148.192.130 4 310 3440168 20180821111954
+81.20.107.254 3 153 841444 20180815202613
+95.141.237.28 2 108 606654 20180828111554
+67.142.112.16 2 97 511332 20180802063714
+80.84.146.251 2 54 862797 20180817012549
+178.57.75.161 2 114 629561 20180823102940
+78.57.236.219 2 141 1642364 20180812212227
+40.77.188.101 2 42 239977 20180831034422
+40.77.189.12 2 38 305967 20180831203209
+40.77.189.218 0 1 897 
+40.77.193.102 0 1 12598 
+91.207.239.52 0 33 200965 
+40.77.190.15 0 3 17546 
+37.230.204.246 0 31 199786 
+195.211.23.207 0 4 4165 
+194.226.8.19 0 32 199826 
+40.77.188.198 1 47 232390 20180813045251
+95.29.31.90 0 57 239855 
+89.23.183.183 1 55 303579 20180811153449
+125.209.235.174 0 6 87307 
+40.77.188.54 0 4 79874 
+128.72.98.216 0 36 433811 
+40.77.192.173 0 1 897 
+40.77.190.118 0 1 13198 
+80.70.98.77 0 36 203188 
+212.34.48.73 0 33 200965 
+40.77.192.235 0 2 2345 
+40.77.194.27 0 2 1232 
+40.77.190.102 0 2 3893 
+173.252.87.14 0 2 5003 
+46.242.8.22 0 1 39123 
+40.77.189.127 0 3 4804 
+40.77.193.150 0 2 30385 
+94.51.9.147 0 1 168148 
+40.77.188.127 0 5 45750 
+46.39.56.122 0 32 200925 
+195.211.23.214 0 9 5882 
+40.77.195.83 0 1 204320 
+91.236.150.68 0 5 517952 
+188.170.82.16 1 56 508487 20180814204241
+40.77.193.232 0 1 77746 
+40.77.193.43 0 1 77746 
+87.255.228.17 0 33 200965 
+95.46.119.171 0 52 216988 
+176.215.188.4 0 1 44789 
+40.77.189.207 0 2 43442 
+109.173.61.215 0 9 91610 
+95.24.92.65 0 1 86093 
+176.15.205.188 0 33 200965 
+40.77.192.196 0 1 2754 
+40.77.189.246 0 4 67240 
+31.13.144.52 0 57 239855 
+60.250.204.149 0 46 213694 
+195.211.23.217 0 8 4441 
+40.77.189.32 0 2 4057 
+40.77.189.39 0 3 5291 
+89.179.86.166 0 33 200965 
+95.27.44.213 0 4 4489 
+40.77.252.57 0 1 13198 
+85.140.0.64 0 68 257478 
+178.34.150.28 0 1 170793 
+178.205.24.102 0 53 217240 
+2.135.158.56 0 1 39123 
+195.239.18.130 0 1 99176 
+37.112.158.232 0 58 239895 
+93.84.8.177 0 52 216988 
+40.77.189.141 0 8 31467 
+176.14.146.57 0 1 86093 
+40.77.188.41 0 1 1713 
+52.53.200.51 0 9 94192 
+5.228.148.155 0 9 91610 
+178.155.5.229 0 32 199826 
+5.145.225.132 0 30 119604 
+95.73.11.102 0 65 702571 
+89.218.97.52 0 33 200965 
+40.77.195.46 0 2 2197 
+176.59.116.39 0 65 253768 
+212.77.141.63 0 33 200965 
+40.77.195.74 0 1 9401 
+37.122.189.52 0 52 216988 
+95.220.203.232 0 1 80849 
+80.76.236.2 0 2 185466 
+40.77.252.129 0 2 17889 
+188.254.50.86 1 60 326234 20180823075533
+95.54.4.138 0 33 200965 
+89.151.178.124 1 60 326234 20180807114500
+66.102.8.24 1 21 122790 20180808034339
+31.131.185.96 0 59 240147 
+95.167.150.19 0 5 9352 
+5.169.171.133 0 58 239895 
+213.87.132.222 0 59 240147 
+31.173.87.240 0 37 303678 
+85.140.2.136 0 9 89529 
+40.77.252.45 0 1 354 
+188.32.248.28 0 33 200965 
+40.77.188.34 0 2 84 
+40.77.190.14 0 3 2997 
+40.77.192.62 0 1 12598 
+188.123.252.99 0 51 216948 
+5.138.243.36 0 1 12097 
+195.49.206.90 0 52 216988 
+40.77.193.130 0 1 679 
+40.77.188.207 0 1 52475 
+40.77.194.84 0 1 1720 
+145.255.10.243 0 53 217240 
+85.91.193.104 0 1 32495 
+193.109.114.149 1 54 303327 20180807115816
+40.77.189.103 0 1 34041 
+37.204.47.232 0 1 104552 
+40.77.252.86 0 1 1387 
+31.173.82.34 0 45 336700 
+40.77.190.112 0 1 10090 
+46.21.74.226 0 64 244083 
+82.140.205.163 0 1 20756 
+87.117.189.11 0 58 239895 
+40.77.189.114 0 5 1363 
+40.77.190.41 0 11 80333 
+188.233.16.116 0 33 200965 
+40.77.190.141 0 3 46669 
+92.247.173.95 0 117 1115148 
+178.140.84.73 0 33 200965 
+40.77.192.58 0 1 333 
+195.88.58.184 1 60 326234 20180814215356
+40.77.188.240 0 3 1468 
+109.252.69.185 0 33 200965 
+85.173.179.56 0 1 88384 
+195.38.23.97 0 1 111761 
+213.24.126.231 0 34 332627 
+46.39.36.18 0 57 239855 
+40.77.194.111 0 1 12598 
+40.77.190.110 0 2 10987 
+89.178.17.50 0 9 91610 
+40.77.252.142 0 2 1263 
+40.77.189.230 0 4 14062 
+37.145.10.63 0 1 32495 
+40.77.253.38 0 2 54346 
+145.255.11.186 0 1 20756 
+40.77.252.140 1 29 127285 20180817101201
+142.93.180.89 0 4 84580 
+138.197.111.89 0 4 84580 
+40.77.189.53 0 3 50915 
+188.0.21.101 0 57 236585 
+95.52.77.106 0 59 240147 
+173.252.127.1 0 10 12086 
+40.77.190.63 0 2 164 
+90.143.24.238 0 134 496630 
+40.77.188.231 0 12 17914 
+40.77.194.189 0 1 118 
+185.182.81.58 0 60 242031 
+5.189.195.72 0 67 704707 
+85.26.235.62 0 61 320960 
+40.77.188.4 0 3 2232 
+176.108.193.198 0 33 200965 
+109.252.20.80 0 1 39123 
+37.113.110.255 0 104 1451596 
+40.77.189.158 0 1 1720 
+2.93.137.46 0 57 238756 
+188.244.36.175 1 105 621921 20180821200330
+173.252.87.6 0 17 61811 
+40.77.193.71 0 1 9401 
+194.4.151.170 1 54 303327 20180823123450
+40.77.193.80 0 1 506 
+188.235.9.64 1 53 303075 20180804152528
+128.75.174.212 1 54 303327 20180803180319
+40.77.194.22 0 1 104 
+217.118.78.80 0 33 200965 
+95.28.165.113 0 8 90713 
+162.208.51.37 0 2 26832 
+40.77.190.109 0 5 16528 
+176.117.112.157 0 66 159603 
+188.187.200.181 0 59 240147 
+188.32.129.223 0 1 27845 
+95.26.121.80 0 6 561719 
+95.108.244.43 0 1 89188 
+88.135.63.6 0 53 230543 
+40.77.194.133 0 1 118 
+46.160.44.168 0 66 401930 
+40.77.189.45 0 8 25770 
+40.77.188.211 0 3 46497 
+213.87.150.19 0 36 348871 
+93.84.145.55 0 1 20756 
+162.254.123.101 0 8 94152 
+95.78.72.161 0 33 200965 
+40.77.189.91 0 2 238361 
+40.77.194.62 0 3 46497 
+109.195.245.251 0 33 200965 
+85.113.214.129 0 33 200965 
+46.191.209.157 0 45 218619 
+109.196.217.3 0 59 240147 
+84.42.63.59 0 58 239895 
+40.77.189.224 0 1 354 
+40.77.189.27 0 5 34699 
+40.77.188.114 0 1 335 
+188.162.15.136 0 32 200925 
+45.55.252.183 0 40 781794 
+40.77.192.110 0 1 300 
+185.30.228.140 0 393 3198643 
+79.137.143.136 0 47 132165 
+40.77.192.156 0 1 77746 
+109.187.3.148 0 1 99176 
+93.120.187.30 1 59 325982 20180806172457
+85.118.76.225 0 58 239895 
+40.77.190.33 0 1 1138 
+40.77.188.150 0 10 78462 
+40.77.188.76 0 3 10310 
+217.117.117.26 0 51 216948 
+91.107.117.126 1 60 326234 20180831205436
+188.235.130.251 0 59 240147 
+95.107.13.72 0 59 240147 
+40.77.189.253 0 4 2700 
+213.108.148.226 0 1 79305 
+125.209.235.180 0 5 4290 
+40.77.188.243 0 1 12598 
+40.77.189.75 0 5 8996 
+40.77.189.1 1 43 201578 20180822151546
+40.77.190.17 0 3 13737 
+40.77.192.74 0 1 30 
+195.211.23.212 0 9 12552 
+81.1.164.98 0 1 65572 
+40.77.253.109 0 1 415 
+116.107.35.36 0 135 732748 
+40.77.189.98 0 1 1691 
+78.85.5.29 0 58 239895 
+89.151.178.227 0 33 200965 
+40.77.188.25 0 5 68490 
+40.77.252.32 0 2 12456 
+40.77.188.171 0 2 206514 
+85.140.0.224 0 52 216988 
+40.77.188.118 0 1 34041 
+178.204.176.159 0 60 242031 
+91.211.57.14 0 59 240147 
+176.49.31.44 0 58 239895 
+185.124.152.150 1 54 303327 20180829163820
+109.68.237.61 0 1 76340 
+109.195.205.169 1 54 303327 20180830140619
+213.59.146.97 0 67 1214405 
+40.77.192.237 0 1 335 
+159.203.69.239 0 4 84580 
+40.77.253.21 1 32 130632 20180814041028
+95.108.133.215 0 1 88384 
+40.77.252.126 0 2 587 
+84.53.198.42 0 59 240147 
+40.77.194.107 0 1 2754 
+37.112.38.98 0 9 91610 
+40.77.194.118 0 2 613 
+213.138.90.200 0 58 239895 
+40.77.189.88 0 1 77746 
+40.77.188.70 0 1 415 
+45.55.254.212 0 4 84580 
+188.233.189.252 0 59 240147 
+40.77.188.255 0 2 6025 
+62.141.103.98 0 61 375026 
+213.141.156.155 1 119 565624 20180807223056
+178.88.119.230 0 13 228968 
+128.75.6.140 1 59 325982 20180821164916
+84.53.237.127 1 53 303075 20180816160024
+40.77.188.56 0 4 3520 
+31.134.191.26 0 51 216948 
+145.255.2.195 0 1 99176 
+188.19.45.255 0 1 29788 
+85.140.23.173 0 43 229026 
+213.87.160.143 0 59 241779 
+5.158.102.174 0 53 217240 
+62.183.124.191 0 57 239855 
+194.28.213.96 0 1 88384 
+212.77.158.45 0 53 217240 
+40.77.189.59 0 1 12598 
+213.242.42.137 0 33 200965 
+91.76.166.205 0 59 240147 
+40.77.189.138 0 3 1090 
+188.233.16.123 1 85 567896 20180806140631
+217.118.95.107 0 52 216988 
+109.126.248.33 1 53 303075 20180803220834
+40.77.192.240 0 2 12628 
+40.77.194.221 0 1 10090 
+83.149.44.238 0 59 240147 
+40.77.193.15 0 1 897 
+213.87.131.191 0 59 240147 
+94.180.75.226 0 59 240147 
+193.93.162.49 0 1 39123 
+95.189.97.14 0 62 0 
+77.37.243.189 0 82 1477696 
+40.77.188.96 0 1 34041 
+85.143.113.112 0 52 216988 
+40.77.194.90 0 2 13737 
+217.21.221.140 0 103 350797 
+94.180.136.176 0 32 199826 
+85.175.216.174 0 53 465199 
+95.220.71.65 0 1 897 
+40.77.194.83 0 1 1138 
+173.252.98.22 0 18 43672 
+40.77.189.31 0 5 114178 
+178.34.149.159 0 58 239895 
+95.174.210.214 1 54 303327 20180829170650
+176.110.239.174 0 59 240147 
+91.221.137.123 0 2 53625 
+40.77.190.100 0 5 12763 
+188.242.227.214 0 33 200965 
+83.149.226.11 0 1 60587 
+94.25.168.99 0 2 202084 
+31.13.144.33 0 1 99176 
+185.86.124.86 0 33 200965 
+195.211.23.221 0 6 4923 
+40.77.195.92 0 1 415 
+40.77.189.123 0 5 40955 
+125.209.235.176 0 6 19269 
+54.203.208.154 0 52 216988 
+94.79.28.90 0 10 1044832 
+178.121.2.232 0 2 230854 
+40.77.189.42 0 2 22688 
+91.228.96.75 0 2 199184 
+40.77.252.43 0 1 666 
+46.233.221.226 0 33 200965 
+40.77.188.185 0 3 2147 
+213.242.39.116 0 33 200965 
+93.80.36.247 0 34 233460 
+40.77.253.217 0 1 204320 
+109.126.242.135 1 53 303075 20180823231143
+95.46.105.208 0 2 30818 
+194.228.20.254 0 53 217240 
+40.77.188.221 0 8 19241 
+31.173.35.33 1 60 326234 20180803125146
+40.77.188.36 0 4 14331 
+199.203.92.234 0 9 94192 
+91.79.7.193 0 59 240147 
+40.77.188.6 0 3 8889 
+37.78.12.202 0 1 8576 
+62.122.192.34 0 1 125773 
+83.239.111.6 0 59 240147 
+195.211.23.222 0 5 5473 
+213.167.193.123 0 33 200965 
+89.189.135.29 0 34 332627 
+40.77.188.66 0 6 20754 
+37.204.189.158 0 9 91610 
+46.61.242.235 0 33 200965 
+45.230.157.85 0 37 186687 
+199.30.25.121 0 6 38880 
+40.77.252.54 0 1 1713 
+95.220.202.170 0 3 52730 
+40.77.189.24 0 1 9401 
+109.188.88.191 1 54 303327 20180821170219
+213.5.129.178 0 33 200965 
+217.69.221.99 0 59 240147 
+77.37.209.253 0 9 91610 
+128.73.105.86 0 34 203108 
+93.188.126.87 0 1 78589 
+62.76.152.151 1 54 303327 20180831164927
+79.133.145.32 0 56 231746 
+138.197.3.124 0 4 84580 
+91.235.187.119 1 53 303075 20180815171857
+2.92.144.195 0 52 216988 
+46.188.124.44 1 53 303075 20180807160154
+185.121.84.176 0 1 138029 
+213.59.229.218 0 2 114458 
+40.77.189.47 0 2 13123 
+79.137.143.156 0 2 8361 
+193.233.68.132 0 1 159806 
+89.145.142.84 1 60 326234 20180815135240
+104.236.37.44 0 24 404581 
+176.195.179.131 0 2 185466 
+40.77.188.209 0 1 211 
+178.140.221.119 0 2 27872 
+176.15.20.120 0 51 216948 
+40.77.190.53 1 53 303370 20180827060021
+40.77.194.201 0 1 104 
+188.234.48.63 1 60 326234 20180823113626
+40.77.190.61 0 1 118 
+217.182.139.61 0 1 39123 
+40.77.189.197 0 5 55537 
+40.77.192.51 0 4 9516 
+40.77.189.232 0 1 30 
+188.162.72.16 1 54 303327 20180806093215
+40.77.188.8 0 5 241159 
+40.77.189.101 0 11 42696 
+40.77.188.219 0 10 7272 
+128.75.59.8 0 3 11535 
+40.77.192.27 0 2 206033 
+31.162.21.97 0 59 241779 
+5.16.94.208 0 9 91610 
+213.87.137.232 0 38 336449 
+212.3.130.115 0 58 240107 
+81.163.182.116 0 59 241779 
+188.233.136.135 0 33 200965 
+40.77.190.67 0 1 1691 
+77.221.217.2 1 59 325982 20180827111414
+46.242.10.143 0 52 216988 
+213.87.151.217 0 57 239855 
+40.77.188.157 0 4 56070 
+176.14.209.185 1 60 326234 20180802233539
+40.77.188.177 0 3 2145 
+40.77.188.238 0 6 7341 
+40.77.189.83 0 5 15617 
+40.77.188.16 0 9 210996 
+188.18.204.205 0 115 466495 
+194.190.160.202 0 131 3664235 
+37.204.75.254 0 33 200965 
+84.53.228.34 0 2 224585 
+185.193.197.182 0 53 217240 
+40.77.189.145 0 2 36795 
+37.190.61.80 0 58 239008 
+40.77.189.248 0 2 289 
+40.77.188.226 0 3 18243 
+213.87.152.53 0 57 239855 
+40.77.188.81 0 8 83320 
+40.77.192.70 0 1 1354 
+125.209.235.182 0 6 56636 
+40.77.188.60 0 1 2194 
+195.211.23.209 0 7 25609 
+40.77.188.112 0 16 168214 
+40.77.188.10 0 9 12297 
+188.235.117.221 0 59 240147 
+188.18.245.20 0 57 239855 
+213.87.224.121 1 54 303327 20180824081831
+40.77.193.27 0 2 13967 
+123.58.9.197 0 4 57943 
+40.77.193.39 0 2 214410 
+95.83.82.3 0 52 216988 
+40.77.193.213 0 1 897 
+40.77.190.95 0 2 2248 
+81.1.169.63 0 58 239895 
+84.53.198.235 0 3 285666 
+95.78.196.141 0 2 59576 
+40.77.192.85 0 1 2194 
+178.140.245.121 0 7 63738 
+40.77.194.126 0 1 525 
+92.252.221.145 0 53 217240 
+217.175.43.59 0 32 200299 
+40.77.188.119 0 8 104388 
+95.26.254.225 0 58 239895 
+35.202.99.105 0 2 1794 
+40.77.190.22 1 9 383758 20180826040506
+195.211.23.223 0 5 7485 
+188.168.155.233 0 33 200965 
+40.77.194.93 0 1 1790 
+95.173.148.82 0 5 460366 
+40.77.194.213 0 1 1206 
+213.242.11.145 0 33 200965 
+40.77.189.65 0 2 6248 
+83.220.236.97 0 1 27845 
+178.185.108.255 1 59 325982 20180826175602
+158.58.135.250 0 33 200965 
+40.77.188.51 0 8 91570 
+80.66.158.2 0 44 234896 
+40.77.188.151 0 4 3888 
+40.77.195.19 0 1 1713 
+89.178.231.84 0 33 200965 
+40.77.188.146 0 6 51348 
+185.220.102.8 0 104 216988 
+62.148.157.36 0 1 20756 
+40.77.189.110 0 2 34071 
+128.69.196.121 0 5 87121 
+188.170.82.134 0 34 227916 
+40.77.252.217 1 32 131887 20180819120835
+40.77.193.48 0 1 119 
+40.77.189.9 0 6 18344 
+93.80.128.176 0 51 216948 
+77.111.247.72 0 58 239895 
+77.245.217.10 0 66 401930 
+138.197.96.169 0 4 84580 
+125.209.235.173 0 13 34420 
+40.77.188.58 0 11 12574 
+83.239.140.178 0 139 1784263 
+109.252.76.85 0 59 240147 
+95.24.242.62 0 1 169868 
+40.77.188.170 0 11 14673 
+40.77.190.2 0 1 16751 
+188.170.73.174 0 53 268757 
+217.118.93.181 0 2 68911 
+194.213.116.35 0 36 263284 
+40.77.194.99 0 1 2366 
+213.87.137.28 0 33 200965 
+40.77.192.142 0 1 119 
+40.77.188.253 0 8 6425 
+5.77.29.22 0 37 205666 
+89.151.142.152 0 21 0 
+91.236.195.85 0 33 200965 
+176.106.23.242 0 52 216988 
+40.77.188.166 0 1 897 
+176.193.198.33 0 57 239855 
+40.77.188.116 0 1 679 
+92.49.148.225 1 54 303327 20180814073228
+40.77.252.155 0 1 123 
+109.237.6.170 0 163 673911 
+40.77.189.191 0 1 34041 
+79.165.40.218 0 38 202608 
+40.77.194.67 0 3 7217 
+37.208.66.130 0 1 116524 
+40.77.188.23 0 2 4392 
+40.77.189.220 0 12 105086 
+80.76.99.83 0 58 239008 
+2.92.255.100 0 59 240147 
+109.173.58.87 0 33 200965 
+40.77.193.210 0 1 77746 
+193.106.170.61 0 92 240147 
+188.32.133.107 1 10 180279 20180816191908
+176.193.122.91 0 9 91610 
+40.77.189.184 0 2 12155 
+40.77.189.57 0 2 26841 
+77.40.33.243 1 87 504292 20180831221543
+95.188.67.163 1 60 326234 20180809090201
+40.77.189.154 0 1 77746 
+85.140.18.176 0 51 216948 
+37.204.196.142 0 65 400791 
+83.220.239.197 0 58 239895 
+94.25.229.212 0 51 216948 
+87.253.193.146 0 1 31495 
+193.233.67.3 0 93 442996 
+46.42.161.150 0 33 200965 
+178.140.2.128 0 58 239895 
+95.181.2.153 0 52 216988 
+40.77.189.35 0 3 112141 
+40.77.192.185 0 1 1790 
+40.77.189.196 0 5 24972 
+95.25.18.24 0 61 371090 
+40.77.188.242 0 9 102930 
+125.209.235.178 0 6 3900 
+176.112.243.69 0 31 199786 
+66.102.9.5 0 313 1986296 
+37.147.249.53 0 32 199826 
+188.162.38.230 0 60 273907 
+37.235.201.148 0 52 216988 
+178.213.12.120 1 60 326234 20180823145727
+40.77.194.163 0 2 2345 
+5.158.103.50 0 60 242031 
+40.77.192.71 0 2 3177 
+95.213.141.124 0 34 200925 
+40.77.189.80 0 3 37433 
+40.77.189.226 0 1 60 
+40.77.188.1 0 1 1720 
+5.228.196.81 0 1 32495 
+40.77.188.108 1 12 170112 20180806214921
+95.167.150.8 0 14 127693 
+213.242.49.141 0 59 240147 
+109.126.221.214 0 1 89780 
+40.77.253.224 0 1 10090 
+40.77.188.49 0 15 51978 
+178.205.22.236 1 60 326234 20180822083732
+40.77.189.203 0 7 119963 
+40.77.195.158 0 1 2026 
+79.105.139.21 0 65 702571 
+40.77.189.234 0 3 35761 
+40.77.188.189 0 12 532867 
+83.220.236.174 0 1 156548 
+212.38.104.44 0 4 330556 
+37.232.154.165 0 58 239895 
+79.133.74.6 1 54 551286 20180808142527
+176.59.48.150 0 3 203444 
+40.77.189.236 0 3 257692 
+213.187.118.65 0 102 433896 
+31.43.223.22 0 58 239895 
+46.242.8.135 0 58 239895 
+46.158.154.26 0 2 57633 
+176.14.243.50 0 34 332627 
+188.233.148.195 0 52 216988 
+83.149.46.60 0 61 375026 
+40.77.190.114 0 4 6085 
+185.114.137.178 0 1 27845 
+188.32.137.104 0 1 145240 
+138.197.111.123 0 4 84580 
+42.156.138.122 0 1 2143 
+92.42.200.100 0 58 240107 
+40.77.190.47 0 2 4044 
+40.77.194.228 0 1 2026 
+188.170.80.99 0 64 304361 
+40.77.188.216 0 10 20091 
+95.108.141.48 0 1 41528 
+188.187.172.47 0 106 1451888 
+40.77.192.239 0 1 1206 
+5.3.153.217 0 33 200965 
+40.77.194.125 0 1 52475 
+93.80.129.106 0 1 80600 
+40.77.189.139 0 1 12598 
+40.77.188.71 1 31 161578 20180807224353
+40.77.190.70 0 1 10090 
+173.252.87.1 0 19 137822 
+176.59.46.114 0 71 271843 
+95.29.46.86 0 52 216988 
+40.77.188.237 0 6 13833 
+95.143.28.215 0 9 91610 
+40.77.195.24 0 2 94497 
+40.77.253.148 0 1 52475 
+194.15.116.133 0 58 239895 
+40.77.189.147 0 8 11738 
+37.110.129.81 0 1 85365 
+62.33.48.36 0 33 200965 
+37.140.63.48 0 59 240147 
+138.197.111.115 0 4 84580 
+40.77.190.29 0 3 1447 
+40.77.189.0 0 2 12628 
+40.77.193.96 0 7 85352 
+194.154.70.201 0 66 252927 
+40.77.188.203 0 1 77746 
+46.188.107.132 0 9 91610 
+40.77.190.56 0 2 1447 
+91.205.236.100 0 53 217240 
+40.77.188.191 0 1 30 
+40.77.189.177 0 5 56226 
+40.77.192.222 0 1 77746 
+125.209.235.183 0 5 9545 
+194.60.244.221 0 59 240147 
+40.77.188.78 0 3 2388 
+212.26.236.86 0 33 200965 
+46.174.255.4 0 118 480959 
+95.173.154.214 1 59 325982 20180830114535
+125.209.235.171 0 5 70726 
+83.239.43.30 1 60 326234 20180822154156
+85.26.156.106 0 34 454700 
+89.222.181.202 0 33 451483 
+217.29.24.45 0 67 251408 
+31.15.91.245 0 34 202849 
+188.123.245.110 0 119 1850011 
+212.26.236.23 0 92 441112 
+212.112.100.78 0 60 242031 
+188.254.110.118 0 53 217240 
+77.40.62.142 0 59 240147 
+40.77.188.153 0 5 32754 
+185.48.36.70 0 52 216988 
+199.187.241.236 0 52 216988 
+37.140.189.221 0 1 87888 
+79.133.135.31 0 53 217240 
+40.77.190.11 1 4 116715 20180820102257
+40.77.192.87 0 2 9520 
+37.112.224.223 0 13 67014 
+95.221.55.143 0 1 4978 
+40.77.190.54 0 2 4972 
+109.172.76.48 0 1 20756 
+40.77.189.183 0 1 1354 
+40.77.194.186 0 1 2366 
+40.77.192.65 0 1 52475 
+193.192.152.11 0 1 45260 
+85.26.164.229 0 1 27845 
+40.77.188.201 0 6 37864 
+194.28.59.110 0 1 106821 
+95.81.201.44 0 37 136238 
+40.77.195.91 0 3 3592 
+79.111.234.166 0 13 1157179 
+176.59.135.165 0 34 227916 
+40.77.190.7 0 3 205650 
+145.255.22.23 0 53 217240 
+195.211.23.213 0 9 21231 
+46.42.130.77 1 10 180279 20180828020423
+88.87.79.248 0 53 217240 
+78.85.4.110 1 54 303327 20180814190833
+40.77.189.2 0 1 354 
+40.77.192.208 0 3 12509 
+37.144.45.133 0 9 91610 
+54.237.86.194 0 9 94192 
+2.94.147.89 0 57 238756 
+195.161.162.254 0 1 138029 
+40.77.189.19 0 1 12598 
+95.28.40.170 0 1 27845 
+176.110.249.91 0 1 105051 
+40.77.252.107 0 1 415 
+46.226.70.142 0 57 239855 
+91.206.149.217 0 59 240147 
+188.32.182.50 0 9 91610 
+40.77.192.206 0 1 211 
+66.102.8.22 0 17 124126 
+40.77.189.102 0 4 32910 
+91.203.177.161 0 33 200965 
+128.69.225.174 0 1 89666 
+173.249.157.150 0 1 39123 
+109.252.62.233 0 69 264750 
+145.255.169.226 0 1 44338 
+40.77.188.235 0 1 34041 
+40.77.188.175 0 6 34488 
+167.99.56.179 0 4 84580 
+220.243.136.184 0 2 5860 
+5.145.201.97 0 30 119604 
+40.77.188.35 0 1 30 
+176.15.231.136 0 8 88969 
+37.110.129.87 0 9 91610 
+213.24.133.115 0 59 240147 
+85.15.162.214 0 1 39123 
+40.77.190.121 0 11 172801 
+40.77.252.254 0 1 1206 
+85.234.24.118 0 34 332627 
+66.102.9.46 0 279 2335505 
+40.77.188.69 0 1 6218 
+64.233.172.216 0 41 201685 
+176.193.145.94 0 58 239895 
+94.25.168.251 0 58 239895 
+91.226.222.124 0 1 50680 
+188.32.122.50 0 52 216988 
+217.118.81.206 0 58 239895 
+40.77.189.193 0 2 4220 
+185.13.112.211 0 60 243364 
+46.242.11.95 0 59 240147 
+195.19.61.196 0 33 200965 
+5.228.11.134 1 59 325982 20180828135502
+40.77.253.86 0 2 2920 
+40.77.252.134 1 26 125017 20180823161145
+109.63.240.218 0 121 2914915 
+40.77.192.145 0 2 17540 
+40.77.189.112 0 4 4427 
+37.147.67.243 0 52 216988 
+125.209.235.168 0 9 8338 
+5.44.170.90 0 59 240147 
+40.77.190.120 0 6 285664 
+40.77.190.136 0 4 49147 
+109.252.23.164 0 1 5965 
+40.77.195.9 0 1 415 
+90.169.239.180 0 57 239855 
+95.189.218.238 1 53 249433 20180802115158
+40.77.188.29 0 3 238826 
+83.220.236.190 0 51 216948 
+37.110.210.23 0 1 27845 
+138.197.7.112 0 16 369489 
+178.215.84.36 0 52 216988 
+89.222.164.0 1 54 303327 20180802202749
+95.29.46.170 1 54 303327 20180821145506
+185.106.40.82 0 52 216988 
+178.129.85.127 0 33 200965 
+40.77.189.198 0 2 221071 
+40.77.194.44 0 1 77746 
+91.236.149.97 0 1 116378 
+40.77.189.200 0 1 12598 
+40.77.193.244 0 1 34041 
+176.59.33.160 0 33 227876 
+178.252.211.41 0 53 217240 
+212.24.46.10 0 53 217240 
+178.19.251.255 0 1 89666 
+40.77.192.194 0 1 1790 
+77.121.37.114 0 58 239895 
+40.77.192.1 0 1 30 
+40.77.188.244 0 1 861 
+40.77.193.146 0 1 5965 
+66.102.9.146 0 42 208631 
+188.233.70.215 0 1 28992 
+40.77.188.224 0 8 62538 
+65.55.210.77 0 1 1713 
+31.131.65.210 0 1 170793 
+40.77.193.189 0 1 5965 
+84.54.153.149 0 49 148285 
+40.77.188.33 0 2 184 
+37.147.247.116 0 1 32495 
+62.33.48.71 0 33 200965 
+40.77.193.169 0 1 204320 
+128.72.211.193 1 10 180279 20180825010342
+90.154.29.241 0 58 239895 
+40.77.188.247 0 1 16751 
+145.255.0.181 0 1 99176 
+37.98.167.240 0 59 240147 
+31.173.84.90 0 53 243939 
+213.21.36.16 0 53 217240 
+40.77.192.128 0 1 335 
+5.228.236.45 0 9 91610 
+85.175.216.171 0 59 240147 
+109.108.59.244 0 165 1004825 
+40.77.193.23 0 1 666 
+31.181.243.253 0 52 216988 
+195.211.23.219 0 7 12936 
+46.242.10.234 0 59 241779 
+78.142.34.18 0 1 39123 
+95.26.1.161 0 1 39123 
+176.52.5.236 0 1 28950 
+159.203.70.167 0 22 384401 
+40.77.193.153 0 1 2194 
+40.77.189.167 1 2 86593 20180807160231
+40.77.195.66 0 1 1206 
+125.209.235.185 0 5 4238 
+185.46.12.1 0 3 216529 
+40.77.188.184 0 1 34041 
+195.211.23.210 0 9 39251 
+85.202.235.93 0 2 212648 
+40.77.189.241 0 1 897 
+62.141.72.242 0 1 27845 
+91.123.30.71 0 1 52475 
+40.77.195.208 0 1 333 
+93.80.58.80 0 1 80600 
+188.19.165.174 1 101 542629 20180814100735
+213.87.159.179 0 1 29788 
+80.70.106.10 0 58 239895 
+109.196.217.15 0 61 286298 
+40.77.192.163 0 1 30 
+40.77.192.123 0 1 1691 
+85.26.165.34 0 1 99176 
+40.77.190.65 0 2 204432 
+40.77.190.127 0 8 208931 
+40.77.192.138 0 2 13495 
+31.200.10.37 0 1 74197 
+40.77.193.94 0 1 13198 
+42.156.136.121 0 2 897 
+40.77.190.0 0 1 54 
+64.233.172.218 1 33 280980 20180817003621
+109.236.209.46 0 33 200965 
+95.24.48.97 0 9 91610 
+46.188.22.90 0 52 216988 
+40.77.189.252 0 1 34041 
+40.77.188.85 0 7 89301 
+78.132.194.123 0 59 240147 
+85.172.162.109 0 33 200965 
+95.27.181.100 0 51 216948 
+40.77.189.132 0 1 1139 
+138.197.111.57 0 4 84580 
+40.77.190.138 0 5 284384 
+40.77.188.91 0 3 292156 
+79.137.143.200 0 21 46550 
+128.75.69.222 0 57 239855 
+123.58.9.149 0 2 26991 
+93.185.16.8 0 33 200965 
+40.77.194.71 0 1 211 
+217.66.156.164 0 57 239855 
+40.77.190.45 0 4 90624 
+109.110.69.59 1 60 326234 20180812184536
+40.77.189.171 0 1 6218 
+212.164.64.225 0 34 202849 
+40.77.189.79 0 6 20687 
+40.77.195.14 0 2 2897 
+128.69.202.83 0 11 266003 
+40.77.188.139 0 3 36256 
+95.220.70.226 0 1 32495 
+40.77.188.21 0 1 204320 
+95.108.244.52 1 53 303075 20180802204342
+176.97.36.31 0 52 216988 
+40.77.188.88 0 1 204320 
+193.105.175.39 1 54 303327 20180831123234
+95.213.141.126 0 2 0 
+40.77.188.74 0 1 10090 
+176.59.40.87 1 60 326234 20180830131103
+35.192.3.51 0 6 613186 
+40.77.189.159 0 4 50386 
+176.51.221.61 0 53 152674 
+37.204.205.223 0 9 91610 
+94.41.104.84 0 52 216988 
+40.77.190.28 1 4 99317 20180805205729
+40.77.253.158 0 12 108607 
+194.9.171.229 1 60 326234 20180816115020
+95.24.9.25 0 9 91610 
+40.77.188.148 0 3 35966 
+95.28.182.4 0 33 367974 
+138.197.111.63 0 4 84580 
+213.87.147.185 1 59 325982 20180823185425
+95.47.183.182 0 60 242031 
+40.77.193.128 0 7 85352 
+188.123.253.248 0 33 200965 
+83.149.21.21 0 52 243899 
+178.72.70.75 1 54 303327 20180824183049
+128.74.128.45 0 58 371517 
+40.77.190.76 0 5 10707 
+212.96.79.101 0 1 39123 
+95.213.218.37 0 44 298219 
+5.44.172.195 0 59 240147 
+188.113.13.3 1 59 325982 20180805231123
+2.63.127.185 0 123 3414287 
+40.77.189.238 0 2 206514 
+40.77.189.181 0 1 77746 
+40.77.189.222 0 1 333 
+40.77.188.26 0 2 1805 
+109.187.206.155 1 60 326234 20180805162050
+92.47.123.252 0 32 199826 
+77.50.249.123 0 58 239895 
+178.140.85.196 0 1 103523 
+91.204.252.39 0 52 216988 
+46.188.121.206 0 53 217240 
+95.141.230.233 0 66 401930 
+40.77.189.84 0 4 36391 
+40.77.193.222 0 2 2548 
+213.242.52.33 0 33 200965 
+83.220.238.219 0 33 200965 
+40.77.188.5 1 4 100299 20180821141517
+40.77.189.240 0 11 8755 
+109.252.109.69 0 3 215407 
+145.255.10.32 0 1 99176 
+40.77.253.8 0 1 465 
+40.77.188.132 0 2 308 
+193.233.150.226 0 60 371809 
+42.156.139.122 0 3 7429 
+185.202.212.229 1 59 325982 20180806041017
+42.156.139.121 0 1 6218 
+31.128.149.165 1 59 325982 20180816190142
+217.175.43.37 1 102 548478 20180821102602
+46.160.34.219 0 52 216988 
+91.234.87.212 0 1 20756 
+31.135.49.247 0 59 240147 
+40.77.192.220 0 1 1138 
+83.149.21.128 0 54 244191 
+79.137.143.44 0 30 49572 
+40.77.188.186 0 8 24498 
+40.77.188.212 1 4 87126 20180801144557
+95.141.196.98 0 96 521534 
+91.201.184.168 0 33 200965 
+188.232.191.59 0 52 216988 
+37.130.224.22 0 1 28950 
+40.77.189.174 1 6 87491 20180831155911
+188.0.14.65 0 126 3495776 
+31.173.80.218 0 48 240798 
+125.209.235.186 0 16 75744 
+46.20.203.54 0 2 71316 
+217.66.158.116 0 1 39123 
+40.77.189.100 0 9 21097 
+31.13.145.145 0 57 239855 
+207.189.31.5 0 1 82021 
+37.44.41.200 0 32 200925 
+80.255.83.2 0 1 20756 
+40.77.195.13 0 2 3562 
+40.77.192.48 0 1 1720 
+40.77.195.197 0 1 897 
+40.77.188.248 0 1 897 
+83.149.45.182 0 108 456803 
+93.180.20.162 1 123 3232215 20180809114524
+95.78.58.83 0 52 216988 
+37.204.43.40 0 1 85365 
+95.29.148.228 0 33 200965 
+89.249.117.88 0 59 240147 
+40.77.253.134 0 1 13634 
+40.77.189.52 1 7 88844 20180802134026
+40.77.188.95 0 4 14443 
+220.243.136.162 0 5 9612 
+185.79.238.19 0 58 239481 
+40.77.189.150 0 5 35977 
+40.77.188.160 0 2 204999 
+40.77.189.60 0 2 34284 
+40.77.188.83 1 41 255876 20180809194050
+178.18.111.197 1 60 326234 20180810205113
+40.77.195.141 0 2 278 
+195.211.250.6 0 59 240147 
+188.19.49.28 0 1 27845 
+40.77.194.33 0 1 34041 
+46.242.10.140 0 118 480294 
+188.92.199.224 0 1 27845 
+40.77.252.248 0 1 897 
+40.77.188.229 0 3 156171 
+94.180.249.159 1 60 326234 20180820180329
+40.77.190.91 1 5 210502 20180831131234
+40.77.195.122 0 1 1790 
+40.77.192.180 0 1 174 
+31.153.22.215 0 58 239895 
+212.26.236.73 0 46 218738 
+5.145.244.121 0 33 200965 
+188.190.129.189 0 1 28992 
+40.77.195.28 0 1 12598 
+188.191.162.33 0 52 216988 
+79.137.143.57 0 19 45092 
+145.255.10.83 0 53 217240 
+91.240.115.39 0 80 1412706 
+46.158.0.73 1 59 325982 20180826172628
+91.212.137.50 1 57 244873 20180801141434
+176.59.32.8 0 62 347699 
+40.77.189.221 0 1 30 
+40.77.188.183 0 2 77920 
+95.108.225.222 1 59 325982 20180818083345
+138.197.73.210 0 4 84580 
+40.77.189.90 0 4 4666 
+93.174.72.90 0 32 199826 
+92.115.29.22 0 1 39123 
+5.145.228.206 0 117 480042 
+212.154.161.170 0 2 47170 
+40.77.190.133 0 1 2194 
+80.248.48.202 0 58 239895 
+40.77.188.63 0 1 174 
+94.180.214.237 0 1 71814 
+109.111.81.172 1 106 1537723 20180809181935
+40.77.193.142 0 2 11655 
+40.77.189.46 0 4 29260 
+91.239.69.241 1 60 326234 20180822120823
+40.77.188.234 0 3 36437 
+40.77.189.192 0 1 2366 
+188.233.104.41 0 33 200965 
+109.60.212.80 0 33 200965 
+40.77.194.181 0 1 335 
+40.77.188.47 0 3 12937 
+176.195.185.171 0 59 240147 
+5.227.202.85 0 64 244083 
+178.216.163.34 0 59 240147 
+40.77.188.68 0 2 12344 
+217.66.159.64 0 1 27845 
+94.130.237.157 0 2 61800 
+40.77.190.32 0 3 36628 
+178.66.38.149 0 1 27845 
+77.94.194.177 1 60 329199 20180816185235
+40.77.193.218 0 1 16751 
+213.108.144.87 0 60 242031 
+40.77.194.47 0 1 679 
+40.77.190.124 0 1 335 
+46.187.31.73 0 33 200965 
+40.77.188.18 0 6 6355 
+40.77.194.8 0 2 1663 
+40.77.188.39 0 2 68082 
+178.66.6.85 0 52 216988 
+40.77.189.13 0 2 10120 
+46.42.163.170 0 1 41395 
+212.26.236.69 0 63 242954 
+40.77.188.40 0 4 167453 
+40.77.253.107 0 1 204320 
+5.197.144.5 0 1 39123 
+40.77.194.245 0 2 3263 
+195.211.23.206 0 4 7958 
+35.237.37.235 0 52 216988 
+66.102.9.2 0 359 2764548 
+40.77.194.207 0 1 204320 
+213.137.244.5 0 1 114067 
+94.140.141.35 0 59 240147 
+40.77.189.87 0 2 36235 
+109.194.26.195 0 138 635193 
+40.77.194.51 0 1 4942 
+40.77.188.90 0 2 3562 
+94.180.139.117 0 33 200965 
+199.30.25.160 1 52 303035 20180815204725
+40.77.188.126 0 5 211234 
+40.77.192.146 1 31 129943 20180812023539
+40.77.193.105 0 2 80500 
+104.236.62.205 0 18 379609 
+40.77.192.21 0 4 92814 
+2.61.1.188 0 33 200965 
+40.77.192.106 0 2 86516 
+85.234.27.42 0 2 0 
+95.141.231.18 0 60 371809 
+46.187.56.24 0 127 650226 
+40.77.190.117 0 1 9401 
+40.77.190.129 0 2 14773 
+195.211.23.216 0 9 6702 
+2.77.57.99 0 1 39123 
+40.77.188.172 1 33 136850 20180816091809
+109.252.86.9 0 2 0 
+212.58.114.131 0 33 200965 
+90.143.190.187 0 75 352100 
+40.77.252.154 0 2 309 
+80.251.230.232 0 33 200965 
+40.77.190.85 0 1 34041 
+109.126.238.40 0 8 808501 
+40.77.190.26 0 1 211 
+95.31.244.127 0 52 216988 
+40.77.193.18 0 1 204320 
+94.25.170.99 0 51 216948 
+40.77.188.53 0 3 3567 
+82.140.239.122 0 52 216988 
+128.72.251.250 0 60 242031 
+109.168.224.158 0 1 88384 
+185.85.163.220 0 33 200965 
+146.255.183.54 0 53 217240 
+40.77.188.37 0 6 70285 
+81.1.146.25 0 15 80750 
+109.126.200.169 0 1 108207 
+40.77.188.220 0 2 34374 
+5.35.58.219 1 106 1537723 20180805094501
+40.77.188.206 0 3 363 
+136.243.102.17 1 53 303075 20180814004616
+40.77.192.63 0 4 36326 
+188.93.56.216 0 40 632661 
+85.172.163.235 0 33 200965 
+193.233.68.133 0 10 993272 
+40.77.253.61 0 1 897 
+40.77.193.67 0 1 679 
+40.77.253.202 0 3 222883 
+125.209.235.175 0 9 18262 
+87.224.146.180 0 58 239895 
+188.32.246.145 0 9 91610 
+93.84.178.82 0 4 117925 
+46.39.55.30 0 53 217240 
+125.209.235.181 0 9 15047 
+40.77.252.191 0 1 211 
+188.19.56.16 0 59 240147 
+83.220.237.155 0 51 216948 
+40.77.189.173 0 5 78312 
+82.145.223.145 0 58 239895 
+178.162.53.79 1 61 328118 20180811200427
+188.130.155.154 0 52 216988 
+178.155.4.181 0 7 23159 
+188.234.24.7 0 53 217240 
+165.225.66.74 0 34 332627 
+40.77.190.37 0 3 10642 
+93.80.230.240 0 33 200965 
+89.23.160.6 0 1 75727 
+178.64.101.73 0 1 27845 
+94.143.40.195 0 59 240147 
+40.77.190.111 0 9 15776 
+40.77.192.33 0 1 211 
+40.77.195.32 0 1 1138 
+40.77.189.113 0 1 34041 
+40.77.195.154 0 1 2254 
+188.65.235.148 1 53 551034 20180820144256
+37.110.129.84 0 33 200965 
+109.81.215.210 0 59 240147 
+31.173.82.209 1 108 1588829 20180805094506
+82.151.125.147 0 1 41528 
+40.77.189.165 0 7 89995 
+40.77.188.223 0 1 897 
+34.221.47.36 0 9 94192 
+40.77.190.49 1 7 142358 20180810021409
+46.39.226.184 0 53 217240 
+94.25.233.134 0 1 27845 
+40.77.194.172 0 1 204320 
+95.24.207.73 0 85 417953 
+109.252.107.125 0 34 332627 
+2.95.146.183 0 53 217240 
+40.77.189.106 0 4 1864 
+92.115.47.124 0 40 663641 
+95.28.159.108 0 3 218505 
+46.44.59.194 0 66 704667 
+5.228.21.26 0 34 233460 
+40.77.189.115 0 3 2144 
+40.77.190.42 0 3 1948 
+92.101.15.197 0 52 216988 
+212.3.130.194 1 58 322672 20180806132534
+40.77.190.68 0 1 30 
+84.23.52.174 0 58 239895 
+40.77.252.63 0 1 354 
+188.254.105.91 0 53 465199 
+5.19.246.27 0 59 240147 
+188.32.131.255 0 32 199826 
+40.77.189.56 0 1 77746 
+31.130.19.71 0 1 27845 
+40.77.189.144 0 1 4978 
+65.55.210.62 0 8 91570 
+5.167.69.91 0 59 240147 
+93.123.155.106 0 58 239895 
+193.106.170.43 0 52 216988 
+40.77.195.23 0 1 333 
+212.106.32.242 0 65 702571 
+95.54.27.82 0 33 200965 
+213.24.132.226 1 53 303075 20180822082928
+40.77.190.113 0 8 21960 
+213.24.126.62 0 53 217240 
+195.211.23.215 0 9 5065 
+40.77.188.15 0 2 418 
+109.63.178.29 1 59 325982 20180801194950
+40.77.188.246 0 1 204320 
+40.77.253.177 0 4 19935 
+40.77.188.30 0 7 8858 
+77.222.106.115 0 59 240147 
+40.77.190.93 0 7 210038 
+37.144.52.153 0 1 30 
+40.77.189.186 0 5 24372 
+62.133.162.131 0 33 200965 
+138.197.111.141 0 4 84580 
+40.77.189.33 0 1 506 
+85.113.214.222 0 60 242031 
+40.77.188.230 0 1 185 
+40.77.188.82 0 1 34041 
+212.66.60.143 0 2 50544 
+40.77.194.179 0 1 2754 
+213.87.126.204 0 51 216948 
+188.255.18.169 0 7 88048 
+40.77.188.214 0 5 9897 
+40.77.192.67 0 1 897 
+40.77.195.114 0 1 9401 
+5.145.248.23 0 33 200965 
+95.220.73.28 1 10 180279 20180829022534
+46.39.56.111 0 62 288851 
+87.255.29.170 0 1 88134 
+40.77.188.218 0 2 206110 
+93.188.40.250 0 58 239895 
+40.77.190.108 0 7 37577 
+178.141.57.114 0 1 4978 
+40.77.195.4 0 1 89 
+37.18.0.48 0 1 85585 
+91.213.139.4 0 96 458454 
+40.77.189.136 0 1 1387 
+95.27.109.7 0 32 200925 
+176.208.7.140 0 52 216988 
+199.30.25.9 0 8 91570 
+40.77.189.48 0 6 9742 
+40.77.189.223 0 1 12598 
+93.170.205.102 0 57 239855 
+31.13.145.134 0 58 239895 
+188.168.155.161 0 25 110252 
+92.51.24.221 0 64 244083 
+40.77.188.232 0 1 2194 
+80.232.211.46 0 10 100157 
+46.148.231.164 0 2 283269 
+178.64.197.105 0 32 199826 
+178.176.112.163 0 31 199786 
+178.89.211.67 0 1 39123 
+40.77.189.152 0 2 35247 
+212.124.3.186 0 33 200965 
+83.149.19.162 0 62 272246 
+40.77.192.134 0 2 216918 
+95.141.230.201 0 33 451483 
+40.77.190.39 0 1 16751 
+162.158.64.72 0 1 44338 
+212.5.158.157 0 64 245927 
+5.42.82.52 0 58 239895 
+217.23.186.3 0 59 240147 
+91.108.172.236 0 1 99176 
+92.253.209.185 0 59 240147 
+31.130.148.98 1 53 303075 20180828221933
+40.77.188.152 0 2 111787 
+40.77.195.53 0 1 30 
+199.30.24.136 0 4 58938 
+178.169.87.30 0 52 216988 
+40.77.188.239 0 4 21205 
+178.237.179.90 0 1 82621 
+217.175.33.119 0 65 533512 
+95.55.185.17 0 57 239855 
+176.59.211.2 0 61 320748 
+37.146.193.228 0 1 86166 
+40.77.188.163 0 2 10425 
+40.77.194.16 0 2 2608 
+83.149.44.75 0 2 2173 
+40.77.193.110 0 2 1505 
+95.105.18.144 0 1 99176 
+87.255.238.109 0 118 481926 
+37.204.254.81 0 33 232321 
+185.79.237.168 0 5 642257 
+213.59.146.42 0 32 200925 
+40.77.193.28 0 1 1139 
+40.77.177.167 0 1 12598 
+40.77.188.227 0 2 362 
+109.173.30.161 0 7 88048 
+188.234.8.34 0 33 200965 
+145.255.3.222 0 1 5965 
+40.77.193.255 0 2 1194 
+40.77.189.74 0 9 216512 
+40.77.190.18 0 6 15335 
+46.187.40.49 0 33 200965 
+40.77.188.111 0 1 300 
+145.249.238.246 0 57 239855 
+83.220.239.172 0 52 216988 
+40.77.192.86 0 1 354 
+89.178.16.164 0 9 91610 
+138.197.111.191 0 4 84580 
+52.48.0.49 0 33 200965 
+173.252.127.2 0 7 53909 
+213.59.151.131 0 4 409333 
+109.61.225.253 0 52 216988 
+5.164.146.39 0 1 2641 
+93.182.24.122 1 67 340994 20180802134916
+99.9.238.250 0 1 13634 
+213.230.95.184 0 61 268982 
+81.95.142.178 0 33 200965 
+40.77.193.4 0 1 204320 
+213.137.244.1 0 52 216988 
+213.87.153.95 0 52 216988 
+83.220.237.126 0 52 216988 
+91.211.54.215 1 54 303327 20180825152715
+40.77.193.157 0 1 1139 
+212.109.7.185 0 32 200925 
+188.170.73.246 0 33 227876 
+40.77.193.47 0 1 897 
+40.77.194.98 0 1 333 
+79.165.33.4 0 34 290631 
+94.25.161.74 0 52 216988 
+85.140.2.6 0 60 371809 
+109.252.108.217 1 54 303327 20180808100159
+40.77.189.208 0 1 10090 
+40.77.188.61 0 2 7172 
+94.231.23.145 0 33 200965 
+40.77.189.179 0 1 30 
+85.173.131.247 1 60 327866 20180820121651
+46.243.254.165 0 52 216988 
+109.230.128.216 0 58 239895 
+125.209.235.170 0 11 26512 
+85.140.0.225 0 53 217240 
+40.77.188.142 0 1 34041 
+40.77.189.215 0 5 56076 
+173.252.127.4 0 11 86433 
+40.77.194.30 0 1 30 
+178.140.118.150 0 9 91610 
+125.209.235.177 0 7 110288 
+188.232.118.70 0 32 199826 
+40.77.190.9 0 1 174 
+40.77.189.58 0 5 78831 
+40.77.189.4 0 1 1139 
+40.77.188.120 0 9 24844 
+46.8.127.47 0 112 457387 
+46.38.96.138 1 60 326234 20180828153842
+40.77.189.163 0 2 13531 
+40.77.188.149 0 4 69432 
+5.167.126.177 0 33 200965 
+40.77.188.208 0 5 1634 
+40.77.194.23 0 2 518 
+40.77.188.188 0 1 77746 
+83.149.46.95 1 60 326234 20180819172723
+40.77.193.60 0 1 77746 
+173.252.127.15 0 6 20888 
+80.237.102.145 0 33 200965 
+188.170.73.100 0 1 29788 
+79.137.143.106 0 23 46857 
+185.43.87.30 0 58 239895 
+123.58.9.245 0 3 9258 
+40.77.189.229 0 2 35247 
+91.219.101.83 1 54 303327 20180816151213
+40.77.190.90 0 4 62694 
+178.204.22.254 1 59 325982 20180830223121
+81.200.8.124 0 57 239855 
+40.77.252.157 0 1 465 
+195.211.23.220 0 7 9380 
+85.173.144.66 0 33 200965 
+40.77.195.40 0 1 465 
+40.77.252.244 0 1 666 
+95.26.1.71 0 112 457387 
+40.77.193.131 0 1 300 
+40.77.188.193 0 1 2254 
+178.68.156.20 0 59 240147 
+83.220.237.54 0 99 602895 
+77.40.11.79 0 33 200965 
+78.85.13.122 0 82 904467 
+202.120.234.115 0 52 216988 
+40.77.189.43 0 9 379083 
+66.102.8.26 0 15 56159 
+62.148.157.142 0 53 217240 
+40.77.188.254 0 1 1139 
+62.173.133.62 0 59 240147 
+95.182.77.33 0 53 217240 
+40.77.195.60 0 1 861 
+213.87.131.14 0 1 85585 
+178.214.255.255 0 1 5965 
+77.37.231.149 1 10 180279 20180817214246
+40.77.193.238 0 1 10090 
+91.195.130.23 0 59 240147 
+40.77.253.125 0 1 12598 
+92.50.130.138 0 1 5965 
+40.77.188.134 0 1 60 
+109.62.215.156 0 78 859776 
+178.155.5.88 0 63 772375 
+213.24.126.123 0 112 457387 
+90.157.19.206 0 67 253242 
+40.77.189.122 0 1 10090 
+142.93.73.184 0 18 379609 
+40.77.189.99 0 1 16751 
+40.77.252.130 0 1 12598 
+31.173.81.137 0 1 26951 
+40.77.253.72 0 1 16751 
+40.77.188.9 0 4 4731 
+185.13.112.114 1 53 303075 20180806215124
+31.173.81.28 0 53 243939 
+40.77.189.76 0 2 7136 
+40.77.189.161 0 2 418 
+213.59.151.4 0 2 213546 
+66.249.81.112 0 144 768221 
+94.233.145.11 0 34 201300 
+91.93.65.66 0 51 216948 
+40.77.192.246 0 1 2366 
+46.39.248.16 0 1 84682 
+220.243.136.136 0 1 26951 
+95.28.177.221 0 32 199826 
+89.28.167.75 0 62 248548 
+40.77.188.245 0 3 1324 
+80.83.237.55 0 34 332627 
+178.94.120.59 0 2 57633 
+142.93.188.135 0 18 379609 
+83.246.137.84 0 33 451483 
+40.77.189.205 0 2 34071 
+95.26.117.102 0 52 216988 
+31.129.195.175 0 52 216988 
+77.222.109.166 0 52 216988 
+40.77.253.203 0 1 10090 
+40.77.188.32 1 12 217719 20180830082206
+80.250.166.67 0 59 241779 
+40.77.189.149 0 2 155492 
+5.227.200.127 0 58 239895 
+42.156.136.122 0 1 40 
+95.78.200.172 0 2 59576 
+89.169.20.50 1 54 303327 20180811014731
+40.77.189.133 0 4 24227 
+195.211.160.49 0 52 216988 
+95.213.218.41 0 11 97254 
+66.102.9.50 0 263 1660085 
+109.252.50.228 0 3 304750 
+83.169.216.66 0 3 131195 
+195.9.62.178 0 1 60587 
+188.187.196.57 0 1 31495 
+40.77.189.146 0 2 1576 
+109.248.173.9 0 1 90977 
+37.122.39.7 0 52 216988 
+40.77.188.80 0 3 747 
+40.77.193.149 0 4 4290 
+80.66.157.20 0 59 497000 
+66.249.81.114 0 143 674813 
+91.235.169.5 0 33 200965 
+40.77.188.13 0 3 83153 
+40.77.189.118 0 3 2116 
+40.77.188.194 1 4 103778 20180811212513
+46.42.51.78 0 33 200965 
+193.218.138.82 0 33 200965 
+95.72.82.63 0 58 266806 
+66.249.92.78 0 4 39912 
+46.191.131.136 0 1 5965 
+84.51.216.41 0 31 199786 
+5.166.157.81 0 9 91610 
+46.42.141.168 0 9 91610 
+40.77.252.158 0 1 1206 
+40.77.188.180 0 1 1139 
+40.77.190.48 0 2 256795 
+95.153.130.72 0 6 174778 
+178.66.8.132 0 33 200965 
+40.77.188.199 0 4 18878 
+93.179.93.15 0 53 217240 
+40.77.189.104 0 1 204320 
+40.77.188.98 0 1 34041 
+128.75.108.133 0 9 91610 
+40.77.195.163 0 1 243 
+125.209.235.172 0 8 8945 
+176.49.156.79 0 53 217240 
+37.147.246.211 0 42 292575 
+46.42.160.87 1 10 180279 20180807063452
+40.77.194.108 0 1 1138 
+188.168.155.134 0 60 240501 
+145.255.22.91 0 1 99176 
+64.233.172.214 0 30 37358 
+46.39.46.98 1 60 326234 20180815212407
+195.211.23.208 0 5 5739 
+77.243.120.250 0 1 60622 
+40.77.188.72 0 2 179 
+40.77.192.29 0 1 34041 
+40.77.190.8 0 8 4701 
+40.77.189.96 0 2 536 
+178.205.203.103 0 58 239895 
+40.77.190.81 0 2 119 
+40.77.189.166 0 1 104 
+40.77.193.40 0 1 897 
+40.77.190.72 0 1 52475 
+217.27.131.135 0 33 200965 
+40.77.188.20 0 1 30 
+85.140.1.174 0 59 240147 
+40.77.189.94 0 1 2366 
+40.77.189.237 0 2 2830 
+37.110.30.80 0 9 91610 
+40.77.190.126 0 1 89 
+40.77.253.46 0 1 34041 
+94.233.146.133 0 33 200965 
+78.190.159.14 0 1 79123 
+178.66.190.250 0 1 41528 
+81.200.8.191 0 59 240147 
+40.77.190.21 0 1 77746 
+185.6.165.52 0 32 200925 
+40.77.192.10 0 2 18541 
+40.77.188.136 0 1 30 
+95.73.36.53 0 57 239855 
+142.93.75.193 0 15 367123 
+40.77.193.55 0 1 30 
+109.252.81.39 0 53 217240 
+66.249.92.80 0 2 12642 
+188.232.164.152 0 1 56827 
+213.87.156.42 0 32 200925 
+85.233.76.88 0 53 217240 
+40.77.189.202 0 2 78252 
+66.102.9.60 0 1 5965 
+89.189.140.72 0 1 99176 
+176.222.222.65 0 22 121364 
+188.32.41.32 0 9 91610 
+142.93.65.227 0 4 84580 
+40.77.192.236 0 1 6218 
+40.77.193.133 0 1 666 
+125.209.235.179 0 6 81846 
+178.155.4.138 0 57 236585 
+40.77.193.62 0 1 34041 
+171.33.249.195 1 60 326234 20180810094636
+40.77.193.85 0 1 9401 
+109.248.172.123 0 272 2661016 
+88.135.50.79 0 3 277078 
+46.39.229.139 0 40 395448 
+46.187.7.126 0 6 545148 
+40.77.190.94 0 6 6688 
+77.45.218.158 0 1 82556 
+176.110.247.128 0 59 240147 
+66.102.9.48 0 242 1835785 
+78.158.205.197 0 1 27845 
+40.77.188.14 0 1 2366 
+40.77.188.252 1 8 109898 20180805123853
+40.77.188.28 0 7 168181 
+37.29.120.78 2 124 738263 20180829104748
+91.200.226.70 1 94 528919 20180829160638
+125.209.235.167 0 7 55939 
+40.77.188.115 0 1 1138 
+92.243.181.222 0 59 240147 
+80.91.195.130 0 33 200965 
+213.171.48.148 0 59 240147 
+31.13.34.98 0 1 102758 
+212.3.137.202 0 67 405147 
+90.154.71.158 0 2 41885 
+40.77.189.212 0 1 89 
+40.77.189.16 0 1 52475 
+40.77.189.219 0 4 4501 
+31.181.183.89 0 57 239855 
+40.77.188.107 0 1 679 
+89.23.141.100 1 118 567973 20180813192422
+178.253.181.243 0 52 216988 
+37.29.43.194 0 33 200965 
+128.73.112.150 0 62 245264 
+31.173.243.74 0 1 27845 
+40.77.189.170 0 4 2803 
+193.106.234.218 0 91 440860 
+176.59.41.58 0 64 244083 
+40.77.188.202 0 1 9401 
+185.66.254.40 0 2 160018 
+40.77.188.64 0 1 243 
+188.113.44.101 1 54 303327 20180828115903
+40.77.190.106 0 1 897 
+188.19.50.244 1 60 326234 20180814110405
+46.242.118.194 0 1 145240 
+95.29.46.15 0 33 200965 
+188.170.82.64 0 54 263240 
+31.163.93.143 0 1 41528 
+40.77.192.177 0 4 5608 
+95.78.79.5 0 58 239895 
+40.77.192.207 0 1 465 
+94.79.49.117 0 53 217240 
+109.187.47.46 0 52 216988 
+40.77.190.97 0 1 278 
+40.77.188.44 0 2 34395 
+40.77.189.242 0 2 78412 
+66.249.92.76 0 20 171406 
+83.220.238.72 0 33 200965 
+66.102.9.142 0 50 116317 
+109.236.208.46 0 33 200965 
+83.220.236.150 0 60 243364 
+79.137.143.77 0 20 46446 
+85.172.118.149 0 38 336449 
+40.77.188.165 0 1 2754 
+77.37.213.12 0 59 240147 
+40.77.189.64 1 5 108686 20180801172239
+193.233.3.233 0 133 4696905 
+31.173.82.230 0 49 243252 
+138.197.96.212 0 4 84580 
+109.69.16.234 0 66 702823 
+40.77.193.240 0 3 2703 
+40.77.189.81 0 1 2366 
+31.8.80.101 0 1 99176 
+31.173.84.177 0 34 203606 
+188.233.0.55 0 52 216988 
+92.113.116.49 0 1 27845 
+40.77.189.227 0 1 9401 
+89.151.131.212 0 59 240147 
+82.145.223.97 0 53 217240 
+93.157.240.185 0 53 217240 
+195.211.23.211 0 9 32102 
+40.77.194.35 0 1 174 
+83.149.47.108 0 58 239895 
+40.77.189.134 0 2 34395 
+109.161.41.73 0 33 200965 
+213.171.4.14 0 32 199826 
+40.77.188.92 0 1 119 
+40.77.188.143 0 3 3875 
+40.77.253.205 0 1 679 
+40.77.189.239 0 3 53243 
+128.72.228.27 0 9 91610 
+40.77.193.203 0 1 354 
+77.94.125.150 0 1 99176 
+178.204.166.252 0 59 240147 
+195.239.196.14 1 54 303327 20180817102911
+128.72.84.237 0 1 70391 
+40.77.190.36 0 1 333 
+92.255.201.119 0 58 239895 
+37.58.58.230 0 18 0 
+138.197.96.182 0 4 84580 
+31.40.147.220 0 3 41960 
+40.77.195.3 0 1 13198 
+94.29.124.87 1 53 303075 20180831085402
+40.77.190.128 0 1 465 
+40.77.192.119 0 1 415 
+40.77.253.157 0 1 1138 
+40.77.189.108 0 3 107095 
+95.108.244.48 0 53 217240 
+40.77.190.27 0 1 897 
+91.205.161.79 0 1 88384 
+40.77.189.41 1 13 399993 20180808150032
+125.209.235.184 0 6 3273 
+2.92.196.254 0 1 39123 
+40.77.190.137 0 2 36407 
+213.24.114.210 0 32 199826 
+178.62.43.135 0 53 217240 
+46.42.172.104 0 1 32495 
+91.205.160.158 0 1 88384 
+165.227.215.217 0 24 404581 
+40.77.188.192 0 2 1576 
+40.77.189.68 0 2 3641 
+40.77.193.53 0 2 77776 
+40.77.194.150 0 1 52475 
+40.77.192.244 0 1 2754 
+40.77.189.209 0 3 893 
+40.77.189.190 0 1 1139 
+40.77.189.92 0 5 16532 
+188.191.162.22 0 284 2308819 
+37.145.124.23 0 8 91580 
+94.124.169.59 0 66 702823 
+95.153.129.16 1 59 325982 20180803140601
+93.157.175.26 0 59 286675 
+81.1.153.133 0 91 440860 
+40.77.193.95 1 22 116740 20180830144226
+42.156.138.121 0 2 2497 
+109.108.35.77 0 32 200925 
+88.135.62.13 0 68 254625 
+46.39.36.85 0 60 243364 
+109.187.217.140 0 1 5965 
+40.77.189.182 0 2 2669 
+176.114.214.57 0 59 240147 
+95.153.135.2 0 33 200965 
+40.77.190.12 0 2 1350 
+49.65.251.219 0 52 216988 
+91.246.101.230 1 60 326234 20180826081651
+173.252.87.9 0 7 3242 
+95.66.207.218 0 2 68073 
+40.77.194.187 0 1 1720 
+79.165.244.40 1 60 326234 20180809112259
+176.15.113.238 0 33 200965 
+52.14.117.19 0 11 97744 
+40.77.188.250 0 6 152370 
+40.77.253.131 0 1 333 
+40.77.252.148 0 1 77746 
+83.220.237.52 1 191 1129842 20180804165137
+176.193.115.77 0 33 200965 
+212.66.34.153 0 2 57633 
+178.155.4.5 0 59 240147 
+40.77.189.164 0 20 276373 
+5.18.238.140 0 116 480002 
+176.192.90.58 1 87 887247 20180831091500
+62.192.246.15 0 59 240147 
+40.77.188.50 0 1 506 
+104.236.60.17 0 27 479071 
+95.173.152.21 0 53 217240 
+40.77.190.77 0 5 2117 
+95.153.128.188 1 59 325982 20180817132136
+40.77.190.20 0 1 269 
+173.252.87.11 0 7 9110 
+66.102.9.8 0 307 2487367 
+91.78.230.116 0 58 239895 
+40.77.177.196 0 3 8391 
+212.3.130.57 1 53 303075 20180814130842
+220.243.136.168 0 1 51769 
+40.77.188.131 0 1 2754 
+176.32.141.13 0 52 216988 
+40.77.188.197 0 1 30 
+40.77.192.209 0 1 16751 
+176.196.4.230 0 33 200965 
+128.68.106.188 0 1 86093 
+213.87.133.166 0 33 200965 
+40.77.188.190 0 3 34790 
+40.77.189.70 0 1 2366 
+31.173.81.205 0 34 205108 
+128.70.170.139 0 59 240147 
+40.77.188.167 0 2 13737 
+5.142.146.195 0 2 214738 
+40.77.252.133 0 1 9401 
+40.77.188.59 0 2 5277 
+188.32.213.55 0 20 133951 
+40.77.195.11 0 1 1387 
+40.77.192.112 0 1 333 
+79.137.143.39 0 5 9352 
+125.209.235.169 0 7 10434 
+176.14.9.250 0 33 200965 
+93.188.46.39 0 59 240147 
+40.77.190.88 0 1 34041 
+195.211.23.224 0 5 21054 
+79.111.118.87 0 54 2179403 
+85.173.130.132 1 60 326234 20180816100924
+88.85.178.118 0 5 492181 
+176.213.235.78 0 1 5965 
+66.249.81.110 0 145 621040 
+46.61.204.58 0 32 199826 
+212.3.130.133 0 58 239895 
+165.227.210.10 0 18 379609 
+109.252.59.82 0 68 383070 
+40.77.189.245 0 14 309185 
+40.77.188.156 0 1 354 
+138.197.69.240 0 4 84580 
+80.246.95.35 0 33 200965 
+95.32.84.247 0 1 20756 
+40.77.195.8 0 2 4948 
+5.77.27.60 0 33 200965 
+40.77.189.125 0 2 35761 
+40.77.252.106 0 2 77776 
+40.77.189.55 0 5 55627 
+40.77.189.129 0 1 861 
+40.77.177.155 0 8 91570 
+195.245.211.37 0 59 240147 
+40.77.189.25 0 4 13887 
+40.77.189.8 0 1 679 
+85.142.148.155 0 33 200965 
+95.167.150.7 0 13 62781 
+37.19.1.225 0 2 212648 
+40.77.195.43 0 2 2106 
+40.77.190.43 0 2 1515 
+94.25.170.126 0 52 216988 
+95.28.178.29 0 6 38880 
+40.77.190.55 0 2 12155 
+85.26.233.144 0 1 29788 
+95.153.135.12 0 1 25203 
+40.77.195.94 0 1 465 
+87.255.237.65 1 60 326234 20180828110642
+5.167.169.22 0 1 4978 
+217.175.42.17 0 58 239895 
+31.13.144.106 0 57 238756 
+128.69.223.88 0 9 91610 
+40.77.188.173 0 7 9160 
+37.112.18.80 0 1 99176 
+40.77.188.105 1 17 337592 20180808233634
+46.39.54.118 0 4 271647 
+222.252.28.17 0 33 200965 
+178.66.130.1 0 45 214984 
+193.233.66.2 2 1191 1021435 20180831123912
+40.77.192.92 0 1 2194 
+46.16.230.68 0 53 465199 
+193.189.88.0 0 52 216988 
+212.112.119.82 0 58 239895 
+95.167.79.238 0 1 99176 
+109.126.227.168 0 33 200965 
+37.44.46.51 0 1 85365 
+40.77.192.193 1 24 119994 20180818110917
+138.197.111.9 0 4 84580 
+5.35.48.34 0 32 199826 
+40.77.188.42 0 13 289180 
+40.77.188.124 0 6 76703 
+37.110.129.98 0 9 91610 
+40.77.190.104 0 1 333 
+109.252.53.240 0 33 200965 
+38.100.21.61 0 1 354 
+5.77.26.35 0 32 199826 
+46.242.60.78 0 53 217240 
+40.77.193.181 0 1 34041 
+40.77.252.243 0 1 13634 
+195.211.23.218 0 7 5925 
+40.77.190.66 0 4 207731 
+109.184.206.173 0 59 240147 
+94.79.33.21 0 52 216988 
+66.102.9.144 0 48 183154 
+46.39.54.147 0 59 240147 
+5.165.204.93 0 52 216988 
+40.77.188.103 1 6 294368 20180811025546
+40.77.195.134 0 1 666 
+185.121.108.121 0 1 39123 
+194.186.124.194 0 1 89666 
+40.77.192.212 0 2 4220 
+176.59.50.135 0 53 243939 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180801 2300 3908 381824924 5
+20180802 2749 4285 321259856 9
+20180803 2172 4027 242252694 5
+20180804 3153 4238 352607789 3
+20180805 2519 3976 338685660 7
+20180806 3982 5847 333510347 8
+20180807 2651 4457 238733474 8
+20180808 2464 3883 259236517 8
+20180809 2571 4333 333986696 7
+20180810 2530 4142 284905166 4
+20180811 2016 2841 191494903 6
+20180812 1522 2298 347053488 4
+20180813 2901 4791 660464992 3
+20180814 2327 4225 237481838 10
+20180815 1706 3491 216636445 7
+20180816 1994 3627 222495693 9
+20180817 1620 3336 174490518 8
+20180818 1423 2624 185348660 3
+20180819 1452 2289 198133775 3
+20180820 1257 2239 206244737 5
+20180821 1332 3278 172904978 8
+20180822 972 2674 161390329 6
+20180823 912 2761 140524088 9
+20180824 1196 2713 151793446 4
+20180825 991 2042 126923983 3
+20180826 836 2194 117120240 5
+20180827 1036 2689 245201308 3
+20180828 944 2273 215844125 8
+20180829 1276 3625 182091155 6
+20180830 1081 3679 163330300 7
+20180831 1415 3347 217055529 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 32
+5mn-15mn 1
+2mn-5mn 2
+0s-30s 158
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 446
+/ 31329 3055321952 28 26
+/actual/grafik.html 12222 682476455 3 5
+/cabinet/profile.html 5597 203455647 0 1
+/novice/reg_user.html 786 28444783 0 0
+/olymp/liter.html 633 23967647 0 0
+/novice/kak_prinyat_uchastie.html 607 23771950 0 0
+/contact.html 571 20841420 0 0
+/about/statement.html 490 21638453 0 0
+/myadmin/index.php 322 2226921 0 0
+/myadmin/js/get_scripts.js.php 181 98535476 0 0
+/yeartwokthirteen/report.html 3 117505 0 0
+/news00000185.html 20 727622 0 0
+/about/statement.htm 1 44417 0 0
+/news00000270.html 7 253879 0 0
+/news00000149.html 1 36378 0 0
+/announces00000015.html/announces00000015.html 2 74430 0 0
+/news00000188.html/news.html 2 75378 0 0
+/yeartwoksixteen/result.html 72 3059471 0 0
+/myadmin/js/get_image.js.php 42 263046 0 0
+/news00000208.html/news.html 2 72697 0 0
+/news00000182.html 1 36186 0 0
+/news00000209.html 4 147462 0 0
+/yeartwokfourteen/ 2 172890 0 0
+/novice/reg_user.html/scarbook.php 1 36283 0 0
+/news00000258.html/news.html 2 75207 0 0
+/actual/tasks.html 119 5828958 0 0
+/yeartwokeleven/statmd.html 2 113156 0 0
+/olymp/energy-school.html/mailto:fdp@mpei.ru 2 80727 0 0
+/news00000206.html/news.html 2 72734 0 0
+/index1.html 1 97490 0 0
+/news00000242.html 9 327436 0 0
+/yeartwoktwelve/statph.html 3 189374 0 0
+/news00000219.html/news.html 2 73797 0 0
+/news00000160.html 1 36131 0 0
+/yeartwokseventeen/result.html 4 176648 0 0
+/news00000211.html 4 144362 0 0
+/announces00000016.html/announces2013y.html 2 73769 0 0
+/news00000264.html/news.html 2 72002 0 0
+/news00000226.html 4 146056 0 0
+/news00000150.html 1 37461 0 0
+/news00000247.html 5 183235 0 0
+/news00000246.html 5 181506 0 0
+/faq03.html 16 642716 0 0
+/yeartwokfourteen/tasks.html 8 337308 0 0
+/temp_/page.html 81 4373749 0 0
+/news00000243.html 11 408598 0 0
+/announces2012y.html 1 37214 0 0
+/news00000256.html 8 295758 0 0
+/novice/otveti_na_voprosi.html 19 727470 0 0
+/novice/reg_user.html/guestbook 1 36642 0 0
+/news00000064.html%22 2 73151 0 0
+//index.action 2 195142 0 0
+/news00000250.html 8 294209 0 0
+/news00000215.html 8 300138 0 0
+/news00000185.html/news.html 2 72335 0 0
+/yeartwokfourteen/grafik.html 2 101372 0 0
+/yeartwoktwelve/report.html 2 76285 0 0
+/myadmin/ 33 511706 0 0
+/news00000162.html 1 36803 0 0
+/news00000268.html/news.html 2 73933 0 0
+/news00000258.html 9 336554 0 0
+/news00000241.html/news.html 2 72864 0 0
+/news00000229.html/news.html 2 73987 0 0
+/olymp/energy-school.html 76 3074905 0 0
+/news00000267.html/news.html 2 74386 0 0
+/olymp/metodic.html 73 2791182 0 0
+/news00000222.html/news.html 2 73008 0 0
+/news00000195.html/news.html 2 73942 0 0
+/.ssh/id_dsa 2 194957 0 0
+/myadmin/tbl_export.php 4 226138 0 0
+/yeartwokfifteen/report.html 3 121273 0 0
+/cabinet/documents.html 22 818886 0 0
+/news2011y.html 1 38835 0 0
+/news00000208.html 4 144205 0 0
+/news00000260.html/news.html 2 72915 0 0
+/news00000222.html 6 218201 0 0
+/news00000231.html/news.html 2 76576 0 0
+/news00000218.html 5 180174 0 0
+/news00000193.html/news.html 2 72121 0 0
+/news00000212.html 7 253630 0 0
+/news00000271.html 6 220410 0 0
+/about/partner.html 77 2885116 0 0
+/announces00000017.html/announces2013y.html 2 73821 0 0
+/novice/reg_user.html/bbs.cgi 1 36701 0 0
+/yeartwokeleven/report_XII.html 2 77197 0 0
+/announces00000016.html/announces00000016.html 2 74159 0 0
+/yeartwokten/statmc.html 5 263947 0 0
+/yeartwokfourteen/wscan.html 5 204626 0 0
+/yeartwokfourteen/statph.html 2 140335 0 0
+/news00000168.html 1 37216 0 0
+/myadmin/tbl_structure.php 8 412980 0 0
+/news00000188.html 6 223987 0 0
+/yeartwokfifteen/tasks.html 26 1153602 0 0
+/novice/reg_user.html/gb.php 1 36388 0 0
+/yeartwoktwelve/statinf.html 2 103500 0 0
+/actual/result.htm 9 396217 0 0
+/news00000267.html 20 743594 0 0
+/news00000247.html/news.html 2 72609 0 0
+/news00000217.html 6 217869 0 0
+/news00000253.html/news.html 2 73140 0 0
+/news00000237.html 4 148777 0 0
+/news00000271.html/news.html 2 73339 0 0
+/help/reg_user.html 12 494403 0 0
+/news00000205.html/news.html 2 74479 0 0
+/yeartwoknine/statmb.html%20 1 44190 0 0
+/news000091.html 1 41635 0 0
+/news00000236.html 8 293782 0 0
+/yeartwokfourteen/criterii.html 2 83302 0 0
+/yeartwoktwelve/criterii.html 2 77763 0 0
+/news00000235.html/news.html 2 72799 0 0
+/news00000275.html 25 950935 0 0
+/yeartwokeight/statpa.html 2 80809 0 0
+/news00000253.html 5 183682 0 0
+/news00000245.html/news.html 2 73101 0 0
+/advice00000004.html 26 912291 0 0
+/novice/reg_user.html/yybbs.cgi 1 36097 0 0
+/news00000207.html/news.html 2 73534 0 0
+/.idea/WebServers.xml 2 195925 0 0
+/news00000259.html 5 181692 0 0
+/announces00000016.html/announces2012y.html 2 74103 0 0
+/yeartwoksixteen/grafik.html 4 217066 0 0
+/news00000232.html/news.html 2 72308 0 0
+/announces00000015.html/announces2012y.html 2 74443 0 0
+/news00000213.html 5 181391 0 0
+/about/reglament.html 39 2413171 0 0
+/novice/reg_user.html/guestbook.html 1 36287 0 0
+/news00000221.html/news.html 2 73078 0 0
+/myadmin/tbl_row_action.php 7 306830 0 0
+/news00000262.html/news.html 2 72981 0 0
+/news00000196.html/news.html 2 73996 0 0
+/yeartwokeleven/statinf.html 3 148216 0 0
+/news00000274.html 14 505327 0 0
+/olymp/../about/reglament.html 2 126831 0 0
+/manager/ 3 10189 0 0
+/news00000214.html/news.html 2 74392 0 0
+/news00000239.html 5 181122 0 0
+/yeartwoknine/statpb.html 2 87824 0 0
+/yeartwokthirteen/tasks.html 5 207461 0 0
+/yeartwoksixteen/statinf.html 2 135982 0 0
+/novice/reg_user.html/index.php 2 73070 0 0
+/cabinet/distance.html 4 149580 0 0
+/news00000269.html 7 257245 0 0
+/actual/criterii.html 20 872143 0 0
+/.ftpconfig 2 195257 0 0
+/news00000230.html/news.html 2 75452 0 0
+/myadmin/tbl_replace.php 138 702231 0 0
+/cabinet/results.html 29 1115754 0 0
+/myadmin/export.php 9 267499 0 0
+/yeartwoksixteen/report.html 4 160546 0 0
+/news00000272.html 17 627926 0 0
+/index.action 1 97623 0 0
+/olymp/health.html 3 114199 0 0
+/news00000190.html 6 223079 0 0
+/news00000269.html/news.html 2 73604 0 0
+/news00000264.html 9 326129 0 0
+/news00000225.html/news.html 2 72630 0 0
+/novice/reg_user.html/home.php 1 36400 0 0
+/yeartwokthirteen/statinf.html 2 133381 0 0
+/myadmin/db_export.php 2 107862 0 0
+/yeartwokten/matematika.html 4 166080 0 0
+/lastyear/fisgia.html 127 5582907 0 0
+/news00000189.html 7 254539 0 0
+/news00000200.html 6 221581 0 0
+/news00000248.html 8 292408 0 0
+/actual/statmath.html 7 480407 0 0
+/about/gallery.html 5 188123 0 0
+/news00000195.html 4 148360 0 0
+/yeartwokeleven/criterii.html 2 76504 0 0
+/news00000273.html/news.html 2 72898 0 0
+/news00000212.html/news.html 2 72356 0 0
+/news00000205.html 3 112777 0 0
+/actual/report.html 15 604775 0 0
+/news00000244.html/news.html 2 72946 0 0
+/olymp/idea.html 25 1365494 0 0
+/yeartwokseventeen/grafik.html 2 111813 0 0
+/news00000272.html/news.html 2 73686 0 0
+/yeartwokfifteen/criterii.html 2 84301 0 0
+/yeartwoksixteen/criterii.html 4 169896 0 0
+/.vscode/sftp.json 2 195369 0 0
+/news00000209.html/news.html 2 73799 0 0
+/yeartwokfifteen/gallery.html 3 204330 0 0
+/news00000228.html/news.html 2 72382 0 0
+/news00000250.html/news.html 2 73905 0 0
+/news00000265.html 5 181267 0 0
+/news00000194.html/news.html 2 73122 0 0
+/news00000187.html/news.html 2 73306 0 0
+/news00000254.html 5 181387 0 0
+/news00000218.html/news.html 2 71781 0 0
+/novice/reg_user.html/sbb.cgi 1 36326 0 0
+/news00000257.html/news.html 2 73097 0 0
+/news00000191.html/news.html 2 73482 0 0
+/announces00000016.html/announces2011y.html 2 73704 0 0
+/yeartwokfourteen/result.html 49 2296385 0 0
+/novice/reg_user.html/g_book.cgi 1 37070 0 0
+/news00000263.html/news.html 2 72453 0 0
+/faq01.html/faq02.html 2 88286 0 0
+/news00000227.html/news.html 2 76743 0 0
+/news00000177.html 1 36153 0 0
+/novice/reg_user.html/book.php 1 36382 0 0
+/novice/reg_user.html/album.cgi 1 36701 0 0
+/.ssh/id_ed25519 2 195562 0 0
+/index2.html 1 97545 0 0
+/news00000254.html/news.html 2 72009 0 0
+/news00000246.html/news.html 2 72987 0 0
+/index.php/component/users/ 3 293971 0 0
+/novice/reg_user.html/ 1 36767 0 0
+/news00000235.html 5 181930 0 0
+/.git/index 1 97563 0 0
+/news00000145.html 1 36496 0 0
+/news00000220.html 7 256766 0 0
+/myadmin/sql.php 163 18380134 0 0
+/novice/reg_user.html/sunbbs.cgi 1 36293 0 0
+/yeartwokten/statpc.html 3 164193 0 0
+/about/organizatori.html 6 229378 0 0
+/news00000257.html 6 219467 0 0
+/news00000192.html/news.html 2 75070 0 0
+/faq02.html 10 380405 0 0
+/news00000274.html/news.html 2 72497 0 0
+/news00000151.html 1 37327 0 0
+/news00000069.html 148 5383897 0 0
+/olymp/liter_p.html 101 3986854 0 0
+/novice/reg_user.html/light.cgi 1 36234 0 0
+/myadmin/tbl_select.php 64 3112715 0 0
+/myadmin/tbl_operations.php 4 230478 0 0
+/yeartwokeleven/statpd.html 3 173143 0 0
+/novice/reg_user.html/YaBB.cgi 1 36823 0 0
+/yeartwokeleven/results_XII.html 32 1200186 0 0
+/8882B0 4 391491 0 0
+/yeartwokfifteen/wscan.html 4 159622 0 0
+/news00000220.html/news.html 2 73317 0 0
+/news00000216.html 9 326207 0 0
+/myadmin/tbl_sql.php 47 356274 0 0
+/actual/statph.html 7 487007 0 0
+/news00000194.html 9 328946 0 0
+/news00000221.html 5 183810 0 0
+/news00000193.html 11 400304 0 0
+/novice/reg_user.html/aska.cgi 1 36094 0 0
+/news00000265.html/news.html 2 72037 0 0
+/news00000275.html/news.html 2 76000 0 0
+/announces00000016.html 4 147789 0 0
+/myadmin/import.php 34 316976 0 0
+/news00000198.html 7 255228 0 0
+/news00000189.html/news.html 2 72405 0 0
+/yeartwokthirteen/statmath.html 2 173481 0 0
+/news00000260.html 5 181426 0 0
+/docs/energy-school.xlsx 4 42884 0 0
+/news00000256.html/news.html 2 74107 0 0
+/news00000233.html 5 184937 0 0
+/myadmin/version_check.php 27 1053 0 0
+/yeartwokten/resultII.html%20 1 38190 0 0
+/yeartwokeleven/grafiktwokeleventwelve.html 2 90796 0 0
+/news00000175.html 1 36507 0 0
+/yeartwokfifteen/statmath.html 2 139503 0 0
+/news00000224.html 6 216923 0 0
+/yeartwoksixteen/statmath.html 13 899686 0 0
+/news00000227.html 6 228541 0 0
+/announces00000016.html/announces2010y.html 2 73568 0 0
+/yeartwokeleven/tasks_XII.html 9 340859 0 0
+/myadmin/db_structure.php 16 7515953 0 0
+/news00000270.html/news.html 2 72256 0 0
+/news00000223.html/news.html 2 72224 0 0
+//index.php 4 390372 0 0
+/news00000252.html/news.html 2 74378 0 0
+/yeartwoksixteen/statph.html 2 138822 0 0
+/news00000233.html/news.html 2 74201 0 0
+/news00000170.html 1 36103 0 0
+/novice/reg_user.html/CGI/guestbook 1 36399 0 0
+/news00000266.html/news.html 2 75162 0 0
+/news00000166.html 1 35880 0 0
+/novice/reg_user.html/modules.php 1 36511 0 0
+/news00000214.html 4 147603 0 0
+/news00000244.html 6 219783 0 0
+/novice/reg_user.html/Guestbook.php 1 36351 0 0
+/actual/gallery.html 48 2605806 0 0
+/announces00000015.html/announces2014y.html 2 74751 0 0
+/news00000259.html/news.html 2 71856 0 0
+/.ssh/id_ecdsa 2 195974 0 0
+/.ssh/id_rsa 2 195064 0 0
+/yeartwoksixteen/gallery.html 12 963078 0 0
+/news00000231.html 5 191337 0 0
+/news00000261.html 5 180844 0 0
+/announces00000017.html/announces2014y.html 2 74503 0 0
+/news00000049.html 1 36339 0 0
+/index3.html 3 195312 0 0
+/yeartwokthirteen/gallery.html 2 123116 0 0
+/news00000243.html/news.html 2 74566 0 0
+/announces00000017.html/announces2010y.html 2 74157 0 0
+/documents/zayavlenie.html 33 0 0 0
+/announces00000015.html/announces2011y.html 2 75011 0 0
+/myadmin/navigation.php 87 5123837 0 0
+/yeartwoktwelve/grafik.html 2 96636 0 0
+/advice00000001.html 16 544553 0 0
+/announces00000015.html 3 111339 0 0
+/news00000210.html 9 329236 0 0
+/news00000202.html 7 252508 0 0
+/news00000204.html/news.html 2 74598 0 0
+/news00000223.html 6 217938 0 0
+/novice/reg_user.html/apps/guestbook 1 36394 0 0
+/announces00000015.html/announces2017y.html 2 74066 0 0
+/news00000219.html 7 258172 0 0
+/news00000224.html/news.html 2 72324 0 0
+/news00000216.html/news.html 2 72231 0 0
+/news00000217.html/news.html 2 72519 0 0
+/announces00000015.html/announces2010y.html 2 74680 0 0
+/about/istoriya_olimpiadi.html 5 204209 0 0
+/img/rushydro.swf 169 14247126 161 161
+/novice/reg_user.html/gastenboek.php 1 36353 0 0
+/novice/reg_user.html/index.php/component/users/ 1 36348 0 0
+/news00000262.html 7 255038 0 0
+/yeartwokten/fizika.html 2 98107 0 0
+/yeartwokseventeen/wscan.html 1 39970 0 0
+/news00000146.html 1 36398 0 0
+/news00000229.html 10 368706 0 0
+/news00000266.html 9 333567 0 0
+/news00000273.html 14 507852 0 0
+/news00000187.html 9 330290 0 0
+/advice00000004.html/advice2t.html 2 73047 0 0
+/yeartwoksixteen/wscan.html 9 364813 0 0
+/olymp/tasks.html 21 803492 0 0
+/yeartwokthirteen/statph.html 2 175188 0 0
+/yeartwokfifteen/ 3 234389 0 0
+/news00000249.html/news.html 2 73427 0 0
+/news00000252.html 7 259755 0 0
+/yeartwokthirteen/criterii.html 2 80318 0 0
+/novice/reg_user.html/gaestebuch.php 1 36322 0 0
+/yeartwokten/taskstwokteneleven_m.html 6 249737 0 0
+/announces00000017.html/announces2011y.html 2 74123 0 0
+/news00000232.html 8 291462 0 0
+/.vscode/ftp-sync.json 2 195964 0 0
+/novice/recover_password.html 36 1215230 0 0
+/news00000225.html 7 253332 0 0
+/faq01.html 42 1836572 0 0
+/news00000255.html/news.html 2 72277 0 0
+/about/vidayushiesyz_chleni_orgkomiteta.html 8 345164 0 0
+/news00000191.html 9 331359 0 0
+/yeartwoksixteen/tasks.html 41 1824140 1 0
+/news00000251.html 5 195432 0 0
+/news00000240.html 5 185286 0 0
+/olymp/talantiuspeh.html 21 839786 0 0
+/news00000248.html/news.html 2 73827 0 0
+/announces00000016.html/announces2017y.html 2 73598 0 0
+/novice/reg_user.html/member/ 1 36653 0 0
+/faq01.html/faq03.html 2 87790 0 0
+/news00000210.html/news.html 2 72904 0 0
+/novice/kak_prinyat_uchastie.html%20 1 39319 0 0
+/novice/reg_user.html/seo-joy.cgi 1 36943 0 0
+/myadmin/querywindow.php 1 9792 0 0
+/advice00000001.html/advice1t.html 2 73004 0 0
+/news00000215.html/news.html 2 75606 0 0
+/yeartwokfourteen/statinf.html 2 134492 0 0
+/yeartwokfourteen/statmath.html 3 210295 0 0
+/yeartwoktwelve/tasks.html 31 1232350 0 0
+/news00000190.html/news.html 2 74485 0 0
+/news00000230.html 8 300909 0 0
+/olymp/liter_m.html 32 1268649 0 0
+/myadmin/js/messages.php 65 1610830 0 0
+/olymp/obrazci.html 4 154392 0 0
+/news00000236.html/news.html 2 73507 0 0
+/olymp/orgadd.html 8 307865 0 0
+/news00000203.html/news.html 2 73379 0 0
+/news00000206.html 7 252989 0 0
+/yeartwokten/grafiktwokteneleven.html 2 81620 0 0
+/yeartwokfifteen/statph.html 2 136398 0 0
+/yeartwokten/resultII.html 30 1073900 0 0
+/news00000255.html 6 217885 0 0
+/announces00000017.html/announces00000017.html 2 73522 0 0
+/news00000180.html 1 35995 0 0
+/yeartwoktwelve/result.html 82 3272433 0 0
+/news00000241.html 5 181404 0 0
+/news00000148.html 1 37350 0 0
+/yeartwoknine/taskstwoknineten_p.html 2 79411 0 0
+/yeartwokeleven/statpd.html%4080 1 57675 0 0
+/yeartwoktwelve/statmath.html 3 180338 0 0
+/announces00000017.html 3 111589 0 0
+/advice1t.html 1 36676 0 0
+/actual/result.html 97 4275781 0 0
+/news00000156.html 1 36713 0 0
+/olymp/liter_i.html 20 762806 0 0
+/.svn/entries 1 97569 0 0
+/news00000237.html/news.html 2 74403 0 0
+/news00000268.html 8 296621 0 0
+/yeartwokfifteen/result.html 67 2780477 0 0
+/yeartwokthirteen/grafik.html 2 95965 0 0
+/novice/reg_user.html/yapgb.php 1 36403 0 0
+/novice/reg_user.html/yabb.pl 1 36253 0 0
+/advice00000003.html 108 3935703 0 0
+/news00000245.html 6 218312 0 0
+/yeartwokfourteen/gallery.html 2 116217 0 0
+/actual/ 12 779448 0 0
+/news00000211.html/news.html 2 71941 0 0
+/news00000199.html 6 218630 0 0
+/cabinet/stages.html 52 2684062 0 0
+/news00000226.html/news.html 2 72142 0 0
+/.remote-sync.json 2 194987 0 0
+/announces00000017.html/announces2012y.html 2 74012 0 0
+/myadmin/tbl_change.php 19 706336 0 0
+/news00000240.html/news.html 2 73408 0 0
+/yeartwokten/otchet.html 3 114695 0 0
+/news00000202.html/news.html 2 72242 0 0
+/news00000200.html/news.html 2 73821 0 0
+/.env 2 195025 0 0
+/yeartwokthirteen/result.html 96 4295401 0 0
+/actual/wscan.html 22 876906 0 0
+/advice3t.html 1 36018 0 0
+/yeartwokfourteen/report.html 2 80117 0 0
+/yeartwoknine/statmb.html 31 1269771 0 0
+/actual/statinf.html 13 861209 0 0
+/news00000234.html/news.html 2 73001 0 0
+/news00000203.html 4 145244 0 0
+/news00000242.html/news.html 2 72655 0 0
+/novice/reg_user.html/default.asp 1 36884 0 0
+/myadmin/phpmyadmin.css.php 78 6944238 0 0
+/novice/reg_user.html/jax_guestbook.php 1 36345 0 0
+/yeartwoktwelve/gallery.html 2 137071 0 0
+/news00000238.html 17 623617 0 0
+/news00000196.html 8 298845 0 0
+/myadmin/tbl_relation.php 2 270872 0 0
+/news00000239.html/news.html 2 73081 0 0
+/news00000165.html 1 36982 0 0
+/news00000198.html/news.html 2 72815 0 0
+/yeartwokfifteen/statinf.html 2 134016 0 0
+/news00000261.html/news.html 2 72147 0 0
+/news00000238.html/news.html 2 74135 0 0
+/yeartwokeight/ststma.html 27 1052183 0 0
+/yeartwoknine/taskstwoknineten_m.html 12 492872 0 0
+/news00000163.html 1 36174 0 0
+/myadmin/tbl_indexes.php 2 12033 0 0
+/yeartwokfifteen/grafik.html 2 103155 0 0
+/news00000249.html 8 294945 0 0
+/news00000213.html/news.html 2 72085 0 0
+/news00000199.html/news.html 2 72361 0 0
+/news000027.html 46 1681026 0 0
+/yeartwokten/taskstwokteneleven.html 5 216691 0 0
+/news.html 1 38940 0 0
+/news00000207.html 7 256626 0 0
+/news00000228.html 5 181939 0 0
+/advice2t.html 4 144472 0 0
+/news00000204.html 5 185799 0 0
+/novice/reg_user.html/guestbook.php 1 36394 0 0
+/yeartwoksixteen/ 5 468277 0 0
+/index.php 12 1171602 0 0
+/advice00000003.html/advice3t.html 2 73405 0 0
+/news00000263.html 6 217248 0 0
+/news00000234.html 9 327325 0 0
+/news00000192.html 6 225164 0 0
+/news00000251.html/news.html 2 77589 0 0
+END_SIDER

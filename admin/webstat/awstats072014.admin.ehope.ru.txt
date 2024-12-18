@@ -1,0 +1,433 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201407 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.admin.ehope.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2668                
+POS_VISITOR 18473               
+POS_DAY 18680               
+POS_DOMAIN 3378                
+POS_LOGIN 3612                
+POS_ROBOT 3767                
+POS_WORMS 4073                
+POS_EMAILSENDER 4204                
+POS_EMAILRECEIVER 4347                
+POS_SESSION 19308               
+POS_SIDER 19496               
+POS_FILETYPES 4482                
+POS_DOWNLOADS 4671                
+POS_OS 4719                
+POS_BROWSER 4786                
+POS_SCREENSIZE 4929                
+POS_UNKNOWNREFERER 5003                
+POS_UNKNOWNREFERERBROWSER 5090                
+POS_ORIGIN 5172                
+POS_SEREFERRALS 5312                
+POS_PAGEREFS 5467                
+POS_SEARCHWORDS 6071                
+POS_KEYWORDS 6223                
+POS_MISC 2330                
+POS_ERRORS 6282                
+POS_CLUSTER 3468                
+POS_SIDER_404 6372                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140801095507 1 0 10277134654506
+FirstTime 20140701000228
+LastTime 20140731185640
+LastUpdate 20140801100102 1 0 0 0 0
+TotalVisits 73                  
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 616 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 4698 0 1 2349
+1 0 0 0 2 11 78979
+2 0 0 0 1 4 5286
+3 0 0 0 1 5 5580
+4 0 0 0 1 5 9690
+5 0 0 0 3 9 45656
+6 0 0 0 0 0 0
+7 1 1 2349 11 17 10866
+8 0 0 0 2 6 7929
+9 33 33 77517 0 6 9984
+10 30 30 70470 3 4 9396
+11 21 21 49329 0 1 294
+12 23 31 440045 1 12 13803
+13 27 37 84114 0 11 20634
+14 23 36 74718 0 11 22689
+15 625 1621 54944506 1 446 2527275
+16 491 1350 45630245 2 274 1894733
+17 143 495 10532442 0 158 620112
+18 471 1453 55507293 1 165 1247091
+19 169 565 15368724 1 122 656797
+20 5 10 97065 0 11 3252
+21 2 2 4698 2 5 7635
+22 6 196 884879 1 17 11190
+23 62 93 3770119 1 117 38805
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2134 5976 187543211
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+yandex 19 44631 20140728101117 0
+googlebot 17 224013 20140731190009 0
+no_user_agent 8 0 20140721075738 0
+mail\.ru 1 2349 20140719055648 0
+baiduspider 1 2349 20140701035853 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 20 115576 0 0
+php 1122 129666420 0 0
+html 1012 9575722 0 0
+js 607 11598453 0 0
+jpg 2499 34693624 0 0
+gif 716 1893416 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+winxp 234
+linux 1
+win7 5741
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+firefox18.0 1
+chrome36.0.1985.125 120
+chrome35.0.1916.153 4933
+firefox30.0 920
+firefox31.0 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 237 237
+From1 0 0
+From2 2 2
+From3 1895 5737
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://admin.energy-hope.ru/spaw2/dialogs/dialog.php 1572 2753
+http://admin.energy-hope.ru/pages.html 293 970
+http://admin.energy-hope.ru/pagedefs.html 13 33
+http://admin.energy-hope.ru 10 89
+http://admin.energy-hope.ru/news.html 7 11
+http://admin.energy-hope.ru/spaw2/plugins/core/lib/theme/spaw2/css/theme.css 0 2
+http://admin.energy-hope.ru/spaw2/empty/empty.html 0 1877
+http://admin.energy-hope.ru/spaw2/plugins/core/lib/theme/spaw2/css/dialog.css 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 756 228861
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 144
+/img/gallery/2013_g3_042t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_010t.jpg 4 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_42t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_55t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/css/ie.css 207 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_015t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_64t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_030t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_049t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_038t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_047t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_41t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g5_003t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_003t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/css/nc.css 64 http://admin.energy-hope.ru/pages.html
+/img/gallery/2013_g6_006t.jpg 5 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_009t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_010t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_003t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_035t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_005t.jpg 5 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_007t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_007t.jpg 4 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_034t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_008t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_001t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_005t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_51t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_47t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_002t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_015t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_066t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_006t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_36t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_029t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_37t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_037t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_013t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_011t.jpg 4 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_062t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_001t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_48t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_004t.jpg 5 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_052t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_051t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_057t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_003t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_52t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_040t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_39t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g1_0181t.jpg 6 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_007t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_064t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_056t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_57t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_49t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_061t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_039t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_44t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_053t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_024t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_028t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_001t.jpg 5 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_43t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_008t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_60t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_054t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_021t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_53t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_63t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_67t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_66t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_004t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_003t.jpg 5 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_023t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/robots.txt 39 -
+/img/gallery/2013_g3_006t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_048t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_40t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_046t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_009t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_59t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_026t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_058t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_013t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g5_002t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_014t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_008t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_044t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_50t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_016t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_012t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_059t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_067t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_041t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_011t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_014t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_004t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_010t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_005t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_045t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_002t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_022t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_006t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_004t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_036t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_002t.jpg 5 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_033t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_011t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_54t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_017t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_38t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/aimg/menu1_skip.gif 154 http://admin.energy-hope.ru/pages.html
+/img/gallery/2013_g3_043t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_001t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_65t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_020t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_018t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_055t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_008t.jpg 4 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_031t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g7_012t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_025t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_032t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_016t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_35t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g5_001t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_000t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_065t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_063t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_61t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_45t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_56t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_060t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_019t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_050t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_007t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_027t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_002t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_46t.jpg 1 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g4_005t.jpg 3 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g6_009t.jpg 4 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_58t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+/img/gallery/2013_g3_62t.jpg 2 http://admin.energy-hope.ru/spaw2/empty/empty.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+37.143.12.102 2134 2270 140797342 20140731185640
+91.225.209.2 0 8 386018 
+193.233.66.2 0 3069 38515278 
+188.123.241.160 0 629 7844573 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20140701 78 299 4678488 5
+20140702 1676 4824 160365680 3
+20140703 170 623 21599044 3
+20140704 12 24 48879 4
+20140707 6 6 14094 1
+20140708 12 12 28188 4
+20140709 10 10 23490 4
+20140710 11 11 25839 3
+20140711 7 7 16443 3
+20140714 9 9 21141 3
+20140715 9 9 21141 4
+20140716 9 9 21141 3
+20140717 11 11 25839 4
+20140718 11 19 411857 2
+20140720 5 5 11745 2
+20140721 9 9 21141 2
+20140722 11 11 25839 4
+20140723 8 8 18792 2
+20140724 13 13 30537 1
+20140725 13 13 30537 4
+20140727 1 1 2349 1
+20140728 8 8 18792 2
+20140729 10 10 23490 2
+20140730 13 13 30537 4
+20140731 12 12 28188 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 35
+5mn-15mn 1
+0s-30s 20
+15mn-30mn 3
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/spaw2/empty/empty.html 633 0 0 0
+/spaw2/js/spaw.js.php 586 75766672 0 0
+/spaw2/dialogs/dialog.php 536 53899748 0 0
+/ 238 604917 65 62
+/pages.html 119 8299497 1 4
+/pagedefs.html 13 491791 1 0
+/olimp_stage_load.html 6 14094 6 6
+/news.html 3 165423 0 1
+END_SIDER

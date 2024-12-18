@@ -1,0 +1,342 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201907 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.admin.ehope.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2655                
+POS_VISITOR 8857                
+POS_DAY 9059                
+POS_DOMAIN 3316                
+POS_LOGIN 3547                
+POS_ROBOT 3702                
+POS_WORMS 3897                
+POS_EMAILSENDER 4028                
+POS_EMAILRECEIVER 4171                
+POS_SESSION 9644                
+POS_SIDER 9817                
+POS_FILETYPES 4306                
+POS_DOWNLOADS 4485                
+POS_OS 4555                
+POS_BROWSER 4612                
+POS_SCREENSIZE 4754                
+POS_UNKNOWNREFERER 4828                
+POS_UNKNOWNREFERERBROWSER 4915                
+POS_ORIGIN 4997                
+POS_SEREFERRALS 5135                
+POS_PAGEREFS 5279                
+POS_SEARCHWORDS 6483                
+POS_KEYWORDS 6635                
+POS_MISC 2317                
+POS_ERRORS 6694                
+POS_CLUSTER 3403                
+POS_SIDER_404 6797                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190802115359 1 0 11358583158178
+FirstTime 0
+LastTime 20190731115350
+LastUpdate 20190802120102 1 0 0 0 0
+TotalVisits 48                  
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 154 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 2 386
+3 4 4 9396 4 4 1337
+4 4 4 9396 4 4 1332
+5 4 4 9396 4 6 1725
+6 4 4 9396 4 4 1337
+7 2 2 4698 0 4 5084
+8 9 9 21141 8 9 5008
+9 10 10 23490 8 12 7754
+10 7 15 170456 4 12 9618
+11 33 64 744602 11 82 152915
+12 9 9 21141 8 12 5867
+13 7 28 419508 1 28 64957
+14 9 17 175154 8 13 6171
+15 5 13 165758 4 13 5605
+16 33 272 3152766 0 91 246364
+17 123 248 9018202 0 219 649653
+18 5 5 11745 4 8 4547
+19 87 157 6712539 4 59 377015
+20 3 3 7047 3 3 997
+21 5 5 11745 4 9 4456
+22 0 0 0 0 0 0
+23 4 4 9396 4 4 1347
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 367 877 20706972
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+yandex 9 540 20190730114553 9
+googlebot 8 480 20190724135204 8
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 25 49018 0 0
+php 120 11104654 0 0
+html 247 3093096 0 0
+js 74 792722 0 0
+jpg 163 4845485 0 0
+gif 248 821997 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 17 0 1020
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 2
+linux 83
+win7 794
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+firefox68.0 12
+firefox62.0 83
+chrome75.0.3770.142 700
+chrome75.0.3770.100 41
+firefox67.0 41
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 37
+From1 0 0
+From2 0 0
+From3 83 83
+From4 247 757
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 20
+http://admin.energy-hope.ru/rss/catalog/notifystock/ 22 22
+http://admin.energy-hope.ru/downloader/ 22 22
+http://admin.energy-hope.ru/rss/order/new/ 22 22
+http://admin.energy-hope.ru/deadmin/ 1 1
+http://admin.energy-hope.ru/index.php/rss/catalog/notifystock/ 1 1
+http://admin.energy-hope.ru/en/rss/order/new/ 1 1
+http://admin.energy-hope.ru/de/rss/catalog/ 1 1
+http://admin.energy-hope.ru/website1/index.php/rss/order/ 1 1
+http://admin.energy-hope.ru/index.php/admin123/ 1 1
+http://admin.energy-hope.ru/administrator/ 1 1
+http://admin.energy-hope.ru/index.php/admin/sales_order/ 1 1
+http://admin.energy-hope.ru/index.php/rss/order/new/ 1 1
+http://admin.energy-hope.ru/root/admin/ 1 1
+http://admin.energy-hope.ru/onlinestore/rss/order/new/ 1 1
+http://admin.energy-hope.ru/index.php/backoffice/ 1 1
+http://admin.energy-hope.ru/index.php/rss/catalog/ 1 1
+http://admin.energy-hope.ru/mart/rss/order/new/ 1 1
+http://admin.energy-hope.ru/rss/catalog/review/ 1 1
+http://admin.energy-hope.ru/index.php/manager/ 1 1
+http://admin.energy-hope.ru/index.php/admin/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 323 95511
+301 104 34452
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 23
+/spaw2/plugins/spawfm/img/ico_folder_big.gif 3 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_016t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_014t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_011t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_015t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/xix/2019_g1_014t.jpg 4 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_004t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/css/ie.css 98 http://admin.ehope.ru/olimp_stage_reg.html
+/img/gallery/2019_g1_010t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_002t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_007t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_013t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_012t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/aimg/menu1_skip.gif 51 http://admin.ehope.ru/olimp_stage_reg.html
+/img/gallery/2019_g1_005t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_006t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_009t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_003t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_001t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/css/nc.css 63 http://admin.ehope.ru/olimp_stage_reg.html
+/img/gallery/xix/2019_g1_015t.jpg 4 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2019_g1_008t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/xix/2019_g1_016t.jpg 4 http://admin.ehope.ru/spaw2/empty/empty.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+37.143.12.102 367 414 14804351 20190731115350
+193.233.66.2 0 405 4920969 
+85.142.148.155 0 40 770065 
+79.111.119.216 0 18 211587 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20190701 6 29 527166 1
+20190702 3 3 7047 2
+20190703 2 2 4698 2
+20190704 1 1 2349 1
+20190705 1 1 2349 1
+20190706 2 2 4698 2
+20190708 1 1 2349 1
+20190710 2 10 158711 2
+20190711 1 9 156362 1
+20190712 1 1 2349 1
+20190713 1 1 2349 1
+20190714 1 1 2349 1
+20190716 2 2 4698 2
+20190717 246 693 19139606 3
+20190718 1 1 2349 1
+20190719 1 1 2349 1
+20190720 1 1 2349 1
+20190722 3 19 315073 3
+20190723 2 2 4698 2
+20190724 1 9 156362 1
+20190725 1 1 2349 1
+20190727 1 1 2349 1
+20190728 48 48 112752 9
+20190729 37 37 86913 6
+20190731 1 1 2349 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 4
+30s-2mn 2
+0s-30s 39
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/spaw2/empty/empty.html 78 0 0 0
+/spaw2/js/spaw.js.php 64 8274880 0 0
+/spaw2/dialogs/dialog.php 56 2829774 0 0
+/ 41 138899 33 30
+/pages.html 24 1502338 0 1
+/rss/order/new/ 22 51678 0 15
+/downloader/ 22 51678 2 0
+/rss/catalog/notifystock/ 22 51678 1 0
+/news.html 7 590363 0 0
+/pagedefs.html 6 380120 0 0
+/website1/index.php/rss/order/ 1 2349 0 0
+/index.php/admin/sales_order/ 1 2349 0 0
+/deadmin/ 1 2349 1 0
+/catalog.html 1 10279 0 0
+/de/rss/catalog/ 1 2349 1 0
+/index.php/rss/order/new/ 1 2349 1 0
+/mart/rss/order/new/ 1 2349 1 0
+/index.php/admin123/ 1 2349 0 0
+/onlinestore/rss/order/new/ 1 2349 1 0
+/index.php/backoffice/ 1 2349 1 0
+/olimp_stage_load.html 2 82453 0 0
+/rss/catalog/review/ 1 2349 1 0
+/olimp_stage_reg.html 5 193677 0 2
+/administrator/ 1 2349 1 0
+/index.php/admin/ 1 2349 1 0
+/root/admin/ 1 2349 0 0
+/index.php/manager/ 1 2349 1 0
+/index.php/rss/catalog/notifystock/ 1 2349 1 0
+/en/rss/order/new/ 1 2349 1 0
+/index.php/rss/catalog/ 1 2349 0 0
+END_SIDER

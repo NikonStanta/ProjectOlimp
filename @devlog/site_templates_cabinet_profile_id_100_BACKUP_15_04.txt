@@ -1,0 +1,599 @@
+main::
+<div class="container">
+<div class="title1">Профиль участника (персональные данные)</div>
+%error%%warning%%message%
+<script>
+$(function() {
+		$( "#tabs" ).tabs({ selected: %selected_tab%});
+	});
+
+</script>
+<div id="tabs">
+<ul><li><a href="#tabs-1">Учетные данные</a></li><li><a href="#tabs-2">Личные данные</a></li><li><a href="#tabs-3">Адреса</a></li><li><a href="#tabs-4">Учебное заведение</a></li></ul><div id="tabs-1">%content1%</div><div id="tabs-2">%content2%</div><div id="tabs-3">%content3%</div><div id="tabs-4">%content4%</div>
+</div>
+</div>
+
+::TEMPLATE::doc_ic_form::
+<tr><td colspan=2><b>Документ, удостоверяющий личность и гражданство:</b></td></tr>
+<tr><td class="parName">Вид документа*:</td><td width="100%"><select name="doc_type"><option value="0"></option>%doc_types%</select></td></tr>
+<tr><td class="parName">Серия* (при наличии):</td><td><input type="text" name="doc_ser" value="%doc_ser%" size=8></td></tr>
+<tr><td class="parName">Номер*:</td><td><input type="text" name="doc_num" value="%doc_num%" size=12></td></tr>
+<tr><td class="parName">Кем выдан*:</td><td><input type="text" name="doc_where" value="%doc_where%" class="w100"></td></tr>
+<tr><td class="parName">Дата выдачи*:</td><td><input type="text" name="doc_date" value="%doc_date%"  id="doc_date" ></td></tr>
+<tr><td class="parName">Код подразделения:</td><td><input type="text" name="doc_code" value="%doc_code%" size=20></td></tr>
+<tr><td class="parName">Действительно до:</td><td><input type="text" name="doc_period" value="%doc_period%" size=20 id="doc_period"></td></tr>
+<script>
+$(function() {
+
+$( "#doc_date" ).datepicker({showOn: "both", buttonImage: "/img/themes/blue/calendar.gif", buttonImageOnly: true, showButtonPanel: true, changeMonth: true, changeYear: true, showAnim: 'blind', minDate: "01.01.1990", maxDate: "31.12.2021", defaultDate: "01.01.2000", yearRange: "1990:2021"  });
+
+$( "#doc_period" ).datepicker({showOn: "both", buttonImage: "/img/themes/blue/calendar.gif", buttonImageOnly: true, showButtonPanel: true, changeMonth: true, changeYear: true, showAnim: 'blind', minDate: "01.01.2018",  defaultDate: "01.01.2021", yearRange: "2018:c+20"  });
+
+}); 
+</script>
+
+::TEMPLATE::address_form::
+<tr><td class="parName">Страна*:</td><td width="100%"><select name="%varname%[country]"><option value="0"></option>%countrys%</select></td></tr>
+<tr><td class="parName">Индекс*:</td><td><input type="text" name="%varname%[zip_code]" value="%zip_code%" size=12></td></tr>
+<tr><td class="parName">Регион*:</td><td><select name="%varname%[region]"><option value="0"></option>%regions%</select></td></tr>
+<tr><td class="parName">Район:</td><td><input type="text" name="%varname%[area]" value="%area%" class="w100"></td></tr>
+<tr><td class="parName">Населенный пункт:</td><td><input type="text" name="%varname%[city]" value="%city%" class="w100"></td></tr>
+<tr><td class="parName">Улица:</td><td><input type="text" name="%varname%[street]" value="%street%" class="w100"></td></tr>
+<tr><td class="parName">Дом:</td><td><input type="text" name="%varname%[house]" value="%house%" size=8></td></tr>
+<tr><td class="parName">Корпус:</td><td><input type="text" name="%varname%[building]" value="%building%" size=8></td></tr>
+<tr><td class="parName">Квартира:</td><td><input type="text" name="%varname%[apartament]" value="%apartament%" size=8></td></tr>
+<tr><td colspan=2>Проживающие за пределами России введите адрес в следующем поле (в этом случае заполняются только поля Страна и Индекс)<br><br><textarea name="%varname%[addr_text]" class="w100" rows=4 cols=40>%addr_text%</textarea></td></tr>
+
+::TEMPLATE::org_address_form::
+<tr><td class="parName">Страна*:</td><td width="100%"><select name="%varname%[country]"><option value="0"></option>%countrys%</select></td></tr>
+<tr><td class="parName">Индекс*:</td><td><input type="text" name="%varname%[zip_code]" value="%zip_code%" size=12></td></tr>
+<tr><td class="parName">Регион*:</td><td><select name="%varname%[region]"><option value="0"></option>%regions%</select></td></tr>
+<tr><td class="parName">Район:</td><td><input type="text" name="%varname%[area]" value="%area%" class="w100"></td></tr>
+<tr><td class="parName">Населенный пункт:</td><td><input type="text" name="%varname%[city]" value="%city%" class="w100"></td></tr>
+<tr><td class="parName">Улица*:</td><td><input type="text" name="%varname%[street]" value="%street%" class="w100"></td></tr>
+<tr><td class="parName">Дом*:</td><td><input type="text" name="%varname%[house]" value="%house%" size=8></td></tr>
+<tr><td class="parName">Корпус:</td><td><input type="text" name="%varname%[building]" value="%building%" size=8></td></tr>
+<tr><td colspan=2>Проживающие за пределами России введите адрес в следующем поле (в этом случае заполняются только поля Страна и Индекс)<br><br><textarea name="%varname%[addr_text]" class="w100" rows=4 cols=40>%addr_text%</textarea></td></tr>
+
+
+
+::TEMPLATE::content1_step0::
+<script>
+$(function() {
+
+$( "#btnNext1" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnChangePassword" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="0">
+<input type="hidden" name="step" value="1">
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Логин:</td><td width="100%">%nic%</td></tr>
+<tr><td class="parName">Секретный вопрос:</td><td width="100%">%question%</td></tr>
+<tr><td class="parName">Секретный ответ:</td><td width="100%">%answer%</td></tr>
+</table><br>
+<div style="text-align:center"><input type="submit" name="btnNext1" value="Изменить учетные данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext">&nbsp;<input type="submit" name="btnChangePassword" value="Изменить пароль" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnChangePassword">
+</div>
+</form>
+
+
+::TEMPLATE::content1_step1::
+<script>
+$(function() {
+
+$( "#btnNext1" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnBack1" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="0">
+<input type="hidden" name="step" value="2">
+<div class="ui-state-highlight ui-corner-all" style="padding: 1em; margin:1em 0px;"> 
+<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+<strong>Внимание!</strong> Не забудьте по окончании ввода данных нажать кнопку «Изменить учетные данные»</p>
+</div>
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Логин:</td><td width="100%">%nic% (изменить нельзя)</td></tr>
+<tr><td class="parName">Выберите вопрос</td><td><select name="questionA">%questions_list%</select></td></tr></td></tr>
+<tr><td class="parName">или введите свой</td><td><input type="text" name="questionB" value="%questionB%" class="w100"></td></tr>
+<tr><td class="parName">Введите ответ</td><td><input type="text" name="answer" value="%answer%" class="w100"></td></tr>
+</table><br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack1">&nbsp;<input type="submit" name="btnNext" value="Изменить учетные данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext1"></div>
+</form>
+
+::TEMPLATE::content1_step3::
+<script>
+$(function() {
+
+$( "#btnNext1" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnChangePassword" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="0">
+<input type="hidden" name="step" value="1">
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Логин:</td><td width="100%">%nic%</td></tr>
+<tr><td class="parName">Секретный вопрос:</td><td width="100%">%question%</td></tr>
+<tr><td class="parName">Секретный ответ:</td><td width="100%">%answer%</td></tr>
+<tr><td class="parName">Новый пароль:</td><td width="100%">%pwd%</td></tr>
+</table><br>
+<div style="text-align:center"><input type="submit" name="btnNext" value="Изменить учетные данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext1">&nbsp;<input type="submit" name="btnChangePassword" value="Изменить пароль" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnChangePassword">
+</div>
+</form>
+
+
+
+::TEMPLATE::content2_step0::
+<script>
+$(function() {
+
+$( "#btnNext2" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="1">
+<input type="hidden" name="step" value="1">
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">ФИО участника:</td><td width="100%">%fio%</td></tr>
+<tr><td class="parName">Дата рождения:</td><td >%birthday%</td></tr>
+<tr><td class="parName">Место рождения:</td><td >%bplace%</td></tr>
+<tr><td class="parName">Пол:</td><td>%gender%</td></tr>
+<tr><td class="parName">СНИЛС:</td><td>%SNILS%</td></tr>
+<tr><td class="parName">Документ:</td><td >%document_ic%</td></tr>
+<tr><td class="parName">Гражданство:</td><td >%citizenship%</td></tr>
+<tr><td class="parName">Телефон:</td><td >%tel%</td></tr>
+<tr><td class="parName">e-mail:</td><td >%email%</td></tr>
+<!--<tr><td class="parName">Согласие на email рассылки:</td><td >%email_agree%</td></tr>-->
+<tr><td colspan=2>Информация о родителе (или законном представителе):</td></tr>
+<tr><td class="parName">ФИО:</td><td >%parent_fio%</td></tr>
+<tr><td class="parName">Степень родства:</td><td >%parent_degree%</td></tr>
+<tr><td class="parName">Телефон:</td><td >%parent_tel%</td></tr>
+<tr><td class="parName">e-mail:</td><td >%parent_email%</td></tr>
+</table><br>
+<%EDIT%><div style="text-align:center"><input type="submit" name="btnNext" value="Перейти к изменению данных" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext2"></div></%EDIT%>
+</form>
+
+
+::TEMPLATE::content2_step1::
+<script>
+$(function() {
+
+$( "#birthday" ).datepicker({showOn: "both", buttonImage: "/img/themes/blue/calendar.gif", buttonImageOnly: true, showButtonPanel: true, changeMonth: true, changeYear: true, showAnim: 'blind', minDate: "01.01.1990", maxDate: "31.12.2012", defaultDate: "01.01.2002",yearRange: "1990:2012"  });
+
+$( "#btnNext2" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnBack2" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="1">
+<input type="hidden" name="step" value="2">
+<input type="hidden" name="formdata" value="1">
+<div class="ui-state-highlight ui-corner-all" style="padding: 1em; margin:1em 0px;"> 
+<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+<strong>Внимание!</strong> Не забудьте по окончании ввода данных нажать кнопку «Изменить данные»</p>
+</div>
+
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Фамилия*:</td><td width="100%"><input type="text" name="surename" value="%surename%" class="w100"></td></tr>
+<tr><td class="parName">Имя*:</td><td width="100%"><input type="text" name="name" value="%name%" class="w100"></td></tr>
+<tr><td class="parName">Отчество:</td><td width="100%"><input type="text" name="patronymic" value="%patronymic%" class="w100"></td></tr>
+<tr><td class="parName">Дата рождения*:</td><td ><input type="text" name="birthday" value="%birthday%" id="birthday"></td></tr>
+<tr><td class="parName">Место рождения*:</td><td ><input type="text" name="bplace" value="%bplace%" id="bplace" class="w100"><br><span style="font-seze:10px;">указывается по паспорту</span></td></tr>
+<tr><td class="parName">Пол:</td><td><select name="gender">%genders%</select></td></tr>
+<tr><td class="parName">СНИЛС*:</td><td ><input type="text" class="mask-snils" name="SNILS" value="%SNILS%" size="32"><br><span style="font-seze:10px;">Формат: 11 цифр без тире и пробелов</span></td></tr>
+<tr><td class="parName">Гражданство*:</td><td ><select name="citizenship">%citizenships%</select></td></tr>
+<tr><td class="parName">Телефон*:</td><td ><input type="text" name="tel" value="%tel%" size="32"></td></tr>
+<tr><td class="parName">e-mail:</td><td ><input type="text" name="email" value="%email%" class="w100"></td></tr>
+<!--<tr><td class="parName">Согласие на email рассылки:</td><td><input type="checkbox" id="email_agree" name="email_agree" value="1"></td></tr>-->
+
+
+%doc_form%
+
+<tr><td colspan="2">Информация о родителе (или законном представителе):</td></tr>
+<tr><td class="parName">ФИО:</td><td><input type="text" name="parent_fio" value="%parent_fio%" size="32"></td></tr>
+<tr><td class="parName">Степень родства (мать, отец...):</td><td><input type="text" name="parent_degree" value="%parent_degree%" size="32"></td></tr>
+<tr><td class="parName">Телефон:</td><td><input type="text" name="parent_tel" value="%parent_tel%" size="32"></td></tr>
+<tr><td class="parName">e-mail:</td><td><input type="text" name="parent_email" value="%parent_email%" size="32"></td></tr>
+</table><br>Поля отмеченные * обязательны к заполнению<br><br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack2">&nbsp;<input type="submit" name="btnNext" value="Изменить данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext2"></div>
+</form>
+
+::TEMPLATE::content3_step0::
+<script>
+$(function() {
+
+$( "#btnNext3" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="2">
+<input type="hidden" name="step" value="1">
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Адрес постоянной регистрации:</td><td width="100%">%addr_reg%</td></tr>
+<tr><td class="parName">Почтовый адрес:</td><td >%addr_post%</td></tr>
+</table><br>
+<%EDIT%><div style="text-align:center"><input type="submit" name="btnNext" value="Перейти к изменению данных" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext3"></div></%EDIT%>
+</form>
+
+::TEMPLATE::content3_step1::
+<script>
+$(function() {
+
+$( "#btnNext3" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnBack3" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="2">
+<input type="hidden" name="step" value="2">
+<input type="hidden" name="formdata" value="1">
+<div class="ui-state-highlight ui-corner-all" style="padding: 1em; margin:1em 0px;"> 
+<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+<strong>Внимание!</strong> Не забудьте по окончании ввода данных нажать кнопку «Изменить данные»</p>
+</div>
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td colspan=2 class="title2">Адрес постоянной регистрации</td></tr>
+%addr_reg_form%
+<tr><td colspan=2 class="title2">Почтовый адрес (если отличается)</td></tr>
+%addr_post_form%
+</table><br>Поля отмеченные * обязательны к заполнению<br><br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack3">&nbsp;<input type="submit" name="btnNext" value="Изменить данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext3"></div>
+</form>
+
+
+
+::TEMPLATE::content4_step0::
+<script>
+$(function() {
+
+$( "#btnNext" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnSelectSchool" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+
+
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="3">
+<input type="hidden" name="step" value="1">
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Класс:</td><td width="100%">%school_class%</td></tr>
+%class_m%
+%class_f%
+%class_i%
+%class_k%
+
+
+<tr><td class="parName">Учебное заведение:</td><td >%school%</td></tr>
+<tr><td class="parName">Учитель математики:</td><td>%teacher_m%</td></tr>
+<tr><td class="parName">Учитель физики:</td><td >%teacher_f%</td></tr>
+<tr><td class="parName">Учитель информатики:</td><td >%teacher_i%</td></tr>
+</table><br>
+<%EDIT%><div style="text-align:center"><input type="submit" name="btnNext" value="Перейти к изменению данных" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext4">&nbsp;<input type="submit" name="btnSelectSchool" value="Выбрать/ввести учебное заведение" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnSelectSchool"></div></%EDIT%>
+</form>
+
+::TEMPLATE::content4_step1::
+<script>
+$(function() {
+
+$( "#btnBack4" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnNext4" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<style type="text/css">
+/* изначально все активируемые поля спрятаны */
+.checked .toggle {
+    display:none;
+}
+
+/* для скрытых блоков указываем, что когда инпуты с типом checkbox/radio активны (выбраны), блок показывается */
+.checked input[type=radio]:checked ~ .toggle,
+.checked input[type=checkbox]:checked ~ .toggle
+{
+    display:block;
+}
+</style>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="3">
+<input type="hidden" name="step" value="2">
+<input type="hidden" name="formdata" value="1">
+<div class="ui-state-highlight ui-corner-all" style="padding: 1em; margin:1em 0px;"> 
+<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+<strong>Внимание!</strong> Не забудьте по окончании ввода данных нажать кнопку «Изменить данные»</p>
+</div>
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Класс обучения:</td><td width="100%"><input type="text" name="school_class" value="%school_class%"></td></tr>
+
+</table>
+<div class="checked">
+<input type="checkbox" id="question" name="question" value="1"> 
+<label for="question">Буду участвовать в Олимпиаде за старший класс по следующим предметам</label>
+<br>
+<div class="toggle">
+<p style="color:red;">Внимание! Заполняйте данные поля только в случае желания участвовать в олимпиаде по предмету за старший класс. В противном случае поля оставьте пустыми!</p>
+<p style="color:red;">Внимание! В случае указания более высоких классов выбор делается один раз и сохраняется на весь сезон проведения Олимпиады.</p>
+
+<table>
+<tr><td class="parName">Класс по математике:</td><td width="100%"><input type="text" name="class_m" value="%class_m%"></td></tr>
+<tr><td class="parName">Класс по физике:</td><td width="100%"><input type="text" name="class_f" value="%class_f%"></td></tr>
+<tr><td class="parName">Класс по информатике:</td><td width="100%"><input type="text" name="class_i" value="%class_i%"></td></tr>
+<tr><td class="parName">Класс по моделированию:</td><td width="100%"><input type="text" name="class_k" value="%class_k%"></td></tr>
+</table>
+</div>
+</div>
+<table width="90%" cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName">Учитель математики:</td><td ><input type="text" name="teacher_m" value="%teacher_m%" class="w100"></td></tr>
+<tr><td class="parName">Учитель физики:</td><td ><input type="text" name="teacher_f" value="%teacher_f%" class="w100"></td></tr>
+<tr><td class="parName">Учитель информатики:</td><td ><input type="text" name="teacher_i" value="%teacher_i%" class="w100"></td></tr>
+</table><br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack4">&nbsp;<input type="submit" name="btnNext" value="Изменить данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext4"></div>
+</form>
+
+::TEMPLATE::content4_step3::
+<script>
+$(function() {
+
+$( "#btnNext4" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+
+$( "#btnBack4" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="3">
+<input type="hidden" name="step" value="4">
+<input type="hidden" name="formdata" value="1">
+<div style="font-weight:bold;">Выберите страну и регион (только для России), в котором расположена Ваша школа (лицей, гимназия, колледж...):<br><br></div>
+<table cellspacing=0 cellpadding=0 border=0 class="form_grid">
+<tr><td class="parName">Страна:</td><td><select name="school_addr[country]"><option value="0"></option>%school_countrys%</select></td></tr>
+<tr><td class="parName">Регион:</td><td><select name="school_addr[region]"><option value="0"></option>%school_regions%</select></td></tr>
+</table><br>
+<div style="font-weight:bold;">Введите номер (только цифры) Вашей школы (лицея, гимназии, колледжа...) и нажмите кнопку "Дальше" :<br><br></div>
+<table cellspacing=0 cellpadding=0 border=0 class="form_grid">
+<tr><td class="parName">Номер школы:</td><td><input type=text name="school_num" value="%school_num%" size=20></td></tr>
+</table><br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack4">&nbsp;<input type="submit" name="btnNext" value="Дальше" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext4"></div>
+</form>
+
+
+::TEMPLATE::content4_step4::
+
+
+<script>
+$(function() {
+
+$( "#btnNext4" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+
+$( "#btnBack4" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+$( "#btnNext4a" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+
+$( "#btnBack4a" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+function school_fn()
+{
+var w=$('#school_type option:selected').text();
+var st=w.substring(0,w.indexOf('-'));
+var stx=$('#school_type_ex').val();
+stx=jQuery.trim(stx);
+if (stx.length>0) st=stx;
+var sn=$('#school_name').val();
+
+$('#school_fool_name').html( st+' '+sn );
+
+}
+
+$('#school_name').change(school_fn);
+$('#school_name').keyup(school_fn);
+$('#school_type').change(school_fn);
+$('#school_type_ex').change(school_fn);
+$('#school_type_ex').keyup(school_fn);
+
+school_fn();
+
+}); 
+</script>
+<form action="" method="post">
+<input type="hidden" name="selected_tab" value="3">
+<input type="hidden" name="step" value="5">
+<input type="hidden" name="formdata" value="1">
+<div class="ui-state-highlight ui-corner-all" style="padding: 1em; margin:1em 0px;"> 
+<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+<strong>Внимание!</strong> Не забудьте по окончании ввода данных нажать кнопку «Изменить данные»</p>
+</div>
+<div style="text-align:left" class="title2">Выберите учебное заведения из списка: <br><br></div>
+<table width=90% cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td class="parName" valign=top>Учебное заведение:</td><td width=100%><select name="school"><option value="0" selected>Выберите образовательное учреждение в этом списке</option>%schools%</select><br><br>Если Вашего учебного заведения нет в списке, добавьте его ниже на этой странице. </td></tr>
+</table>
+<br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack4">&nbsp;<input type="submit" name="btnNext" value="Изменить данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext4"></div>
+<br><br>
+<div style="text-align:left" class="title2">Добавление нового образовательного учреждения: </div><br>
+<div style="font-weight:bold; color:red; font-size:12px;">Внимание!  Образовательное учреждение добавляется только в том случае, если Вы не нашли его в списке выше!</div><br>
+<div>Будьте внимательны при вводе, ошибки могут привести к тому, что выданный вам диплом победителя или призера будет недействительным. Вводите только официальное название образовательного учреждения. <br></div>
+<table width=90% cellspacing=0 cellpadding=0 border=0 class="form_grid" align="center">
+<tr><td colspan=2><br><span id="school_fool_name" style="font-weight:bold;">---&nbsp;</span> <-- так будет выглядеть наименование добавляемого учреждения в дипломе<br><br></td></tr>
+<tr><td class="parName">Вид учреждения:</td><td><select name="school_type" id="school_type"><option value="0"></option>%school_types%</select></td></tr>
+<tr><td class="parName">&nbsp;</td><td ><input type="text" name="school_type_ex" value="%school_type_ex%" size=32 id="school_type_ex"> <- введите здесь вид учреждения, если его нет в списке выше</td></tr>
+<tr><td class="parName" valign=top>Название:</td><td ><input type="text" name="school_name" value="%school_name%" class="w100" id="school_name"><br>
+в это поле вводится только название учреждения, не вводите здесь ГОУ СОШ, МОУ Лицей, Школа и т.п.</td></tr>
+<tr><td class="parName">ФИО директора:</td><td ><input type="text" name="director" value="%director%" class="w100"> </td></tr>
+<tr><td class="parName">Телефон:</td><td ><input type="text" name="tel" value="%tel%" size=16></td></tr>
+<tr><td class="parName">e-mail:</td><td ><input type="text" name="email" value="%email%" size=16></td></tr>
+<tr><td colspan=2 class="title2">Адрес учебного заведения</td></tr>
+%school_addr_form%
+</table><br>
+<div style="text-align:center"><input type="submit" name="btnBack" value="Назад" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnBack4a">&nbsp;<input type="submit" name="btnNext" value="Изменить данные" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="btnNext4a"></div>
+</form>

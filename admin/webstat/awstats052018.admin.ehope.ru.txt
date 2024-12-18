@@ -1,0 +1,304 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201805 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.admin.ehope.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2654                
+POS_VISITOR 6485                
+POS_DAY 6691                
+POS_DOMAIN 3357                
+POS_LOGIN 3589                
+POS_ROBOT 3744                
+POS_WORMS 3973                
+POS_EMAILSENDER 4104                
+POS_EMAILRECEIVER 4247                
+POS_SESSION 7414                
+POS_SIDER 7620                
+POS_FILETYPES 4382                
+POS_DOWNLOADS 4577                
+POS_OS 4668                
+POS_BROWSER 4726                
+POS_SCREENSIZE 4967                
+POS_UNKNOWNREFERER 5041                
+POS_UNKNOWNREFERERBROWSER 5128                
+POS_ORIGIN 5210                
+POS_SEREFERRALS 5347                
+POS_PAGEREFS 5491                
+POS_SEARCHWORDS 5726                
+POS_KEYWORDS 5878                
+POS_MISC 2316                
+POS_ERRORS 5937                
+POS_CLUSTER 3445                
+POS_SIDER_404 6040                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180601100406 1 0 7533474313955
+FirstTime 0
+LastTime 20180531194244
+LastUpdate 20180601110102 1 0 0 0 0
+TotalVisits 71                  
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 275 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 212 1238992 2 72 209691
+1 1 1 2349 3 10 2432
+2 0 0 0 2 5 1344
+3 0 0 0 0 6 1158
+4 0 0 0 0 2 386
+5 0 0 0 1 7 1474
+6 0 0 0 1 5 1088
+7 1 1 2349 1 3 789
+8 4 20 317422 0 10 7002
+9 6 30 1172148 0 17 15201
+10 24 116 3470197 1 88 158341
+11 16 16 37584 3 32 63003
+12 59 145 5082201 1 163 371039
+13 16 34 1101854 2 36 41199
+14 73 166 4165489 2 252 734921
+15 31 83 2722294 0 124 384816
+16 64 498 4553726 3 218 607117
+17 8 21 525580 0 36 76449
+18 33 49 1646643 0 82 214744
+19 5 6 34549 0 22 26858
+20 1 1 2349 5 13 3390
+21 0 1 2349 4 11 3014
+22 2 2 4698 3 10 4868
+23 1 1 2349 2 5 3378
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 366 1403 26085122
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+yandex 16 960 20180531022338 16
+googlebot 10 600 20180528042223 10
+unknown 1 60 20180506033948 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 97 866245 0 0
+php 15 1685533 0 0
+html 351 10571298 0 0
+js 97 7349251 0 0
+jpg 39 2222757 0 0
+txt 2 4698 0 0
+gif 802 3385340 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 27 0 1620
+/README.txt 2 0 4698
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 2
+winxp 44
+win7 1359
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+chrome66.0.3359.181 435
+chrome62.0.3202.94 4
+chrome48.0.2564.109 9
+chrome66.0.3359.139 478
+chrome49.0.2623.112 35
+chrome42.0.2311.152 3
+firefox59.0 171
+firefox60.0 54
+chrome65.0.3325.181 214
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 83 83
+From1 0 0
+From2 0 0
+From3 1 3
+From4 282 1317
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://admin.energy-hope.ru/readme.html 1 1
+http://admin.energy-hope.ru/README.txt 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 74 23865
+404 853 247428
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/aimg/menu1_skip.gif 196 http://admin.ehope.ru/pages.html
+/css/ie.css 377 http://admin.ehope.ru/
+/css/nc.css 280 http://admin.ehope.ru/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+37.143.12.102 366 563 14747130 20180531194244
+193.233.66.2 0 464 2904640 
+213.141.156.155 0 176 174932 
+85.142.148.155 0 200 8258420 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20180501 0 1 2349 0
+20180502 2 2 4698 2
+20180503 21 223 1936229 5
+20180504 24 38 1593602 3
+20180505 22 213 1241341 2
+20180507 1 1 2349 1
+20180508 2 18 776734 2
+20180509 1 1 2349 1
+20180510 4 20 781432 3
+20180511 11 66 2293791 3
+20180512 2 3 7047 2
+20180513 1 1 2349 1
+20180514 21 65 1666941 3
+20180515 2 10 390716 2
+20180516 16 49 1365554 5
+20180517 50 135 3966403 3
+20180518 3 11 393065 3
+20180519 15 52 949539 3
+20180520 8 15 319344 2
+20180521 3 11 393065 2
+20180522 33 241 1368177 4
+20180523 27 50 1194712 3
+20180524 1 1 2349 1
+20180525 1 1 2349 1
+20180526 1 1 2349 1
+20180528 4 20 317422 3
+20180529 61 83 3354903 4
+20180530 1 9 156362 1
+20180531 28 62 1597602 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 3
+0s-30s 48
+30s-2mn 1
+15mn-30mn 3
+2mn-5mn 3
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/olimp_stage_reg.html 117 4763548 6 12
+/ 97 408341 54 42
+/spaw2/empty/empty.html 61 0 0 1
+/pages.html 39 3823233 4 8
+/olimp_stage_load.html 18 526542 2 2
+/spaw2/js/spaw.js.php 13 1680835 0 0
+/olimp_stage_results.html 4 42774 1 2
+/news.html 3 264322 0 0
+/olimp_fill_results.html 3 508007 0 0
+/actual.html 3 27519 2 1
+/catalog.html 1 10277 0 0
+/readme.html 1 2349 1 1
+/pagedefs.html 2 165046 0 0
+/users.html 2 29340 0 0
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 2349 1 1
+/license.php 1 2349 0 1
+END_SIDER

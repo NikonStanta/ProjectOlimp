@@ -1,0 +1,371 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201605 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.admin.ehope.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2655                
+POS_VISITOR 12545               
+POS_DAY 12780               
+POS_DOMAIN 3354                
+POS_LOGIN 3588                
+POS_ROBOT 3743                
+POS_WORMS 3908                
+POS_EMAILSENDER 4039                
+POS_EMAILRECEIVER 4182                
+POS_SESSION 13297               
+POS_SIDER 13503               
+POS_FILETYPES 4317                
+POS_DOWNLOADS 4502                
+POS_OS 4570                
+POS_BROWSER 4647                
+POS_SCREENSIZE 4835                
+POS_UNKNOWNREFERER 4909                
+POS_UNKNOWNREFERERBROWSER 4996                
+POS_ORIGIN 5078                
+POS_SEREFERRALS 5216                
+POS_PAGEREFS 5371                
+POS_SEARCHWORDS 5519                
+POS_KEYWORDS 5671                
+POS_MISC 2317                
+POS_ERRORS 5730                
+POS_CLUSTER 3444                
+POS_SIDER_404 5834                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160601131637 1 0 10294348471074
+FirstTime 0
+LastTime 20160531131428
+LastUpdate 20160601140102 1 0 0 0 0
+TotalVisits 45                  
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 519 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 1 6 106301 0 7 3697
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 1 10 456001 6 10 3160
+6 0 0 0 1 4 1292
+7 0 0 0 0 0 0
+8 2 2 4698 0 6 5660
+9 2 2 4698 2 4 5329
+10 112 350 6212591 6 241 722459
+11 30 79 1190422 2 59 139334
+12 210 410 27799868 0 326 961800
+13 22 28 823618 0 39 103772
+14 83 206 10301563 0 101 331494
+15 153 329 21226559 0 124 653247
+16 162 424 10114473 1 268 856151
+17 27 41 1098535 0 55 126075
+18 175 532 21315131 0 342 1039870
+19 291 686 31743298 0 239 1282335
+20 1 1 2349 0 6 3637
+21 0 0 0 0 0 0
+22 0 0 0 0 1 326
+23 19 209 1408252 0 44 16893
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1291 3315 133808357
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 4 240 20160517015235 4
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 27 157314 0 0
+php 551 88408513 0 0
+html 740 17619145 0 0
+js 247 5548704 0 0
+jpg 961 18672662 0 0
+gif 789 3402019 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 4 0 240
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 4
+winxp 382
+winlong 6
+linux 2
+win7 2925
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+firefox18.0 2
+chrome50.0.2661.94 235
+chrome49.0.2623.112 40
+firefox46.0 209
+chrome49.0.2623.110 368
+opera9.80 10
+chrome50.0.2661.102 2451
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 29
+From1 0 0
+From2 1 1
+From3 0 0
+From4 1261 3285
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 1314 388671
+301 39 12599
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 84
+/img/gallery/2016_g8_025t.jpg 7 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g9_002t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_002t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/spaw2/plugins/spawfm/img/ico_folder_big.gif 9 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_001t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_010t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_007t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_011t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/css/ie.css 347 http://admin.ehope.ru/
+/img/gallery/2016_g6_012t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_003t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_020t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_010t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_008t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_004t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_001t.jpg 8 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_001t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_017t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_011t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_007t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_010t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_006t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_002t.jpg 8 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g9_004t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/css/nc.css 268 http://admin.ehope.ru/
+/img/gallery/2016_g1_006t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_007t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_001t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_024t.jpg 7 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_007t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_012t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_004t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_012t.jpg 9 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_001t.jpg 3 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_007t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_014t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_003t.jpg 8 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_005t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_008t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_011t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_003t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_008t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_009t.jpg 9 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_013t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_021t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_0013t.jpg 15 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_013t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_009t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_005t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_016t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_009t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_004t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_010t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_002t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_018t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_004t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/aimg/menu1_skip.gif 256 http://admin.ehope.ru/pages.html
+/img/gallery/2016_g9_001t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_002t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g9_003t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_005t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_006t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_009t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_015t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_027t.jpg 7 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_013t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_023t.jpg 7 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_005t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_006t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_006t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_019t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_026t.jpg 7 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_003t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_022t.jpg 7 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_005t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_015t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g1_009t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_014t.jpg 5 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_002t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g6_014t.jpg 6 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g9_005t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g7_004t.jpg 10 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g8_008t.jpg 1 http://admin.ehope.ru/spaw2/empty/empty.html
+/img/gallery/2016_g5_008t.jpg 2 http://admin.ehope.ru/spaw2/empty/empty.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 5
+37.143.12.102 1291 1529 108933712 20160531131428
+193.233.66.2 0 1589 23748616 
+213.141.156.155 0 5 103952 
+46.73.224.135 0 9 453652 
+188.123.252.215 0 183 568425 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20160504 1 1 2349 1
+20160505 16 20 763718 3
+20160506 30 37 1503098 3
+20160507 1 1 2349 1
+20160509 1 6 106301 1
+20160510 8 21 456408 2
+20160511 121 194 7374135 4
+20160512 4 5 31557 3
+20160513 2 2 4698 2
+20160516 1 7 2349 1
+20160517 1 1 2349 1
+20160518 4 5 31557 2
+20160519 5 6 33906 3
+20160520 18 22 770133 3
+20160523 110 342 6207893 2
+20160525 499 1428 55364518 3
+20160526 456 1185 60359587 3
+20160527 10 20 330753 4
+20160530 1 1 2349 1
+20160531 2 11 458350 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 1
+0s-30s 31
+15mn-30mn 3
+30s-2mn 1
+2mn-5mn 4
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/spaw2/empty/empty.html 456 0 0 0
+/spaw2/js/spaw.js.php 311 40210742 0 0
+/spaw2/dialogs/dialog.php 240 48197771 0 0
+/pages.html 173 14599338 8 15
+/ 48 231624 33 27
+/pagedefs.html 25 1139147 0 0
+/news.html 15 1103746 0 0
+/olimp_stage_load.html 6 153694 1 1
+/olimp_stage_reg.html 4 85116 2 2
+/divdefs.html 4 38378 0 0
+/menus.html 2 13624 1 0
+/catalog.html 2 20556 0 0
+/users.html 1 8273 0 0
+/olimp_fill_results.html 1 178180 0 0
+/params.html 3 47469 0 0
+END_SIDER

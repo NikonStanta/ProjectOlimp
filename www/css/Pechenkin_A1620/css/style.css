@@ -1,0 +1,530 @@
+/* header {
+	position: relative;
+} */
+body {
+	margin: 0;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-trigger {
+	background: url("../img/main_menu_icon.svg");
+  background-color: #219cdf;
+	display: block;
+	min-width: 60px;
+	width: 60px;
+	height: 60px;
+	position: relative; /*fixed*/
+	left: 0px;
+	top: 0px;
+}
+.menu-trigger-opened {
+	background: no-repeat center/100% url("../img/main_menu_icon_close.png");
+  background-color: #219cdf;
+	display: block;
+	min-width: 60px;
+	width: 60px;
+	height: 60px;
+	position: relative; /*fixed*/
+	left: 0px;
+	top: 0px;
+}
+/* .right-menu-trigger:hover{
+	background-color: #219cdf;
+	background-size: 100% auto;
+	background:  no-repeat center/100% url("../img/main_menu_icon_close.png");
+} */
+.menu-popup {
+	background: #00BFFF;
+	display: none;
+	position: absolute; /*fixed*/
+	top: 60px;
+	width: 100%; 
+	box-sizing: border-box;
+	padding: 0px;
+	z-index: 9999;	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.left-menu-popup{
+	left: -110%;
+}
+.right-menu-popup{
+	left: +110%;
+
+} 
+.menu-popup ul, .login-and-signup-btns ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-popup li, .login-and-signup-btns li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  border-bottom: 1px solid #c7c8ca;
+}
+.menu-popup li a, .login-and-signup-btns li a {
+	font-size: 18px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	line-height: 1.4;	
+	text-decoration: none;
+
+  display: block;
+  height: 60px;
+  width: 100%;
+  background-color: #0388b4;
+}
+.login-and-signup-btns li a { /* Центрировать текст лучше. */
+	padding-top: 20px;
+	text-align: center;
+	font-size: 21px;
+}
+
+/* Мой код */
+ul > li > .submenu{
+  display: none;
+}
+div {
+  margin: 0px;
+	padding: 0;
+}
+.submenu > li > a{
+  background-color: #00BFFF;
+  height: 60px;
+	width: 95%;
+  padding-left: 5%;
+}
+.submenu > li > a:hover{
+  background-color: #95bcc9;
+}
+#main-content {
+	/* padding: 5px; */
+	padding: 0;
+}
+.logo-background{
+	background-color: #A1D8F6;
+	z-index: 1;
+	height: 60px;
+	width: 100%;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+	/* background-image: url("../img/footer_right_yellow.jpg"); */
+	background-image: url("../img/footer_right_yellow_new_2.png");
+	background-repeat: repeat;
+	/*background: #A1D8F6;*/
+	z-index: 1;
+	height: 60px;
+	width: 100%;
+	/* flex-shrink: 3; */
+}
+.logo-img{
+	display: block;
+	/* margin: 0 0 auto auto; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	height: 60px;
+}
+.logo-a {
+	padding: 0;
+	margin: 0;
+}
+.text-content {
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: justify;
+}
+
+.login_and_signup_label {
+	font-size: 16pt;
+	text-align: center;
+}
+
+.login_and_signup_form>input[type="text"], .login_and_signup_form>input[type="password"], .login_and_signup_form>select{
+	display: block;
+	font-size: 16pt;
+	margin-left: 1%;
+	width: 95%;
+	height: 1.5em;
+}
+.login_and_signup_form>label {
+	display: block;
+	font-size: 14pt;
+	padding-top: 0.05em;
+}
+.login_and_signup_form>input[type="button"], .login_and_signup_form>input[type="reset"] {
+	appearance: none;
+	border: 0;
+  border-radius: 0.5em;
+	background: #4676D7;
+  color: #fff;
+  padding: 8px 16px;
+	margin: 5px 0px;
+  font-size: 16pt;
+
+	width:100%;
+	font-size: 14pt;
+	height: 3em;
+}
+.login_and_signup_form>input[type="button"]:focus{	
+	outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+	/* background: orange; */
+}
+.login_and_signup_form>input[type="reset"] {
+	background: orange;
+}
+.login_and_signup_form>input[type="reset"]:focus {	
+	outline: none;
+	box-shadow: 0 0 0 4px rgb(255, 224, 167);
+}
+
+/*Сообщения об ошибке.*/
+.msg {
+	position: relative;
+  top: 10;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.msg_success {
+  background-color: #EFE;
+  border: 1px solid #DED;
+  color: #9A9;
+}
+.msg_simple {
+	background-color: #FDF7DF;
+  border: 1px solid #FEEC6F;
+  color: #C9971C;
+}
+.msg_warning {
+	background-color: #FEE;
+  border: 1px solid #EDD;
+  color: #A66;
+}
+/* кнопки скачивания файлов (Положение об олимпиаде, регламент проведения.) */
+.download_btn{
+	background: #219cdf;
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;	
+	border-radius: 20px;	
+	padding-top: 25px;
+
+	font-size: 18px;
+	font-family: "Arial";
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.upload_btn {
+  background: #219cdf;
+  display: block;
+  padding: .75rem 1.25rem;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  /* position: relative; */
+	width: 100%;
+	height: 75px;	
+  overflow: hidden;
+  z-index: 1;
+}
+.upload_btn_small {
+  background: #219cdf;
+  display: block;
+  padding: .75rem 1.25rem;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  /* position: relative; */
+	width: 100%;
+	height: 45px;	
+  overflow: hidden;
+  z-index: 1;
+}
+.download_btn_half{
+	background: #219cdf;
+	display: inline-block;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	width: 49%;
+	height: 40px;
+	border-radius: 20px;	
+	padding-top: 15px;
+
+	font-size: 18px;
+	font-family: "Arial";
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+/* Сведения об организаторах*/
+.organizatori, .partner {
+	font-size: 14pt;
+}
+.organizatori>h2, .partner>h2, .page-header {
+	text-align: center;
+	color: #336699;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #336699;
+}
+.page-header3 {
+	text-align: center;
+	color: #336699;
+	margin-bottom: 10px;
+}
+.organizatori>h4, .partner>h4, .page-subheader {
+	text-align: center;
+	color: #336699;
+	margin-bottom: 10px;
+}
+.organizatori>div, .partner>div{
+	text-align: justify;
+}
+.a_btn {
+	background: #219cdf;
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;	
+	padding-top: 20px;
+
+	font-size: 18px;
+	font-family: "Arial";
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.organizatori-list {
+	font-size: 18pt;
+	text-align: center;
+	border-bottom: 1px solid #336699;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.logo-rusgidro {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+}
+/*Инф. о текущем сезоне. График мероприятия.*/
+table {
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+table tbody{
+	background: #F7F7F7;
+}
+table td:nth-of-type(1) {
+	width:80px;
+}
+table.tasks-header{
+	margin-top: 40px;
+}
+table.tasks {
+	margin-top: 8px;
+	margin-bottom: 1px;
+}
+table.obrazci{
+	margin-bottom: 1px;
+}
+ol.liter{
+	padding: 0; /* Убираем поля */
+  margin-left: 30px; /* Отступ слева */
+}
+ol.liter > li {
+	padding-right: 5px;
+}
+ul.kak_prinyat_uchastie, ol.kak_prinyat_uchastie, ul.lastyear, ol.lastyear{
+	padding: 0;	
+	margin-left: 15px;
+}
+ul.kak_prinyat_uchastie > li, ol.kak_prinyat_uchastie > li, ul.lastyear > li, ol.lastyear > li{
+	padding-right: 5px;
+}
+span.bold {
+	font-weight: bold;
+}
+span.underline{
+	text-decoration: underline;
+}
+span.red{
+	color: red;
+}
+a.contact{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#outbtn {
+	background: red;
+}
+input.regStepTwo{
+	margin: 0.4rem;
+	display: inline;
+}
+label.regStepTwo{
+	font:
+	1rem 'Fira Sans',
+	sans-serif;
+	display: inline;
+}
+/*Анимация загрузки*/
+.loading-overlay { 
+	position: fixed; 
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(255, 255, 255, 0.8); 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	z-index: 9999; 
+} 
+.loading-spinner { 
+	border: 4px solid #f3f3f3; 
+	border-top: 4px solid #3498db; 
+	border-radius: 50%; 
+	width: 40px; 
+	height: 40px; 
+	animation: spin 1s linear infinite; 
+}
+@keyframes spin { 
+	0% { 
+			transform: rotate(0deg); 
+	} 
+
+	100% { 
+			transform: rotate(360deg); 
+	} 
+} 
+.profile-text{
+	font-size: 14pt;
+}
+/*Стили личного кабинета.*/
+.documents-attention-msg {
+	color: #FF3300;
+	background: #FBEC88;
+	border: 1px solid #fad42e;
+	border-radius: 5px;
+	padding: 1em 1em;
+}
+.documents-nodata-msg {
+	padding: 0 .7em;
+	border-radius: 5px;
+	border: 1px solid #cd0a0a;
+	color: #cd0a0a;
+	background: #fef1ec;
+}
+.document-upload-msg {
+	margin-bottom: 10px;
+	background: #FFE0E0;
+  border: 1px solid #FF9999;
+	border-radius: 5px;
+	padding: 1em;
+}
+.distance-msg {
+	color: #2e6e9e;
+	background: #EFF6FD;
+}
+div.arrow-down { /*Стрелка 1 для раскрывающихся элементов*/
+	width: 6vmin;
+	height: 6vmin;
+	box-sizing: border-box;
+	/* position: absolute; */
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	transform: rotate(135deg);
+	margin-left: 10px;
+	
+	&::before {
+		content: '';
+		width: 50%;
+		height: 50%;
+		border-width: .8vmin .8vmin 0 0;
+		border-style: solid;
+		/* border-color: #fafafa; */
+		border-color: #000000;
+		transition: .2s ease;
+		display: block;
+		/* transform-origin: 50% 0; */
+	}	
+	&:after {
+		content: '';
+		float: left;
+		position: relative;
+		top: -50%;
+		width: 50%;
+		height: 50%;
+		border-width: 0 .8vmin 0 0;
+		border-style: solid;
+		/* border-color: #fafafa; */
+		border-color: #000000;
+		transform-origin: 100% 0;
+		transition:.2s ease;
+	}
+}
+div.arrow-up { /*Стрелка 2 для раскрывающихся элементов*/
+	width: 6vmin;
+	height: 6vmin;
+	box-sizing: border-box;
+	/* position: absolute; */
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	transform: rotate(-45deg);
+	margin-left: 10px;
+	&::before {
+		content: '';
+		width: 50%;
+		height: 50%;
+		border-width: .8vmin .8vmin 0 0;
+		border-style: solid;
+		/* border-color: #fafafa; */
+		border-color: #000000;
+		transition: .2s ease;
+		display: block;
+		/* transform-origin: 100% 0; */
+	}	
+	&:after {
+		content: '';
+		float: left;
+		position: relative;
+		top: -50%;
+		width: 50%;
+		height: 50%;
+		border-width: 0 .8vmin 0 0;
+		border-style: solid;
+		/* border-color: #fafafa; */
+		border-color: #000000;
+		transform-origin: 100% 0;
+		transition:.2s ease;
+	}
+}

@@ -1,0 +1,181 @@
+body {
+		background : #FFFFFF;
+		background-color: #FFFFFF;
+		background-image: none;
+}
+p,a,td,div,span,input,textarea,li,SELECT, OPTION {
+		font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size : 12px;
+		color : #666666;
+	}
+
+A, a:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color: black;	
+	text-decoration : none;
+}
+
+A:Hover {
+	text-decoration : underline;
+}
+h1 {
+	font-size : 18px;
+}
+
+h2,h3,h4,h5,h6,h7,h8 {
+	font-size : 15px;
+}
+strong {
+	font-weight: normal;
+}
+	.path {
+		font-size:10px;
+		color:#CC0033;
+	}
+	div.path {
+		margin-top:8px;
+		margin-left:40px;
+	}
+	.ttl {
+		font-size:24px;
+		font-weight:normal;
+		color:#333333;
+	}
+	div.ttl {
+		margin-top:8px;
+		margin-left:40px;
+	}
+	div.strut {
+		width:539px;
+	}
+	
+.btm {
+	font-size : 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.menu1, a.menu1, a.menu1:visited {
+	color:#B80948; 
+	font-weight:bold;
+}
+.menu1c, a.menu1c, a.menu1c:visited {
+	color:Red; 
+	font-weight:bold;
+}
+
+a.menu1:hover {
+	color:#B80948; 
+	font-weight:bold;
+	text-decoration:underline;
+}
+a.menu1c:hover {
+	color:Red; 
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.menu2, a.menu2, a.menu2:visited {
+	color:#FFFFFF;
+	font-size:10px; 
+	font-weight:bold;
+}
+.menu2c, a.menu2c, a.menu2c:visited {
+	color:Red; 
+	font-size:10px; 
+	font-weight:bold;
+}
+
+
+// Мытник
+
+#newPotok{
+    margin-top:10px; 
+    padding:10px; 
+    width:900px;
+}
+
+#newPotok .line{
+    margin-top:5px;
+}
+
+#newPotok label{
+    display:inline-block;
+    vertical-align:top;
+    width:200px;
+}
+
+div.ob{
+    width:25px;
+    height:25px;
+    background:url('/aimg/ob.png');
+    display:inline-block;
+    vertical-align:top;
+    cursor:pointer;
+}
+
+div.edit{
+    width:19px;
+    height:25px;
+    background:url('/aimg/edit.png');
+    display:inline-block;
+    vertical-align:top;
+    cursor:pointer;
+}
+
+div.del{
+    width:21px;
+    height:25px;
+    background:url('/aimg/del.png');
+    margin-left:5px;
+    display:inline-block;
+    vertical-align:top;
+    cursor:pointer;
+}
+
+#newPotok input[type="text"]{
+    width:584px;
+    padding:3px 10px;
+}
+
+#newPotok textarea{
+    width:584px;
+    padding:5px 10px;
+    height:100px;
+}
+
+#newPotok input[type="number"]{
+    padding:3px 10px;
+}
+
+#newPotok select{
+    width:606px;
+    padding:3px 10px;
+}
+
+#newPotok button{
+    width:607px;
+    cursor:pointer;
+    padding:3px 30px;
+}
+
+.scool_list{
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
+    border-collapse: collapse;
+}
+
+.scool_list thead td{
+    background: #003366;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scool_list td{
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+    padding: 4px 8px;
+}
+
+//  END Мытник

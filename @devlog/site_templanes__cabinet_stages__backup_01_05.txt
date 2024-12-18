@@ -1,0 +1,217 @@
+main::
+<div class="container">
+<div class="title1">Участие в этапах олимпиады</div>
+%error%%warning%%message%
+<script>
+$(function() {
+		$( "#tabs" ).tabs({ selected: %selected_tab%});
+	});
+
+</script>
+<div id="tabs">
+<ul><li><a href="#tabs-1">Завершенные этапы</a></li><li><a href="#tabs-2">Отборочный этап</a></li><li><a href="#tabs-3">Заключительный этап</a></li><li><a href="#tabs-4">Тренировочный этап</a></li></ul>
+<div id="tabs-1">%content1%</div><div id="tabs-2">%content2%</div><div id="tabs-3">%content3%</div><div id="tabs-4">%content4%</div>
+</div>
+
+::TEMPLATE::stages::
+<script>
+	$(function() {
+		$( "#stages%num%" ).accordion({
+			autoHeight: false,
+			navigation: true,
+			active: %selected_stage%
+		});
+	});
+</script>
+
+<div id="stages%num%">
+%stages%
+</div>
+
+::TEMPLATE::stage::
+<h3><a href="#section1"><div class="inline-block" style='width:79%'>%title_dt% %title_exam% %title_stage% (%title_form% форма)  %place% </div><div  class="inline-block" style='text-align:right; width:20%'>%title_reg%%title_icons%</div></a></h3>
+<div>
+<span style="font-weight:bold">Для учащихся %classes% классов</span><br>
+%dates_reg%<br>
+Этап проводится на площадке %place% по адресу %place_address% <br>
+%dates_exam%<br>
+%descr%<br>%current_reg%
+%buttons%<br>
+</div>
+
+::TEMPLATE::stage_current_reg::
+<div class="ui-widget">
+<div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;"> 
+<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+<strong>Внимание!</strong> Вы зарегистрированы для участия в этом этапе. Номер группы: %group%</p><!--%info%-->
+</div></div>
+
+
+::TEMPLATE::stage_title_icon:: <span class='ui-icon %icon% inline-block' style="float:right;"></span>
+::TEMPLATE::stage_date_exam1::
+Дата и время проведения: %dt%
+
+::TEMPLATE::stage_date_exam2::
+Дата и время публикации пароля: %dt%<br>
+Работа должна быть загружена на странице личного кабинета "Загрузка и просмотр работ" не позднее %dt_post%<br>
+Везде в описании указано московское время.
+
+::TEMPLATE::stage_date_reg1::
+ Регистрация на участие в этапе будет проводиться с %bdt% по %edt%
+
+::TEMPLATE::stage_date_reg2::
+ Идет регистрация на участие в этапе. Завершение регистрации %edt%
+
+::TEMPLATE::stage_date_reg3::
+ Регистрация на участие в этапе завершена.
+
+::TEMPLATE::button_confirm::<br>
+<form action="#" method="post" id="formStageAction%stage_id%">
+
+<input type="hidden" name="active_stage" value="%stage_num%">
+<input type="hidden" name="stage_id" value="%stage_id%">
+<input type="hidden" name="cmd" value="%cmd%">
+<div style="text-align:center;">
+<input type="submit" name="btnStageAction" value="%title%" id="btnStageAction%stage_id%" class='ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all'>
+<div id="dialogStageAction%stage_id%" title="%dialog_title%">
+	<p>%dialog_text%</p>
+</div>
+
+</div>
+</form>
+
+<script>
+$(function() {
+
+$( "#btnStageAction%stage_id%" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+
+$( "#dialogStageAction%stage_id%" ).dialog({
+			autoOpen: false,
+			height: 300,
+			width: 450,
+			minHeight: 300,
+			minWidth: 450,
+			modal: true,
+			buttons: {
+				"%button_text1%": function() {
+					$( this ).dialog( "close" ); $( "#formStageAction%stage_id%" ).submit();
+				},
+				"%button_text2%": function() {
+					$( this ).dialog( "close" ); return false;
+				}
+			}
+
+});
+
+
+$( "#btnStageAction%stage_id%" )
+	.click(function() {
+		$( "#dialogStageAction%stage_id%" ).dialog( "open" ); return false;
+});
+
+
+}); 
+</script>
+
+
+
+::TEMPLATE::button::<br>
+<form action="#" method="post" id="formStageAction%stage_id%">
+
+<input type="hidden" name="active_stage" value="%stage_num%">
+<input type="hidden" name="stage_id" value="%stage_id%">
+<input type="hidden" name="cmd" value="%cmd%">
+<div style="text-align:center;">
+<input type="submit" name="btnStageAction" value="%title%" id="btnStageAction%stage_id%" class='ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all'>
+
+</div>
+</form>
+
+<script>
+$(function() {
+
+$( "#btnStageAction%stage_id%" ).hover(
+function () {
+    $(this).addClass("ui-state-hover");
+  },
+function () {
+    $(this).removeClass("ui-state-hover");
+  }
+);
+
+
+}); 
+</script>
+
+
+::TEMPLATE::modal_message::<br>
+<div id="messageStageAction%stage_id%" title="%dialog_title%">
+	<p>%dialog_text%</p>
+</div>
+
+<script>
+$(function() {
+
+$( "#messageStageAction%stage_id%" ).dialog({
+			autoOpen: true,
+			height: 300,
+			width: 350,
+			modal: true,
+			buttons: {
+				"Закрыть": function() {
+					$( this ).dialog( "close" ); 
+				}
+			}
+
+});
+
+
+}); 
+</script>
+
+
+::TEMPLATE::action_text1u::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы намерены отказаться от участия в отборочном этапе олимпиады %dt% по предмету %exam% на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">В этом случае Вы исключаетесь из списка участников на этот день и сможете зарегистрироваться на участие в отборочном этапе в другой день .<p  style="margin:8px 0px; text-align:justify;"> Пожалуйста, подтвердите ваше намерение.
+
+::TEMPLATE::action_text2u::<p>Вы намерены отказаться от участия в заключительном этапе олимпиады %dt% по предмету %exam% на площадке %place%. В этом случае Вы исключаетесь из списка участников в этом потоке и сможете зарегистрироваться на участие в заключительном этапе в другом потоке при наличии.<p> Пожалуйста, подтвердите ваше намерение.
+
+::TEMPLATE::action_text3u::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы намерены отказаться от участия в тренировочном этапе олимпиады %dt% по предмету %exam% на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">В этом случае Вы исключаетесь из списка участников на этот день и сможете зарегистрироваться на участие в тренировочном этапе в другой день .<p  style="margin:8px 0px; text-align:justify;"> Пожалуйста, подтвердите ваше намерение.
+
+::TEMPLATE::action_text1r::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы зарегистрированы на участие в отборочном этапе олимпиады %dt% по предмету %exam% на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">Запишите номер Вашей группы %group%.<p  style="margin:8px 0px; text-align:justify;">Просим Вас явиться не позднее, чем за 15 минут до начала олимпиады. С собой необходимо иметь паспорт и шариковую или гелевую ручку синего цвета. 
+::TEMPLATE::action_text1ra::<p  style="margin:8px 0px; text-align:justify;">Участник олимпиады зарегистрирован на участие в отборочном этапе олимпиады %dt% по предмету %exam% на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">Номер группы %group%.</p>
+::TEMPLATE::action_text1rz::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы зарегистрированы на участие в отборочном этапе олимпиады в заочной форме по предмету %exam% на площадке %place%. 
+<p  style="margin:8px 0px;">Дата публикации пароля:  %dt% </p>
+<p  style="margin:8px 0px;">Запишите номер Вашей группы %group%.</p>
+::TEMPLATE::action_text1rza::<p  style="margin:8px 0px; text-align:justify;">Участник олимпиады %fio% зарегистрирован на участие в отборочном этапе олимпиады в заочной форме по предмету %exam% на площадке %place%. 
+<p  style="margin:8px 0px;">Дата публикации пароля:  %dt% </p>
+<p  style="margin:8px 0px;">Номер группы %group%.</p>
+<p  style="margin:8px 0px;">Вариант %varnum%.</p>
+
+
+::TEMPLATE::action_text3r::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы зарегистрированы на участие в тренировочном этапе олимпиады %dt% по предмету %exam% на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">Запишите номер Вашей группы %group%.<p  style="margin:8px 0px; text-align:justify;">Просим Вас явиться не позднее, чем за 15 минут до начала олимпиады. С собой необходимо иметь паспорт и шариковую или гелевую ручку синего цвета. 
+::TEMPLATE::action_text3ra::<p  style="margin:8px 0px; text-align:justify;">Участник олимпиады зарегистрирован на участие в тренировочном этапе олимпиады %dt% по предмету %exam% на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">Номер группы %group%.</p>
+::TEMPLATE::action_text3rz::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы зарегистрированы на участие в тренировочном этапе олимпиады в заочной форме по предмету %exam% на площадке %place%. 
+<p  style="margin:8px 0px;">Дата публикации пароля:  %dt% </p>
+<p  style="margin:8px 0px;">Запишите номер Вашей группы %group%.</p>
+::TEMPLATE::action_text3rza::<p  style="margin:8px 0px; text-align:justify;">Участник олимпиады %fio% зарегистрирован на участие в тренировочном этапе олимпиады в заочной форме по предмету %exam% на площадке %place%. 
+<p  style="margin:8px 0px;">Дата публикации пароля:  %dt% </p>
+<p  style="margin:8px 0px;">Номер группы %group%.</p>
+<p  style="margin:8px 0px;">Вариант %varnum%.</p>
+
+::TEMPLATE::error_personal_data::
+Вы не можете зарегистрироваться на участие в этапе так как введены не все необходимые персональные данные! Пожалуйста, перейдите на страницу "Профиль участника" и введите недостающие данные.
+::TEMPLATE::error_application::
+Вы не можете зарегистрироваться на участие в этапе так как не загрузили заявление на участие в олимпиаде! Пожалуйста, перейдите на страницу "Документы участника", распечатайте заявление, подпишите его сами и у родителей и загрузите скан или фотографию подписанного заявления. Также необходимо загрузить документ, идентифицирующий участника.
+::TEMPLATE::error_ident::
+Вы не можете зарегистрироваться на участие в этапе так как не загрузили заявление или документ, идентифицирующий участника<!--, или документы не прошли проверку-->! Пожалуйста, перейдите на страницу "Документы участника" и загрузите необходимые документы.
+::TEMPLATE::action_text2r::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы зарегистрированы на участие в заключительном этапе олимпиады по предмету %exam% который пройдет %dt%  на площадке %place%. <p  style="margin:8px 0px; text-align:justify;">Запишите номер Вашей группы %group%.<p  style="margin:8px 0px; text-align:justify;">Просим Вас явиться не позднее, чем за 15 минут до начала олимпиады. С собой необходимо иметь паспорт, справку из школы (или ксерокопию справки) и шариковую или гелевую ручку синего цвета. 
+::TEMPLATE::action_text2rz::<p style="margin-top:15px; font-weight:bold;">Уважаемый участник олимпиады!</p><p  style="margin:8px 0px; text-align:justify;">Вы зарегистрированы на участие в заключительном этапе олимпиады в очной форме с использованием дистанционных технологий по предмету %exam% на площадке %place%. 
+<p  style="margin:8px 0px;">Номер группы %group%.<br>
+</p>
